@@ -1,5 +1,6 @@
 setuptools==75.8.2
-TTS
+langflow==1.4.3
+coqui-tts
 pydub
-langflow
+pyannote-audio
 tokenizers==0.21
