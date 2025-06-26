@@ -31,7 +31,7 @@ class SpeakerDiarization(Component):
         pipeline = Pipeline.from_pretrained(
             "pyannote/speaker-diarization-3.1",
             use_auth_token=self.hf_token or None,
-        )
+        ).to(torch.device("cuda"))
         diar = pipeline(str(audio_path))
 
         segs: List[Dict[str, Any]] = []

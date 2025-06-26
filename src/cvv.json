@@ -1,0 +1,1831 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "VideoInput",
+            "id": "VideoInput-ALUpt",
+            "name": "video_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "video_in",
+            "id": "AudioExtractor-3DPCE",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__VideoInput-ALUpt{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-ALUptœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-3DPCE{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-3DPCEœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "VideoInput-ALUpt",
+        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-ALUptœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioExtractor-3DPCE",
+        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-3DPCEœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "AudioExtractor",
+            "id": "AudioExtractor-3DPCE",
+            "name": "audio_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "audio_in",
+            "id": "SpeakerDiarization-lNke1",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__AudioExtractor-3DPCE{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-3DPCEœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-lNke1{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-lNke1œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "AudioExtractor-3DPCE",
+        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-3DPCEœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SpeakerDiarization-lNke1",
+        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-lNke1œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SpeakerDiarization",
+            "id": "SpeakerDiarization-lNke1",
+            "name": "segments_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "seg_in",
+            "id": "SegmentASR-v8TkR",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SpeakerDiarization-lNke1{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-lNke1œ,œnameœ:œsegments_outœ,œoutput_typesœ:[œDataœ]}-SegmentASR-v8TkR{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-v8TkRœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SpeakerDiarization-lNke1",
+        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-lNke1œ,œnameœ:œsegments_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SegmentASR-v8TkR",
+        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-v8TkRœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SegmentASR",
+            "id": "SegmentASR-v8TkR",
+            "name": "asr_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "asr_in",
+            "id": "SpeakerAttribute-ARPrA",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SegmentASR-v8TkR{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-v8TkRœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-SpeakerAttribute-ARPrA{œfieldNameœ:œasr_inœ,œidœ:œSpeakerAttribute-ARPrAœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SegmentASR-v8TkR",
+        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-v8TkRœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SpeakerAttribute-ARPrA",
+        "targetHandle": "{œfieldNameœ:œasr_inœ,œidœ:œSpeakerAttribute-ARPrAœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SpeakerAttribute",
+            "id": "SpeakerAttribute-ARPrA",
+            "name": "attr_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "attr_in",
+            "id": "DialogueTable-fOCUF",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SpeakerAttribute-ARPrA{œdataTypeœ:œSpeakerAttributeœ,œidœ:œSpeakerAttribute-ARPrAœ,œnameœ:œattr_outœ,œoutput_typesœ:[œDataœ]}-DialogueTable-fOCUF{œfieldNameœ:œattr_inœ,œidœ:œDialogueTable-fOCUFœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SpeakerAttribute-ARPrA",
+        "sourceHandle": "{œdataTypeœ:œSpeakerAttributeœ,œidœ:œSpeakerAttribute-ARPrAœ,œnameœ:œattr_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "DialogueTable-fOCUF",
+        "targetHandle": "{œfieldNameœ:œattr_inœ,œidœ:œDialogueTable-fOCUFœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "DialogueTable",
+            "id": "DialogueTable-fOCUF",
+            "name": "df_out",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "df_in",
+            "id": "Translator-eI6Ss",
+            "inputTypes": [
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__DialogueTable-fOCUF{œdataTypeœ:œDialogueTableœ,œidœ:œDialogueTable-fOCUFœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}-Translator-eI6Ss{œfieldNameœ:œdf_inœ,œidœ:œTranslator-eI6Ssœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "DialogueTable-fOCUF",
+        "sourceHandle": "{œdataTypeœ:œDialogueTableœ,œidœ:œDialogueTable-fOCUFœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "Translator-eI6Ss",
+        "targetHandle": "{œfieldNameœ:œdf_inœ,œidœ:œTranslator-eI6Ssœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ZeroShotTTS",
+            "id": "ZeroShotTTS-IQT3X",
+            "name": "tts_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tts_in",
+            "id": "AudioMerger-ngN3x",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__ZeroShotTTS-IQT3X{œdataTypeœ:œZeroShotTTSœ,œidœ:œZeroShotTTS-IQT3Xœ,œnameœ:œtts_outœ,œoutput_typesœ:[œDataœ]}-AudioMerger-ngN3x{œfieldNameœ:œtts_inœ,œidœ:œAudioMerger-ngN3xœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "ZeroShotTTS-IQT3X",
+        "sourceHandle": "{œdataTypeœ:œZeroShotTTSœ,œidœ:œZeroShotTTS-IQT3Xœ,œnameœ:œtts_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioMerger-ngN3x",
+        "targetHandle": "{œfieldNameœ:œtts_inœ,œidœ:œAudioMerger-ngN3xœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "AudioMerger",
+            "id": "AudioMerger-ngN3x",
+            "name": "audio_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "audio_in",
+            "id": "VideoComposer-N8ozO",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__AudioMerger-ngN3x{œdataTypeœ:œAudioMergerœ,œidœ:œAudioMerger-ngN3xœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-VideoComposer-N8ozO{œfieldNameœ:œaudio_inœ,œidœ:œVideoComposer-N8ozOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "AudioMerger-ngN3x",
+        "sourceHandle": "{œdataTypeœ:œAudioMergerœ,œidœ:œAudioMerger-ngN3xœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "VideoComposer-N8ozO",
+        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œVideoComposer-N8ozOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "VideoInput",
+            "id": "VideoInput-ALUpt",
+            "name": "video_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "video_in",
+            "id": "VideoComposer-N8ozO",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__VideoInput-ALUpt{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-ALUptœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-VideoComposer-N8ozO{œfieldNameœ:œvideo_inœ,œidœ:œVideoComposer-N8ozOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "VideoInput-ALUpt",
+        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-ALUptœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "VideoComposer-N8ozO",
+        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œVideoComposer-N8ozOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "PoeTranslator",
+            "id": "Translator-eI6Ss",
+            "name": "df_out",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "df_in",
+            "id": "ZeroShotTTS-IQT3X",
+            "inputTypes": [
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__Translator-eI6Ss{œdataTypeœ:œPoeTranslatorœ,œidœ:œTranslator-eI6Ssœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}-ZeroShotTTS-IQT3X{œfieldNameœ:œdf_inœ,œidœ:œZeroShotTTS-IQT3Xœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "Translator-eI6Ss",
+        "sourceHandle": "{œdataTypeœ:œPoeTranslatorœ,œidœ:œTranslator-eI6Ssœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "ZeroShotTTS-IQT3X",
+        "targetHandle": "{œfieldNameœ:œdf_inœ,œidœ:œZeroShotTTS-IQT3Xœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "VideoComposer",
+            "id": "VideoComposer-N8ozO",
+            "name": "video_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-rDEnq",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__VideoComposer-N8ozO{œdataTypeœ:œVideoComposerœ,œidœ:œVideoComposer-N8ozOœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-ChatOutput-rDEnq{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-rDEnqœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "VideoComposer-N8ozO",
+        "sourceHandle": "{œdataTypeœ:œVideoComposerœ,œidœ:œVideoComposer-N8ozOœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ChatOutput-rDEnq",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-rDEnqœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "VideoInput-ALUpt",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "选择本地视频文件",
+            "display_name": "1️⃣ 视频输入",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "video_path"
+            ],
+            "frozen": false,
+            "icon": "upload",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "视频路径",
+                "hidden": false,
+                "method": "send",
+                "name": "video_out",
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/1_video_input.py\nfrom pathlib import Path\n\nfrom langflow.custom import Component\nfrom langflow.io import FileInput, Output\nfrom langflow.schema import Data\n\n\nclass VideoInput(Component):\n    display_name = \"1️⃣ 视频输入\"\n    description = \"选择本地视频文件\"\n    icon = \"upload\"\n    name = \"VideoInput\"\n\n    inputs = [\n        FileInput(name=\"video_path\", display_name=\"视频文件\", file_types=[\"mp4\", \"mov\", \"mkv\"], required=True),\n    ]\n    outputs = [\n        Output(name=\"video_out\", display_name=\"视频路径\", method=\"send\"),\n    ]\n\n    def send(self) -> Data:\n        path = Path(self.video_path)\n        if not path.exists():\n            raise FileNotFoundError(path)\n        self.status = f\"已加载 {path.name}\"\n        return Data(data={\"video_path\": str(path)})"
+              },
+              "video_path": {
+                "_input_type": "FileInput",
+                "advanced": false,
+                "display_name": "视频文件",
+                "dynamic": false,
+                "fileTypes": [
+                  "mp4",
+                  "mov",
+                  "mkv"
+                ],
+                "file_path": "3a7f5200-5145-4c2f-8a0d-9b78a56946c9/683e3a79-3747-453d-8dbd-558ee08aec0e.mp4",
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "video_path",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "temp_file": false,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "file",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "VideoInput"
+        },
+        "dragging": false,
+        "id": "VideoInput-ALUpt",
+        "measured": {
+          "height": 236,
+          "width": 320
+        },
+        "position": {
+          "x": -132.62173647890376,
+          "y": 23.13851897026084
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "AudioExtractor-3DPCE",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "用 FFmpeg 分离音轨",
+            "display_name": "2️⃣ 音频提取",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "video_in",
+              "duration"
+            ],
+            "frozen": false,
+            "icon": "music",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "音频路径",
+                "hidden": null,
+                "method": "extract",
+                "name": "audio_out",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/2_audio_extractor.py\r\nfrom pathlib import Path\r\n\r\nfrom langflow.custom import Component\r\n# 导入 FloatInput 以接收浮点数作为输入\r\nfrom langflow.io import DataInput, FloatInput, Output\r\nfrom langflow.schema import Data\r\n\r\nfrom .utils import run_ffmpeg\r\n\r\n\r\nclass AudioExtractor(Component):\r\n    display_name = \"2️⃣ 音频提取\"\r\n    description = \"用 FFmpeg 分离音轨\"\r\n    icon = \"music\"\r\n    name = \"AudioExtractor\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"video_in\", display_name=\"视频路径\"),\r\n        # 新增一个浮点数输入项来控制音频截取时长\r\n        StrInput(\r\n            name=\"duration\",\r\n            display_name=\"截取时长 (秒)\",\r\n            info=\"设置提取音频的时长，单位为秒。如果设置为0或负数，则提取完整音频。\",\r\n            value=10,  # 默认值为0，表示提取完整音频\r\n        ),\r\n    ]\r\n    outputs = [Output(name=\"audio_out\", display_name=\"音频路径\", method=\"extract\")]\r\n\r\n    def extract(self) -> Data:\r\n        \"\"\"\r\n        从视频文件中提取音轨，并根据用户设定的时长进行截取。\r\n        \"\"\"\r\n        video = Path(self.video_in.data[\"video_path\"])\r\n        audio = video.with_suffix(\".wav\")\r\n\r\n        # 基础 FFmpeg 命令\r\n        cmd = [\r\n            \"ffmpeg\",\r\n            \"-y\",          # 无需确认，直接覆盖输出文件\r\n            \"-i\", str(video), # 输入文件\r\n            \"-vn\",         # 去除视频流\r\n            \"-ac\", \"1\",      # 设置音频通道为单声道\r\n            \"-ar\", \"16000\",  # 设置采样率为 16000 Hz\r\n        ]\r\n\r\n        cmd.extend([\"-t\", str(self.duration)])\r\n\r\n        # 将输出文件路径添加到命令末尾\r\n        cmd.append(str(audio))\r\n\r\n        # 执行 FFmpeg 命令\r\n        run_ffmpeg(cmd)\r\n\r\n        self.status = f\"音频 → {audio.name}\"\r\n        return Data(data={\"audio_path\": str(audio)})"
+              },
+              "duration": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "截取时长 (秒)",
+                "dynamic": false,
+                "info": "设置提取音频的时长，单位为秒。如果设置为0或负数，则提取完整音频。",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "duration",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "180"
+              },
+              "video_in": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "视频路径",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "video_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "AudioExtractor"
+        },
+        "dragging": false,
+        "id": "AudioExtractor-3DPCE",
+        "measured": {
+          "height": 274,
+          "width": 320
+        },
+        "position": {
+          "x": 239.8786048413947,
+          "y": 15.734050601600686
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "VideoComposer-N8ozO",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "用新音轨替换原视频",
+            "display_name": "🔟 视频合成",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "video_in",
+              "audio_in"
+            ],
+            "frozen": false,
+            "icon": "film",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "配音视频",
+                "hidden": false,
+                "method": "compose",
+                "name": "video_out",
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "audio_in": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "合并音频",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "audio_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/10_video_composer.py\nfrom pathlib import Path\n\nfrom langflow.custom import Component\nfrom langflow.io import DataInput, Output\nfrom langflow.schema import Data\n\nfrom .utils import run_ffmpeg\n\n\nclass VideoComposer(Component):\n    display_name = \"🔟 视频合成\"\n    description = \"用新音轨替换原视频\"\n    icon = \"film\"\n    name = \"VideoComposer\"\n\n    inputs = [\n        DataInput(name=\"video_in\", display_name=\"视频路径\"),\n        DataInput(name=\"audio_in\", display_name=\"合并音频\"),\n    ]\n    outputs = [Output(name=\"video_out\", display_name=\"配音视频\", method=\"compose\")]\n\n    def compose(self) -> Data:\n        video = Path(self.video_in.data[\"video_path\"])\n        audio = Path(self.audio_in.data[\"merged_audio\"])\n        out_video = video.with_name(f\"{video.stem}_dubbed.mp4\")\n\n        run_ffmpeg(\n            [\n                \"ffmpeg\",\n                \"-y\",\n                \"-i\",\n                str(video),\n                \"-i\",\n                str(audio),\n                \"-c:v\",\n                \"copy\",\n                \"-c:a\",\n                \"aac\",\n                \"-map\",\n                \"0:v:0\",\n                \"-map\",\n                \"1:a:0\",\n                \"-shortest\",\n                str(out_video),\n            ]\n        )\n        self.status = f\"生成 {out_video.name}\"\n        return Data(data={\"dubbed_video\": str(out_video)})"
+              },
+              "video_in": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "视频路径",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "video_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "VideoComposer"
+        },
+        "dragging": false,
+        "id": "VideoComposer-N8ozO",
+        "measured": {
+          "height": 236,
+          "width": 320
+        },
+        "position": {
+          "x": 254.72402798432506,
+          "y": 628.827916047025
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SpeakerDiarization-lNke1",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "HuggingFace pyannote",
+            "display_name": "3️⃣ 说话人分离",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "audio_in",
+              "hf_token"
+            ],
+            "frozen": false,
+            "icon": "users",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "说话片段",
+                "hidden": null,
+                "method": "diarize",
+                "name": "segments_out",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "audio_in": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "音频路径",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "audio_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/3_speaker_diarization.py\nfrom pathlib import Path\nfrom typing import List, Dict, Any\n\nfrom langflow.custom import Component\nfrom langflow.io import DataInput, StrInput, Output\nfrom langflow.schema import Data\n\n\nclass SpeakerDiarization(Component):\n    display_name = \"3️⃣ 说话人分离\"\n    description = \"HuggingFace pyannote\"\n    icon = \"users\"\n    name = \"SpeakerDiarization\"\n\n    inputs = [\n        DataInput(name=\"audio_in\", display_name=\"音频路径\"),\n        StrInput(\n            name=\"hf_token\",\n            display_name=\"HF Token(私有模型用)\",\n            advanced=True,\n            value=\"\",\n        ),\n    ]\n    outputs = [Output(name=\"segments_out\", display_name=\"说话片段\", method=\"diarize\")]\n\n    def diarize(self) -> Data:\n        from pyannote.audio import Pipeline\n\n        audio_path = Path(self.audio_in.data[\"audio_path\"])\n        pipeline = Pipeline.from_pretrained(\n            \"pyannote/speaker-diarization-3.1\",\n            use_auth_token=self.hf_token or None,\n        ).to(torch.device(\"cuda\"))\n        diar = pipeline(str(audio_path))\n\n        segs: List[Dict[str, Any]] = []\n        for turn, _, speaker in diar.itertracks(yield_label=True):\n            segs.append(\n                dict(\n                    speaker=speaker,\n                    start=round(turn.start, 3),\n                    end=round(turn.end, 3),\n                )\n            )\n        self.status = f\"片段数: {len(segs)}\"\n        return Data(data={\"segments\": segs, \"audio_path\": str(audio_path)})"
+              },
+              "hf_token": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "HF Token(私有模型用)",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "hf_token",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SpeakerDiarization"
+        },
+        "dragging": false,
+        "id": "SpeakerDiarization-lNke1",
+        "measured": {
+          "height": 192,
+          "width": 320
+        },
+        "position": {
+          "x": 612.4331376807789,
+          "y": 24.05700600937611
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SegmentASR-v8TkR",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Whisper (HF pipeline)",
+            "display_name": "4️⃣ 语音识别",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "seg_in"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "转写结果",
+                "hidden": false,
+                "method": "transcribe",
+                "name": "asr_out",
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/4_segment_asr.py\nfrom pathlib import Path\nfrom typing import List, Dict, Any\n\nimport torch\nfrom langflow.custom import Component\nfrom langflow.io import DataInput, Output\nfrom langflow.schema import Data\n\nfrom .utils import run_ffmpeg\n\n\nclass SegmentASR(Component):\n    display_name = \"4️⃣ 语音识别\"\n    description = \"Whisper (HF pipeline)\"\n    icon = \"type\"\n    name = \"SegmentASR\"\n\n    inputs = [DataInput(name=\"seg_in\", display_name=\"说话片段\")]\n    outputs = [Output(name=\"asr_out\", display_name=\"转写结果\", method=\"transcribe\")]\n\n    def transcribe(self) -> Data:\n        from transformers import pipeline\n\n        device = 0 if torch.cuda.is_available() else -1\n        asr = pipeline(\n            \"automatic-speech-recognition\",\n            model=\"openai/whisper-small\",\n            chunk_length_s=30,\n            device=device,\n        )\n\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\n\n        results = []\n        for seg in segs:\n            wav_seg = audio_path.with_name(\n                f\"{audio_path.stem}_{seg['start']:.2f}_{seg['end']:.2f}.wav\"\n            )\n            run_ffmpeg(\n                [\n                    \"ffmpeg\",\n                    \"-y\",\n                    \"-i\",\n                    str(audio_path),\n                    \"-ss\",\n                    str(seg[\"start\"]),\n                    \"-to\",\n                    str(seg[\"end\"]),\n                    str(wav_seg),\n                ]\n            )\n            text = asr(str(wav_seg))[\"text\"].strip()\n            results.append({**seg, \"text\": text, \"wav\": str(wav_seg)})\n\n        self.status = f\"ASR 完成 {len(results)} 段\"\n        return Data(data={\"results\": results})"
+              },
+              "seg_in": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "说话片段",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "seg_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SegmentASR"
+        },
+        "dragging": false,
+        "id": "SegmentASR-v8TkR",
+        "measured": {
+          "height": 192,
+          "width": 320
+        },
+        "position": {
+          "x": 986.8151296088472,
+          "y": 24.057006009376124
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SpeakerAttribute-ARPrA",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "情感 + 性别 + 语速",
+            "display_name": "5️⃣ 属性分析",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "asr_in"
+            ],
+            "frozen": false,
+            "icon": "activity",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "属性结果",
+                "hidden": false,
+                "method": "analyze",
+                "name": "attr_out",
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "asr_in": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "转写结果",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "asr_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/5_speaker_attribute.py\nimport torch\nfrom langflow.custom import Component\nfrom langflow.io import DataInput, Output\nfrom langflow.schema import Data\n\n\nclass SpeakerAttribute(Component):\n    display_name = \"5️⃣ 属性分析\"\n    description = \"情感 + 性别 + 语速\"\n    icon = \"activity\"\n    name = \"SpeakerAttribute\"\n\n    inputs = [DataInput(name=\"asr_in\", display_name=\"转写结果\")]\n    outputs = [Output(name=\"attr_out\", display_name=\"属性结果\", method=\"analyze\")]\n\n    def analyze(self) -> Data:\n        from transformers import pipeline\n\n        emo_pipe = pipeline(\n            \"text-classification\",\n            model=\"cardiffnlp/twitter-roberta-base-emotion\",\n            top_k=None,\n        )\n\n        items = self.asr_in.data[\"results\"]\n        for it in items:\n            it[\"emotion\"] = emo_pipe(it[\"text\"])[0][0][\"label\"]\n            dur = it[\"end\"] - it[\"start\"]\n            it[\"speed_wps\"] = round(len(it[\"text\"].split()) / dur, 2)\n\n        self.status = \"属性分析完成\"\n        return Data(data={\"items\": items})"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SpeakerAttribute"
+        },
+        "dragging": false,
+        "id": "SpeakerAttribute-ARPrA",
+        "measured": {
+          "height": 192,
+          "width": 320
+        },
+        "position": {
+          "x": -127.23654677629533,
+          "y": 362.0618003411949
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "DialogueTable-fOCUF",
+          "node": {
+            "base_classes": [
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "生成结构化 DataFrame",
+            "display_name": "6️⃣ 对白表",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "attr_in"
+            ],
+            "frozen": false,
+            "icon": "table",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [
+              "DataFrame"
+            ],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "对白表",
+                "hidden": false,
+                "method": "build",
+                "name": "df_out",
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "attr_in": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "属性结果",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "attr_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/6_dialogue_table.py\nimport pandas as pd\nfrom langflow.custom import Component\nfrom langflow.io import DataInput, Output\nfrom langflow.schema import DataFrame\n\n\nclass DialogueTable(Component):\n    display_name = \"6️⃣ 对白表\"\n    description = \"生成结构化 DataFrame\"\n    icon = \"table\"\n    name = \"DialogueTable\"\n\n    inputs = [DataInput(name=\"attr_in\", display_name=\"属性结果\")]\n    outputs = [Output(name=\"df_out\", display_name=\"对白表\", method=\"build\")]\n\n    def build(self) -> DataFrame:\n        df = pd.DataFrame(self.attr_in.data[\"items\"])\n        self.status = f\"行数: {len(df)}\"\n        return DataFrame(df)"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "DialogueTable"
+        },
+        "dragging": false,
+        "id": "DialogueTable-fOCUF",
+        "measured": {
+          "height": 192,
+          "width": 320
+        },
+        "position": {
+          "x": 261.52502328467466,
+          "y": 359.255751768256
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Translator-eI6Ss",
+          "node": {
+            "base_classes": [
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "使用 Poe API 进行文本翻译和对话润色",
+            "display_name": "7️⃣ Poe API 翻译与润色",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "df_in",
+              "api_key",
+              "bot_name",
+              "tgt_lang",
+              "enable_polishing"
+            ],
+            "frozen": false,
+            "icon": "globe-2",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "翻译后表",
+                "hidden": null,
+                "method": "translate",
+                "name": "df_out",
+                "options": null,
+                "required_inputs": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Poe API Key",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "api_key",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "bot_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Poe Bot 名称",
+                "dynamic": false,
+                "info": "",
+                "load_from_db": false,
+                "name": "bot_name",
+                "options": [
+                  "Claude-3.5-Sonnet",
+                  "GPT-4o",
+                  "Assistant",
+                  "Claude-3-Opus"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "GPT-4o"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import pandas as pd\r\nfrom langflow.custom import Component\r\nfrom langflow.io import (\r\n    DataFrameInput,\r\n    DropdownInput,\r\n    Output,\r\n    StrInput,\r\n    BoolInput,\r\n)\r\nfrom langflow.schema import DataFrame\r\n\r\nclass PoeTranslator(Component):\r\n    display_name = \"7️⃣ Poe API 翻译与润色\"\r\n    description = \"使用 Poe API 进行文本翻译和对话润色\"\r\n    icon = \"globe-2\"\r\n    name = \"PoeTranslator\"\r\n\r\n    inputs = [\r\n        DataFrameInput(name=\"df_in\", display_name=\"对白表\", required=True),\r\n        StrInput(\r\n            name=\"api_key\",\r\n            display_name=\"Poe API Key\",\r\n            required=True,\r\n            value = \"\"\r\n        ),\r\n        DropdownInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot 名称\",\r\n            options=[\"Claude-3.5-Sonnet\", \"GPT-4o\", \"Assistant\", \"Claude-3-Opus\"],\r\n            value=\"Claude-3.5-Sonnet\",\r\n        ),\r\n        DropdownInput(\r\n            name=\"tgt_lang\",\r\n            display_name=\"目标语言\",\r\n            options=[\"zh\", \"de\", \"fr\", \"es\", \"ja\", \"ko\", \"ru\"],\r\n            value=\"zh\",\r\n        ),\r\n        BoolInput(\r\n            name=\"enable_polishing\",\r\n            display_name=\"启用润色\",\r\n            value=True\r\n        ),\r\n    ]\r\n    outputs = [Output(name=\"df_out\", display_name=\"翻译后表\", method=\"translate\")]\r\n\r\n    def translate(self) -> DataFrame:\r\n        \"\"\"\r\n        Connects to the Poe API to perform translation and optional dialogue polishing.\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        df: pd.DataFrame = self.df_in.copy()\r\n        src_texts = df[\"text\"].tolist()\r\n        api_key = self.api_key\r\n        bot_name = self.bot_name\r\n        enable_polishing = self.enable_polishing\r\n\r\n        if not api_key:\r\n            raise ValueError(\"Poe API Key is required.\")\r\n\r\n        # A mapping from language code to full language name for clearer prompts.\r\n        lang_map = {\r\n            \"zh\": \"Chinese (Simplified)\",\r\n            \"de\": \"German\",\r\n            \"fr\": \"French\",\r\n            \"es\": \"Spanish\",\r\n            \"ja\": \"Japanese\",\r\n            \"ko\": \"Korean\",\r\n            \"ru\": \"Russian\",\r\n        }\r\n        target_language_name = lang_map.get(self.tgt_lang, self.tgt_lang)\r\n\r\n        translated_texts = []\r\n        total_rows = len(src_texts)\r\n\r\n        for i, text in enumerate(src_texts):\r\n            self.status = f\"正在处理: {i + 1}/{total_rows}\"\r\n            try:\r\n                # Construct the prompt based on user's choice.\r\n                if enable_polishing:\r\n                    prompt = (\r\n                        f\"You are an expert translator and editor. First, remove the sentences that are nothing to do with the context\"\r\n                        f\"translate the following English dialogue into {target_language_name}. \"\r\n                        f\"Then, polish the translated text to make it sound perfectly natural, fluent, and authentic for a native speaker. \"\r\n                        f\"Provide ONLY the final, polished translation, without any explanations or original text.\\n\\n\"\r\n                        f'Original English Text: \"{text}\"'\r\n                    )\r\n                else:\r\n                    prompt = (\r\n                        f\"Translate the following English text to {target_language_name}. \"\r\n                        f\"Provide only the translation, with no extra text or explanations.\\n\\n\"\r\n                        f'\"{text}\"'\r\n                    )\r\n\r\n                # Prepare the message for the Poe API\r\n                message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n\r\n                # Call the synchronous API endpoint\r\n                response_text = \"\"\r\n                for partial_response in fp.get_bot_response_sync(\r\n                    messages=[message], bot_name=bot_name, api_key=api_key\r\n                ):\r\n                    response_text += partial_response.text\r\n\r\n                translated_texts.append(response_text)\r\n\r\n            except Exception as e:\r\n                # Handle API errors or other exceptions\r\n                error_message = f\"在处理第 {i + 1} 行时出错: {e}\"\r\n                self.status = error_message\r\n                # Append an error message to the results to maintain row alignment\r\n                translated_texts.append(f\"ERROR: {e}\")\r\n                # Optionally, you might want to stop the process on the first error\r\n                # raise RuntimeError(error_message) from e\r\n\r\n        df[\"translated\"] = translated_texts\r\n        self.status = f\"翻译完成! 共处理 {total_rows} 行。\\n{df}\"\r\n        return DataFrame(df)"
+              },
+              "df_in": {
+                "_input_type": "DataFrameInput",
+                "advanced": false,
+                "display_name": "对白表",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "DataFrame"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "df_in",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "enable_polishing": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "启用润色",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "enable_polishing",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "tgt_lang": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "目标语言",
+                "dynamic": false,
+                "info": "",
+                "name": "tgt_lang",
+                "options": [
+                  "zh",
+                  "de",
+                  "fr",
+                  "es",
+                  "ja",
+                  "ko",
+                  "ru"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "zh"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "PoeTranslator"
+        },
+        "dragging": false,
+        "id": "Translator-eI6Ss",
+        "measured": {
+          "height": 399,
+          "width": 320
+        },
+        "position": {
+          "x": 631.9740438393949,
+          "y": 291.1104816293506
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ZeroShotTTS-IQT3X",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Coqui XTTS v2",
+            "display_name": "8️⃣ Zero-Shot TTS",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "df_in"
+            ],
+            "frozen": false,
+            "icon": "mic",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "TTS 片段",
+                "hidden": null,
+                "method": "synthesize",
+                "name": "tts_out",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/8_zero_shot_tts.py\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nimport pandas as pd\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataFrameInput, Output\r\nfrom langflow.schema import Data\r\nfrom textwrap import wrap  # For splitting text into smaller chunks\r\nimport soundfile as sf\r\n\r\n\r\nMAX_TOKENS = 300  # XTTS model token limit\r\n\r\n\r\nclass ZeroShotTTS(Component):\r\n    display_name = \"8️⃣ Zero-Shot TTS\"\r\n    description = \"Coqui XTTS v2\"\r\n    icon = \"mic\"\r\n    name = \"ZeroShotTTS\"\r\n\r\n    inputs = [DataFrameInput(name=\"df_in\", display_name=\"翻译后表\")]\r\n    outputs = [Output(name=\"tts_out\", display_name=\"TTS 片段\", method=\"synthesize\")]\r\n\r\n    def synthesize(self) -> Data:\r\n        from TTS.api import TTS  # Import TTS library\r\n\r\n        tts = TTS(model_name=\"tts_models/multilingual/multi-dataset/xtts_v2\", progress_bar=False, gpu=True)\r\n\r\n        df: pd.DataFrame = self.df_in\r\n\r\n        # Validate input DataFrame\r\n        if df.empty or not all(col in df.columns for col in [\"wav\", \"translated\", \"start\", \"end\"]):\r\n            raise ValueError(\"Input DataFrame is empty or missing required columns: 'wav', 'translated', 'start', 'end'\")\r\n\r\n        df = df.dropna(subset=[\"wav\", \"translated\", \"start\", \"end\"])\r\n\r\n        pieces: List[Dict[str, Any]] = []\r\n        for _, row in df.iterrows():\r\n            ref = Path(row[\"wav\"])\r\n            if not ref.is_file():\r\n                raise FileNotFoundError(f\"Reference audio file not found: {ref}\")\r\n\r\n            # Validate audio file\r\n            with sf.SoundFile(ref) as f:\r\n                duration = len(f) / f.samplerate\r\n                if duration < 1.0:\r\n                    continue\r\n\r\n            out_wav = ref.with_suffix(\".tts.wav\")\r\n\r\n            try:\r\n                # Split text into chunks of 400 tokens or fewer\r\n                translated_text = row[\"translated\"]\r\n                text_chunks = wrap(translated_text, MAX_TOKENS)\r\n\r\n                chunk_wavs = []\r\n\r\n                for i, chunk in enumerate(text_chunks):\r\n                    chunk_out_wav = ref.with_name(f\"{ref.stem}_chunk_{i}.tts.wav\")\r\n                    tts.tts_to_file(\r\n                        chunk,\r\n                        file_path=str(chunk_out_wav),\r\n                        speaker_wav=str(ref),\r\n                        language=\"zh\",\r\n                    )\r\n                    chunk_wavs.append(str(chunk_out_wav))\r\n\r\n                # Combine all chunk WAVs into a single entry\r\n                pieces.append({\r\n                    \"start\": row[\"start\"],\r\n                    \"end\": row[\"end\"],\r\n                    \"wav\": chunk_wavs,\r\n                })\r\n\r\n            except RuntimeError as e:\r\n                print(f\"Speaker conditioning failed for {ref}, falling back to default speaker.\")\r\n                tts.tts_to_file(\r\n                    row[\"translated\"],\r\n                    file_path=str(out_wav),\r\n                    language=\"zh\",\r\n                )\r\n                pieces.append(dict(start=row[\"start\"], end=row[\"end\"], wav=str(out_wav)))\r\n\r\n            except Exception as e:\r\n                raise RuntimeError(f\"TTS generation failed for row: {row}\") from e\r\n\r\n        self.status = f\"TTS generated {len(pieces)} segments\"\r\n        return Data(data={\"tts_segments\": pieces})"
+              },
+              "df_in": {
+                "_input_type": "DataFrameInput",
+                "advanced": false,
+                "display_name": "翻译后表",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "DataFrame"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "df_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ZeroShotTTS"
+        },
+        "dragging": false,
+        "id": "ZeroShotTTS-IQT3X",
+        "measured": {
+          "height": 192,
+          "width": 320
+        },
+        "position": {
+          "x": 1004.5529592868082,
+          "y": 286.3548890114634
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "AudioMerger-ngN3x",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "按时间戳叠加音轨",
+            "display_name": "9️⃣ 音频合并",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "tts_in"
+            ],
+            "frozen": false,
+            "icon": "layers",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "合并音频",
+                "hidden": null,
+                "method": "merge",
+                "name": "audio_out",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# media_pipeline/9_audio_merger.py\r\nfrom pathlib import Path\r\n\r\nfrom pydub import AudioSegment\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema import Data\r\n\r\n\r\nclass AudioMerger(Component):\r\n    display_name = \"9️⃣ 音频合并\"\r\n    description = \"按时间戳叠加音轨\"\r\n    icon = \"layers\"\r\n    name = \"AudioMerger\"\r\n\r\n    inputs = [DataInput(name=\"tts_in\", display_name=\"TTS 片段\")]\r\n    outputs = [Output(name=\"audio_out\", display_name=\"合并音频\", method=\"merge\")]\r\n\r\n    def merge(self) -> Data:\r\n        segs = sorted(self.tts_in.data[\"tts_segments\"], key=lambda x: x[\"start\"])\r\n        end_ms = int(max(s[\"end\"] for s in segs) * 1000) + 500\r\n        merged = AudioSegment.silent(duration=end_ms)\r\n\r\n        for s in segs:\r\n            part = AudioSegment.from_file(s[\"wav\"])\r\n            merged = merged.overlay(part, position=int(s[\"start\"] * 1000))\r\n\r\n        out = Path(segs[0][\"wav\"]).with_name(\"merged_tts.wav\")\r\n        merged.export(out, format=\"wav\")\r\n        self.status = f\"输出 {out.name}\"\r\n        return Data(data={\"merged_audio\": str(out)})"
+              },
+              "tts_in": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "TTS 片段",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "tts_in",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "AudioMerger"
+        },
+        "dragging": false,
+        "id": "AudioMerger-ngN3x",
+        "measured": {
+          "height": 192,
+          "width": 320
+        },
+        "position": {
+          "x": -124.20511364327453,
+          "y": 634.8907823130666
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-rDEnq",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "data_template",
+              "background_color",
+              "chat_icon",
+              "text_color",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean the data",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs import BoolInput\nfrom langflow.inputs.inputs import HandleInput\nfrom langflow.io import DropdownInput, MessageTextInput, Output\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            info=\"Whether to clean the data\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n        background_color = self.background_color\n        text_color = self.text_color\n        if self.chat_icon:\n            icon = self.chat_icon\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n        message.properties.icon = icon\n        message.properties.background_color = background_color\n        message.properties.text_color = text_color\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def _safe_convert(self, data: Any) -> str:\n        \"\"\"Safely convert input data to string.\"\"\"\n        try:\n            if isinstance(data, str):\n                return data\n            if isinstance(data, Message):\n                return data.get_text()\n            if isinstance(data, Data):\n                if data.get_text() is None:\n                    msg = \"Empty Data object\"\n                    raise ValueError(msg)\n                return data.get_text()\n            if isinstance(data, DataFrame):\n                if self.clean_data:\n                    # Remove empty rows\n                    data = data.dropna(how=\"all\")\n                    # Remove empty lines in each cell\n                    data = data.replace(r\"^\\s*$\", \"\", regex=True)\n                    # Replace multiple newlines with a single newline\n                    data = data.replace(r\"\\n+\", \"\\n\", regex=True)\n\n                # Replace pipe characters to avoid markdown table issues\n                processed_data = data.replace(r\"\\|\", r\"\\\\|\", regex=True)\n\n                processed_data = processed_data.map(\n                    lambda x: str(x).replace(\"\\n\", \"<br/>\") if isinstance(x, str) else x\n                )\n\n                return processed_data.to_markdown(index=False)\n            return str(data)\n        except (ValueError, TypeError, AttributeError) as e:\n            msg = f\"Error converting data: {e!s}\"\n            raise ValueError(msg) from e\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            return \"\\n\".join([self._safe_convert(item) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return self._safe_convert(self.input_value)\n"
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "id": "ChatOutput-rDEnq",
+        "measured": {
+          "height": 192,
+          "width": 320
+        },
+        "position": {
+          "x": 1003.6458717543452,
+          "y": 643.0055173879921
+        },
+        "selected": true,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": 253.5405147551415,
+      "y": 63.62280569730456,
+      "zoom": 0.49999999999999994
+    }
+  },
+  "description": "Where Language Meets Logic.",
+  "endpoint_name": null,
+  "id": "11a345ef-b75b-47b4-9f7d-c52b49311ffa",
+  "is_component": false,
+  "last_tested_version": "1.4.3",
+  "name": "cvv",
+  "tags": []
+}
