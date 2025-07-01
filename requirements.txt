@@ -3,4 +3,4 @@ langflow==1.4.3
 coqui-tts
 pydub
 pyannote-audio
-tokenizers==0.21
+fastapi_poe
