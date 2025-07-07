@@ -11,7 +11,7 @@ uv pip install -r requirements.txt
 
 # export env
 echo 'export LANGFLOW_COMPONENTS_PATH="/workspace/cvv_project/src"' >> ~/.bashrc
-echo 'export PYTHONPATH="$PYTHONPATH:/workspace/cvv_project/src"' >> ~/.bashrc
+echo 'export PYTHONPATH="$PYTHONPATH:/workspace/cvv_project/src/utils"' >> ~/.bashrc
 source ~/.bashrc
 
 # run
