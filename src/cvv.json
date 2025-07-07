@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "VideoInput",
-            "id": "VideoInput-ALUpt",
+            "id": "VideoInput-opMrl",
             "name": "video_out",
             "output_types": [
               "Data"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "video_in",
-            "id": "AudioExtractor-3DPCE",
+            "id": "AudioExtractor-OocpO",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__VideoInput-ALUpt{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-ALUptœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-3DPCE{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-3DPCEœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-VideoInput-opMrl{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-opMrlœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-OocpO{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-OocpOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "VideoInput-ALUpt",
-        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-ALUptœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AudioExtractor-3DPCE",
-        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-3DPCEœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "VideoInput-opMrl",
+        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-opMrlœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioExtractor-OocpO",
+        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-OocpOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "AudioExtractor",
-            "id": "AudioExtractor-3DPCE",
+            "id": "AudioExtractor-OocpO",
             "name": "audio_out",
             "output_types": [
               "Data"
@@ -43,19 +43,19 @@
           },
           "targetHandle": {
             "fieldName": "audio_in",
-            "id": "SpeakerDiarization-lNke1",
+            "id": "SpeakerDiarization-z5MtQ",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__AudioExtractor-3DPCE{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-3DPCEœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-lNke1{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-lNke1œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-AudioExtractor-OocpO{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-OocpOœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-z5MtQ{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-z5MtQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "AudioExtractor-3DPCE",
-        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-3DPCEœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SpeakerDiarization-lNke1",
-        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-lNke1œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "AudioExtractor-OocpO",
+        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-OocpOœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SpeakerDiarization-z5MtQ",
+        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-z5MtQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -63,7 +63,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SpeakerDiarization",
-            "id": "SpeakerDiarization-lNke1",
+            "id": "SpeakerDiarization-z5MtQ",
             "name": "segments_out",
             "output_types": [
               "Data"
@@ -71,19 +71,19 @@
           },
           "targetHandle": {
             "fieldName": "seg_in",
-            "id": "SegmentASR-v8TkR",
+            "id": "SegmentASR-YElxR",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__SpeakerDiarization-lNke1{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-lNke1œ,œnameœ:œsegments_outœ,œoutput_typesœ:[œDataœ]}-SegmentASR-v8TkR{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-v8TkRœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SpeakerDiarization-z5MtQ{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-z5MtQœ,œnameœ:œsegments_outœ,œoutput_typesœ:[œDataœ]}-SegmentASR-YElxR{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-YElxRœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SpeakerDiarization-lNke1",
-        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-lNke1œ,œnameœ:œsegments_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SegmentASR-v8TkR",
-        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-v8TkRœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SpeakerDiarization-z5MtQ",
+        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-z5MtQœ,œnameœ:œsegments_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SegmentASR-YElxR",
+        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-YElxRœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -91,7 +91,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SegmentASR",
-            "id": "SegmentASR-v8TkR",
+            "id": "SegmentASR-YElxR",
             "name": "asr_out",
             "output_types": [
               "Data"
@@ -99,19 +99,19 @@
           },
           "targetHandle": {
             "fieldName": "asr_in",
-            "id": "SpeakerAttribute-ARPrA",
+            "id": "SpeakerAttribute-oyrcV",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__SegmentASR-v8TkR{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-v8TkRœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-SpeakerAttribute-ARPrA{œfieldNameœ:œasr_inœ,œidœ:œSpeakerAttribute-ARPrAœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SegmentASR-YElxR{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-YElxRœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-SpeakerAttribute-oyrcV{œfieldNameœ:œasr_inœ,œidœ:œSpeakerAttribute-oyrcVœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SegmentASR-v8TkR",
-        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-v8TkRœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SpeakerAttribute-ARPrA",
-        "targetHandle": "{œfieldNameœ:œasr_inœ,œidœ:œSpeakerAttribute-ARPrAœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SegmentASR-YElxR",
+        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-YElxRœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SpeakerAttribute-oyrcV",
+        "targetHandle": "{œfieldNameœ:œasr_inœ,œidœ:œSpeakerAttribute-oyrcVœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -119,7 +119,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SpeakerAttribute",
-            "id": "SpeakerAttribute-ARPrA",
+            "id": "SpeakerAttribute-oyrcV",
             "name": "attr_out",
             "output_types": [
               "Data"
@@ -127,19 +127,19 @@
           },
           "targetHandle": {
             "fieldName": "attr_in",
-            "id": "DialogueTable-fOCUF",
+            "id": "DialogueTable-anbT7",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__SpeakerAttribute-ARPrA{œdataTypeœ:œSpeakerAttributeœ,œidœ:œSpeakerAttribute-ARPrAœ,œnameœ:œattr_outœ,œoutput_typesœ:[œDataœ]}-DialogueTable-fOCUF{œfieldNameœ:œattr_inœ,œidœ:œDialogueTable-fOCUFœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SpeakerAttribute-oyrcV{œdataTypeœ:œSpeakerAttributeœ,œidœ:œSpeakerAttribute-oyrcVœ,œnameœ:œattr_outœ,œoutput_typesœ:[œDataœ]}-DialogueTable-anbT7{œfieldNameœ:œattr_inœ,œidœ:œDialogueTable-anbT7œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SpeakerAttribute-ARPrA",
-        "sourceHandle": "{œdataTypeœ:œSpeakerAttributeœ,œidœ:œSpeakerAttribute-ARPrAœ,œnameœ:œattr_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "DialogueTable-fOCUF",
-        "targetHandle": "{œfieldNameœ:œattr_inœ,œidœ:œDialogueTable-fOCUFœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SpeakerAttribute-oyrcV",
+        "sourceHandle": "{œdataTypeœ:œSpeakerAttributeœ,œidœ:œSpeakerAttribute-oyrcVœ,œnameœ:œattr_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "DialogueTable-anbT7",
+        "targetHandle": "{œfieldNameœ:œattr_inœ,œidœ:œDialogueTable-anbT7œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -147,7 +147,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DialogueTable",
-            "id": "DialogueTable-fOCUF",
+            "id": "DialogueTable-anbT7",
             "name": "df_out",
             "output_types": [
               "DataFrame"
@@ -155,19 +155,19 @@
           },
           "targetHandle": {
             "fieldName": "df_in",
-            "id": "Translator-eI6Ss",
+            "id": "PoeTranslator-K0YVQ",
             "inputTypes": [
               "DataFrame"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__DialogueTable-fOCUF{œdataTypeœ:œDialogueTableœ,œidœ:œDialogueTable-fOCUFœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}-Translator-eI6Ss{œfieldNameœ:œdf_inœ,œidœ:œTranslator-eI6Ssœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DialogueTable-anbT7{œdataTypeœ:œDialogueTableœ,œidœ:œDialogueTable-anbT7œ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}-PoeTranslator-K0YVQ{œfieldNameœ:œdf_inœ,œidœ:œPoeTranslator-K0YVQœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DialogueTable-fOCUF",
-        "sourceHandle": "{œdataTypeœ:œDialogueTableœ,œidœ:œDialogueTable-fOCUFœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "Translator-eI6Ss",
-        "targetHandle": "{œfieldNameœ:œdf_inœ,œidœ:œTranslator-eI6Ssœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}"
+        "source": "DialogueTable-anbT7",
+        "sourceHandle": "{œdataTypeœ:œDialogueTableœ,œidœ:œDialogueTable-anbT7œ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "PoeTranslator-K0YVQ",
+        "targetHandle": "{œfieldNameœ:œdf_inœ,œidœ:œPoeTranslator-K0YVQœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -175,7 +175,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ZeroShotTTS",
-            "id": "ZeroShotTTS-IQT3X",
+            "id": "ZeroShotTTS-XOsVg",
             "name": "tts_out",
             "output_types": [
               "Data"
@@ -183,19 +183,19 @@
           },
           "targetHandle": {
             "fieldName": "tts_in",
-            "id": "AudioMerger-ngN3x",
+            "id": "AudioMerger-SjPk8",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__ZeroShotTTS-IQT3X{œdataTypeœ:œZeroShotTTSœ,œidœ:œZeroShotTTS-IQT3Xœ,œnameœ:œtts_outœ,œoutput_typesœ:[œDataœ]}-AudioMerger-ngN3x{œfieldNameœ:œtts_inœ,œidœ:œAudioMerger-ngN3xœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-ZeroShotTTS-XOsVg{œdataTypeœ:œZeroShotTTSœ,œidœ:œZeroShotTTS-XOsVgœ,œnameœ:œtts_outœ,œoutput_typesœ:[œDataœ]}-AudioMerger-SjPk8{œfieldNameœ:œtts_inœ,œidœ:œAudioMerger-SjPk8œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "ZeroShotTTS-IQT3X",
-        "sourceHandle": "{œdataTypeœ:œZeroShotTTSœ,œidœ:œZeroShotTTS-IQT3Xœ,œnameœ:œtts_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AudioMerger-ngN3x",
-        "targetHandle": "{œfieldNameœ:œtts_inœ,œidœ:œAudioMerger-ngN3xœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "ZeroShotTTS-XOsVg",
+        "sourceHandle": "{œdataTypeœ:œZeroShotTTSœ,œidœ:œZeroShotTTS-XOsVgœ,œnameœ:œtts_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioMerger-SjPk8",
+        "targetHandle": "{œfieldNameœ:œtts_inœ,œidœ:œAudioMerger-SjPk8œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -203,7 +203,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "AudioMerger",
-            "id": "AudioMerger-ngN3x",
+            "id": "AudioMerger-SjPk8",
             "name": "audio_out",
             "output_types": [
               "Data"
@@ -211,19 +211,19 @@
           },
           "targetHandle": {
             "fieldName": "audio_in",
-            "id": "VideoComposer-N8ozO",
+            "id": "VideoComposer-QNxnb",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__AudioMerger-ngN3x{œdataTypeœ:œAudioMergerœ,œidœ:œAudioMerger-ngN3xœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-VideoComposer-N8ozO{œfieldNameœ:œaudio_inœ,œidœ:œVideoComposer-N8ozOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-AudioMerger-SjPk8{œdataTypeœ:œAudioMergerœ,œidœ:œAudioMerger-SjPk8œ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-VideoComposer-QNxnb{œfieldNameœ:œaudio_inœ,œidœ:œVideoComposer-QNxnbœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "AudioMerger-ngN3x",
-        "sourceHandle": "{œdataTypeœ:œAudioMergerœ,œidœ:œAudioMerger-ngN3xœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "VideoComposer-N8ozO",
-        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œVideoComposer-N8ozOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "AudioMerger-SjPk8",
+        "sourceHandle": "{œdataTypeœ:œAudioMergerœ,œidœ:œAudioMerger-SjPk8œ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "VideoComposer-QNxnb",
+        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œVideoComposer-QNxnbœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -231,7 +231,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "VideoInput",
-            "id": "VideoInput-ALUpt",
+            "id": "VideoInput-opMrl",
             "name": "video_out",
             "output_types": [
               "Data"
@@ -239,19 +239,19 @@
           },
           "targetHandle": {
             "fieldName": "video_in",
-            "id": "VideoComposer-N8ozO",
+            "id": "VideoComposer-QNxnb",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__VideoInput-ALUpt{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-ALUptœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-VideoComposer-N8ozO{œfieldNameœ:œvideo_inœ,œidœ:œVideoComposer-N8ozOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-VideoInput-opMrl{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-opMrlœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-VideoComposer-QNxnb{œfieldNameœ:œvideo_inœ,œidœ:œVideoComposer-QNxnbœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "VideoInput-ALUpt",
-        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-ALUptœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "VideoComposer-N8ozO",
-        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œVideoComposer-N8ozOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "VideoInput-opMrl",
+        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-opMrlœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "VideoComposer-QNxnb",
+        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œVideoComposer-QNxnbœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -259,7 +259,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "PoeTranslator",
-            "id": "Translator-eI6Ss",
+            "id": "PoeTranslator-K0YVQ",
             "name": "df_out",
             "output_types": [
               "DataFrame"
@@ -267,19 +267,19 @@
           },
           "targetHandle": {
             "fieldName": "df_in",
-            "id": "ZeroShotTTS-IQT3X",
+            "id": "ZeroShotTTS-XOsVg",
             "inputTypes": [
               "DataFrame"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__Translator-eI6Ss{œdataTypeœ:œPoeTranslatorœ,œidœ:œTranslator-eI6Ssœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}-ZeroShotTTS-IQT3X{œfieldNameœ:œdf_inœ,œidœ:œZeroShotTTS-IQT3Xœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-PoeTranslator-K0YVQ{œdataTypeœ:œPoeTranslatorœ,œidœ:œPoeTranslator-K0YVQœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}-ZeroShotTTS-XOsVg{œfieldNameœ:œdf_inœ,œidœ:œZeroShotTTS-XOsVgœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Translator-eI6Ss",
-        "sourceHandle": "{œdataTypeœ:œPoeTranslatorœ,œidœ:œTranslator-eI6Ssœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}",
-        "target": "ZeroShotTTS-IQT3X",
-        "targetHandle": "{œfieldNameœ:œdf_inœ,œidœ:œZeroShotTTS-IQT3Xœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}"
+        "source": "PoeTranslator-K0YVQ",
+        "sourceHandle": "{œdataTypeœ:œPoeTranslatorœ,œidœ:œPoeTranslator-K0YVQœ,œnameœ:œdf_outœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "ZeroShotTTS-XOsVg",
+        "targetHandle": "{œfieldNameœ:œdf_inœ,œidœ:œZeroShotTTS-XOsVgœ,œinputTypesœ:[œDataFrameœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -287,7 +287,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "VideoComposer",
-            "id": "VideoComposer-N8ozO",
+            "id": "VideoComposer-QNxnb",
             "name": "video_out",
             "output_types": [
               "Data"
@@ -295,7 +295,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-rDEnq",
+            "id": "ChatOutput-1nIGb",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -304,18 +304,18 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__VideoComposer-N8ozO{œdataTypeœ:œVideoComposerœ,œidœ:œVideoComposer-N8ozOœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-ChatOutput-rDEnq{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-rDEnqœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-VideoComposer-QNxnb{œdataTypeœ:œVideoComposerœ,œidœ:œVideoComposer-QNxnbœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-ChatOutput-1nIGb{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-1nIGbœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "VideoComposer-N8ozO",
-        "sourceHandle": "{œdataTypeœ:œVideoComposerœ,œidœ:œVideoComposer-N8ozOœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "ChatOutput-rDEnq",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-rDEnqœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "VideoComposer-QNxnb",
+        "sourceHandle": "{œdataTypeœ:œVideoComposerœ,œidœ:œVideoComposer-QNxnbœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ChatOutput-1nIGb",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-1nIGbœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "VideoInput-ALUpt",
+          "id": "VideoInput-opMrl",
           "node": {
             "base_classes": [
               "Data"
@@ -384,7 +384,7 @@
                   "mov",
                   "mkv"
                 ],
-                "file_path": "3a7f5200-5145-4c2f-8a0d-9b78a56946c9/683e3a79-3747-453d-8dbd-558ee08aec0e.mp4",
+                "file_path": "56aad5e5-4b5e-49b3-946e-71b04540eff1/6d88afc6-c982-4f00-bf9d-328b1eb4def9.mp4",
                 "info": "",
                 "list": false,
                 "list_add_label": "Add More",
@@ -405,7 +405,7 @@
           "type": "VideoInput"
         },
         "dragging": false,
-        "id": "VideoInput-ALUpt",
+        "id": "VideoInput-opMrl",
         "measured": {
           "height": 236,
           "width": 320
@@ -419,7 +419,7 @@
       },
       {
         "data": {
-          "id": "AudioExtractor-3DPCE",
+          "id": "AudioExtractor-OocpO",
           "node": {
             "base_classes": [
               "Data"
@@ -447,7 +447,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "音频路径",
-                "hidden": null,
+                "hidden": false,
                 "method": "extract",
                 "name": "audio_out",
                 "options": null,
@@ -529,7 +529,7 @@
           "type": "AudioExtractor"
         },
         "dragging": false,
-        "id": "AudioExtractor-3DPCE",
+        "id": "AudioExtractor-OocpO",
         "measured": {
           "height": 274,
           "width": 320
@@ -543,7 +543,7 @@
       },
       {
         "data": {
-          "id": "VideoComposer-N8ozO",
+          "id": "VideoComposer-QNxnb",
           "node": {
             "base_classes": [
               "Data"
@@ -654,7 +654,7 @@
           "type": "VideoComposer"
         },
         "dragging": false,
-        "id": "VideoComposer-N8ozO",
+        "id": "VideoComposer-QNxnb",
         "measured": {
           "height": 236,
           "width": 320
@@ -668,7 +668,7 @@
       },
       {
         "data": {
-          "id": "SpeakerDiarization-lNke1",
+          "id": "SpeakerDiarization-z5MtQ",
           "node": {
             "base_classes": [
               "Data"
@@ -696,7 +696,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "说话片段",
-                "hidden": null,
+                "hidden": false,
                 "method": "diarize",
                 "name": "segments_out",
                 "options": null,
@@ -778,21 +778,21 @@
           "type": "SpeakerDiarization"
         },
         "dragging": false,
-        "id": "SpeakerDiarization-lNke1",
+        "id": "SpeakerDiarization-z5MtQ",
         "measured": {
           "height": 192,
           "width": 320
         },
         "position": {
-          "x": 612.4331376807789,
-          "y": 24.05700600937611
+          "x": 630.047337299925,
+          "y": 17.651842511504853
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "SegmentASR-v8TkR",
+          "id": "SegmentASR-YElxR",
           "node": {
             "base_classes": [
               "Data"
@@ -803,7 +803,7 @@
             "description": "Whisper (HF pipeline)",
             "display_name": "4️⃣ 语音识别",
             "documentation": "",
-            "edited": false,
+            "edited": true,
             "field_order": [
               "seg_in"
             ],
@@ -822,6 +822,8 @@
                 "hidden": false,
                 "method": "transcribe",
                 "name": "asr_out",
+                "options": null,
+                "required_inputs": null,
                 "selected": "Data",
                 "tool_mode": true,
                 "types": [
@@ -849,7 +851,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "# media_pipeline/4_segment_asr.py\nfrom pathlib import Path\nfrom typing import List, Dict, Any\n\nimport torch\nfrom langflow.custom import Component\nfrom langflow.io import DataInput, Output\nfrom langflow.schema import Data\n\nfrom .utils import run_ffmpeg\n\n\nclass SegmentASR(Component):\n    display_name = \"4️⃣ 语音识别\"\n    description = \"Whisper (HF pipeline)\"\n    icon = \"type\"\n    name = \"SegmentASR\"\n\n    inputs = [DataInput(name=\"seg_in\", display_name=\"说话片段\")]\n    outputs = [Output(name=\"asr_out\", display_name=\"转写结果\", method=\"transcribe\")]\n\n    def transcribe(self) -> Data:\n        from transformers import pipeline\n\n        device = 0 if torch.cuda.is_available() else -1\n        asr = pipeline(\n            \"automatic-speech-recognition\",\n            model=\"openai/whisper-small\",\n            chunk_length_s=30,\n            device=device,\n        )\n\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\n\n        results = []\n        for seg in segs:\n            wav_seg = audio_path.with_name(\n                f\"{audio_path.stem}_{seg['start']:.2f}_{seg['end']:.2f}.wav\"\n            )\n            run_ffmpeg(\n                [\n                    \"ffmpeg\",\n                    \"-y\",\n                    \"-i\",\n                    str(audio_path),\n                    \"-ss\",\n                    str(seg[\"start\"]),\n                    \"-to\",\n                    str(seg[\"end\"]),\n                    str(wav_seg),\n                ]\n            )\n            text = asr(str(wav_seg))[\"text\"].strip()\n            results.append({**seg, \"text\": text, \"wav\": str(wav_seg)})\n\n        self.status = f\"ASR 完成 {len(results)} 段\"\n        return Data(data={\"results\": results})"
+                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nimport torch\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema import Data\r\n\r\n# Import any utility functions like run_ffmpeg if needed\r\nfrom .utils import run_ffmpeg\r\n\r\n\r\nclass SegmentASR(Component):\r\n    display_name = \"4️⃣ 语音识别\"\r\n    description = \"Whisper (HF pipeline)\"\r\n    icon = \"type\"\r\n    name = \"SegmentASR\"\r\n\r\n    # Define inputs and outputs for the component\r\n    inputs = [DataInput(name=\"seg_in\", display_name=\"说话片段\")]\r\n    outputs = [Output(name=\"asr_out\", display_name=\"转写结果\", method=\"transcribe\")]\r\n\r\n    # Main transcription method\r\n    def transcribe(self) -> Data:\r\n        import whisper\r\n    \r\n        # Load the Whisper model\r\n        model = whisper.load_model(\"small\")\r\n    \r\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\r\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\r\n    \r\n        results = []\r\n        for seg in segs:\r\n            # Extract individual audio segments using FFmpeg\r\n            wav_seg = audio_path.with_name(\r\n                f\"{audio_path.stem}_{seg['start']:.2f}_{seg['end']:.2f}.wav\"\r\n            )\r\n            run_ffmpeg(\r\n                [\r\n                    \"ffmpeg\",\r\n                    \"-y\",\r\n                    \"-i\",\r\n                    str(audio_path),\r\n                    \"-ss\",\r\n                    str(seg[\"start\"]),\r\n                    \"-to\",\r\n                    str(seg[\"end\"]),\r\n                    str(wav_seg),\r\n                ]\r\n            )\r\n    \r\n            # Use Whisper for transcription and language detection\r\n            result = model.transcribe(str(wav_seg))\r\n            text = result[\"text\"].strip()\r\n            language = result.get(\"language\", \"unknown\")  # Retrieve detected language\r\n    \r\n            # Append result for this segment\r\n            results.append(\r\n                {**seg, \"text\": text, \"language\": language, \"wav\": str(wav_seg)}\r\n            )\r\n    \r\n        # Update the component's status and return results\r\n        self.status = f\"ASR 完成 {len(results)} 段\"\r\n        return Data(data={\"results\": results})"
               },
               "seg_in": {
                 "_input_type": "DataInput",
@@ -880,21 +882,21 @@
           "type": "SegmentASR"
         },
         "dragging": false,
-        "id": "SegmentASR-v8TkR",
+        "id": "SegmentASR-YElxR",
         "measured": {
           "height": 192,
           "width": 320
         },
         "position": {
-          "x": 986.8151296088472,
-          "y": 24.057006009376124
+          "x": 1002.8280383535255,
+          "y": 32.0634603817152
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "SpeakerAttribute-ARPrA",
+          "id": "SpeakerAttribute-oyrcV",
           "node": {
             "base_classes": [
               "Data"
@@ -982,7 +984,7 @@
           "type": "SpeakerAttribute"
         },
         "dragging": false,
-        "id": "SpeakerAttribute-ARPrA",
+        "id": "SpeakerAttribute-oyrcV",
         "measured": {
           "height": 192,
           "width": 320
@@ -996,7 +998,7 @@
       },
       {
         "data": {
-          "id": "DialogueTable-fOCUF",
+          "id": "DialogueTable-anbT7",
           "node": {
             "base_classes": [
               "DataFrame"
@@ -1086,7 +1088,7 @@
           "type": "DialogueTable"
         },
         "dragging": false,
-        "id": "DialogueTable-fOCUF",
+        "id": "DialogueTable-anbT7",
         "measured": {
           "height": 192,
           "width": 320
@@ -1100,7 +1102,7 @@
       },
       {
         "data": {
-          "id": "Translator-eI6Ss",
+          "id": "PoeTranslator-K0YVQ",
           "node": {
             "base_classes": [
               "DataFrame"
@@ -1131,7 +1133,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "翻译后表",
-                "hidden": null,
+                "hidden": false,
                 "method": "translate",
                 "name": "df_out",
                 "options": null,
@@ -1287,7 +1289,7 @@
           "type": "PoeTranslator"
         },
         "dragging": false,
-        "id": "Translator-eI6Ss",
+        "id": "PoeTranslator-K0YVQ",
         "measured": {
           "height": 399,
           "width": 320
@@ -1301,7 +1303,7 @@
       },
       {
         "data": {
-          "id": "ZeroShotTTS-IQT3X",
+          "id": "ZeroShotTTS-XOsVg",
           "node": {
             "base_classes": [
               "Data"
@@ -1328,7 +1330,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "TTS 片段",
-                "hidden": null,
+                "hidden": false,
                 "method": "synthesize",
                 "name": "tts_out",
                 "options": null,
@@ -1391,7 +1393,7 @@
           "type": "ZeroShotTTS"
         },
         "dragging": false,
-        "id": "ZeroShotTTS-IQT3X",
+        "id": "ZeroShotTTS-XOsVg",
         "measured": {
           "height": 192,
           "width": 320
@@ -1405,7 +1407,7 @@
       },
       {
         "data": {
-          "id": "AudioMerger-ngN3x",
+          "id": "AudioMerger-SjPk8",
           "node": {
             "base_classes": [
               "Data"
@@ -1431,7 +1433,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "合并音频",
-                "hidden": null,
+                "hidden": false,
                 "method": "merge",
                 "name": "audio_out",
                 "options": null,
@@ -1494,7 +1496,7 @@
           "type": "AudioMerger"
         },
         "dragging": false,
-        "id": "AudioMerger-ngN3x",
+        "id": "AudioMerger-SjPk8",
         "measured": {
           "height": 192,
           "width": 320
@@ -1508,7 +1510,7 @@
       },
       {
         "data": {
-          "id": "ChatOutput-rDEnq",
+          "id": "ChatOutput-1nIGb",
           "node": {
             "base_classes": [
               "Message"
@@ -1802,7 +1804,7 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-rDEnq",
+        "id": "ChatOutput-1nIGb",
         "measured": {
           "height": 192,
           "width": 320
@@ -1811,19 +1813,19 @@
           "x": 1003.6458717543452,
           "y": 643.0055173879921
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 253.5405147551415,
-      "y": 63.62280569730456,
-      "zoom": 0.49999999999999994
+      "x": 128.82176498569015,
+      "y": 16.546217183596298,
+      "zoom": 0.6244961586584619
     }
   },
   "description": "Where Language Meets Logic.",
   "endpoint_name": null,
-  "id": "11a345ef-b75b-47b4-9f7d-c52b49311ffa",
+  "id": "3fd05698-b83c-4938-a111-d39fa4484ff3",
   "is_component": false,
   "last_tested_version": "1.4.3",
   "name": "cvv",
