@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "VideoInput",
-            "id": "VideoInput-opMrl",
+            "id": "VideoInput-nEBkr",
             "name": "video_out",
             "output_types": [
               "Data"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "video_in",
-            "id": "AudioExtractor-OocpO",
+            "id": "AudioExtractor-mzYZn",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-VideoInput-opMrl{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-opMrlœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-OocpO{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-OocpOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-VideoInput-nEBkr{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-nEBkrœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-mzYZn{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-mzYZnœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "VideoInput-opMrl",
-        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-opMrlœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AudioExtractor-OocpO",
-        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-OocpOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "VideoInput-nEBkr",
+        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-nEBkrœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioExtractor-mzYZn",
+        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-mzYZnœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "AudioExtractor",
-            "id": "AudioExtractor-OocpO",
+            "id": "AudioExtractor-mzYZn",
             "name": "audio_out",
             "output_types": [
               "Data"
@@ -43,47 +43,19 @@
           },
           "targetHandle": {
             "fieldName": "audio_in",
-            "id": "SpeakerDiarization-z5MtQ",
+            "id": "SpeakerDiarization-fa52N",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-AudioExtractor-OocpO{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-OocpOœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-z5MtQ{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-z5MtQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-AudioExtractor-mzYZn{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-mzYZnœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-fa52N{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-fa52Nœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "AudioExtractor-OocpO",
-        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-OocpOœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SpeakerDiarization-z5MtQ",
-        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-z5MtQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "SpeakerDiarization",
-            "id": "SpeakerDiarization-z5MtQ",
-            "name": "segments_out",
-            "output_types": [
-              "Data"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "seg_in",
-            "id": "SegmentASR-YElxR",
-            "inputTypes": [
-              "Data"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "reactflow__edge-SpeakerDiarization-z5MtQ{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-z5MtQœ,œnameœ:œsegments_outœ,œoutput_typesœ:[œDataœ]}-SegmentASR-YElxR{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-YElxRœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "SpeakerDiarization-z5MtQ",
-        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-z5MtQœ,œnameœ:œsegments_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SegmentASR-YElxR",
-        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-YElxRœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "AudioExtractor-mzYZn",
+        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-mzYZnœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SpeakerDiarization-fa52N",
+        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-fa52Nœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -91,7 +63,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SegmentASR",
-            "id": "SegmentASR-YElxR",
+            "id": "SegmentASR-lt4wQ",
             "name": "asr_out",
             "output_types": [
               "Data"
@@ -99,25 +71,53 @@
           },
           "targetHandle": {
             "fieldName": "analysis_in",
-            "id": "PoeTranslator-K0YVQ",
+            "id": "AnalyzeAndStore-NLqKg",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__SegmentASR-YElxR{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-YElxRœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-PoeTranslator-K0YVQ{œfieldNameœ:œanalysis_inœ,œidœ:œPoeTranslator-K0YVQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SegmentASR-lt4wQ{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-lt4wQœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-AnalyzeAndStore-NLqKg{œfieldNameœ:œanalysis_inœ,œidœ:œAnalyzeAndStore-NLqKgœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SegmentASR-YElxR",
-        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-YElxRœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "PoeTranslator-K0YVQ",
-        "targetHandle": "{œfieldNameœ:œanalysis_inœ,œidœ:œPoeTranslator-K0YVQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SegmentASR-lt4wQ",
+        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-lt4wQœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AnalyzeAndStore-NLqKg",
+        "targetHandle": "{œfieldNameœ:œanalysis_inœ,œidœ:œAnalyzeAndStore-NLqKgœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SpeakerDiarization",
+            "id": "SpeakerDiarization-fa52N",
+            "name": "result",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "seg_in",
+            "id": "SegmentASR-lt4wQ",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SpeakerDiarization-fa52N{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-fa52Nœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}-SegmentASR-lt4wQ{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-lt4wQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SpeakerDiarization-fa52N",
+        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-fa52Nœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SegmentASR-lt4wQ",
+        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-lt4wQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "VideoInput-opMrl",
+          "id": "VideoInput-nEBkr",
           "node": {
             "base_classes": [
               "Data"
@@ -186,7 +186,7 @@
                   "mov",
                   "mkv"
                 ],
-                "file_path": "56aad5e5-4b5e-49b3-946e-71b04540eff1/61bc2f93-5627-4dad-8743-cc8746c1f775.mp4",
+                "file_path": "722d85dc-54bd-4943-9cfc-e83fd2d8103f/f3b04bad-81a3-48fc-9ca9-8dc3fe4f403a.mp4",
                 "info": "",
                 "list": false,
                 "list_add_label": "Add More",
@@ -207,7 +207,7 @@
           "type": "VideoInput"
         },
         "dragging": false,
-        "id": "VideoInput-opMrl",
+        "id": "VideoInput-nEBkr",
         "measured": {
           "height": 236,
           "width": 320
@@ -221,7 +221,7 @@
       },
       {
         "data": {
-          "id": "AudioExtractor-OocpO",
+          "id": "AudioExtractor-mzYZn",
           "node": {
             "base_classes": [
               "Data"
@@ -249,7 +249,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "音频路径",
-                "hidden": false,
+                "hidden": null,
                 "method": "extract",
                 "name": "audio_out",
                 "options": null,
@@ -281,7 +281,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "# media_pipeline/2_audio_extractor.py\r\nfrom pathlib import Path\r\n\r\nfrom langflow.custom import Component\r\n# 导入 FloatInput 以接收浮点数作为输入\r\nfrom langflow.io import DataInput, FloatInput, Output\r\nfrom langflow.schema import Data\r\n\r\nfrom .utils import run_ffmpeg\r\n\r\n\r\nclass AudioExtractor(Component):\r\n    display_name = \"2️⃣ 音频提取\"\r\n    description = \"用 FFmpeg 分离音轨\"\r\n    icon = \"music\"\r\n    name = \"AudioExtractor\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"video_in\", display_name=\"视频路径\"),\r\n        # 新增一个浮点数输入项来控制音频截取时长\r\n        StrInput(\r\n            name=\"duration\",\r\n            display_name=\"截取时长 (秒)\",\r\n            info=\"设置提取音频的时长，单位为秒。如果设置为0或负数，则提取完整音频。\",\r\n            value=10,  # 默认值为0，表示提取完整音频\r\n        ),\r\n    ]\r\n    outputs = [Output(name=\"audio_out\", display_name=\"音频路径\", method=\"extract\")]\r\n\r\n    def extract(self) -> Data:\r\n        \"\"\"\r\n        从视频文件中提取音轨，并根据用户设定的时长进行截取。\r\n        \"\"\"\r\n        video = Path(self.video_in.data[\"video_path\"])\r\n        audio = video.with_suffix(\".wav\")\r\n\r\n        # 基础 FFmpeg 命令\r\n        cmd = [\r\n            \"ffmpeg\",\r\n            \"-y\",          # 无需确认，直接覆盖输出文件\r\n            \"-i\", str(video), # 输入文件\r\n            \"-vn\",         # 去除视频流\r\n            \"-ac\", \"1\",      # 设置音频通道为单声道\r\n            \"-ar\", \"16000\",  # 设置采样率为 16000 Hz\r\n        ]\r\n\r\n        cmd.extend([\"-t\", str(self.duration)])\r\n\r\n        # 将输出文件路径添加到命令末尾\r\n        cmd.append(str(audio))\r\n\r\n        # 执行 FFmpeg 命令\r\n        run_ffmpeg(cmd)\r\n\r\n        self.status = f\"音频 → {audio.name}\"\r\n        return Data(data={\"audio_path\": str(audio)})"
+                "value": "# media_pipeline/2_audio_extractor.py\r\nfrom pathlib import Path\r\n\r\nfrom langflow.custom import Component\r\n# 导入 FloatInput 以接收浮点数作为输入\r\nfrom langflow.io import DataInput, FloatInput, Output\r\nfrom langflow.schema import Data\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\n\r\nclass AudioExtractor(Component):\r\n    display_name = \"2️⃣ 音频提取\"\r\n    description = \"用 FFmpeg 分离音轨\"\r\n    icon = \"music\"\r\n    name = \"AudioExtractor\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"video_in\", display_name=\"视频路径\"),\r\n        # 新增一个浮点数输入项来控制音频截取时长\r\n        StrInput(\r\n            name=\"duration\",\r\n            display_name=\"截取时长 (秒)\",\r\n            info=\"设置提取音频的时长，单位为秒。如果设置为0或负数，则提取完整音频。\",\r\n            value=10,  # 默认值为0，表示提取完整音频\r\n        ),\r\n    ]\r\n    outputs = [Output(name=\"audio_out\", display_name=\"音频路径\", method=\"extract\")]\r\n\r\n    def extract(self) -> Data:\r\n        \"\"\"\r\n        从视频文件中提取音轨，并根据用户设定的时长进行截取。\r\n        \"\"\"\r\n        video = Path(self.video_in.data[\"video_path\"])\r\n        audio = video.with_suffix(\".wav\")\r\n\r\n        # 基础 FFmpeg 命令\r\n        cmd = [\r\n            \"ffmpeg\",\r\n            \"-y\",          # 无需确认，直接覆盖输出文件\r\n            \"-i\", str(video), # 输入文件\r\n            \"-vn\",         # 去除视频流\r\n            \"-ac\", \"1\",      # 设置音频通道为单声道\r\n            \"-ar\", \"16000\",  # 设置采样率为 16000 Hz\r\n        ]\r\n\r\n        cmd.extend([\"-t\", str(self.duration)])\r\n\r\n        # 将输出文件路径添加到命令末尾\r\n        cmd.append(str(audio))\r\n\r\n        # 执行 FFmpeg 命令\r\n        run_ffmpeg(cmd)\r\n\r\n        self.status = f\"音频 → {audio.name}\"\r\n        return Data(data={\"audio_path\": str(audio)})"
               },
               "duration": {
                 "_input_type": "StrInput",
@@ -300,7 +300,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "240"
+                "value": "300"
               },
               "video_in": {
                 "_input_type": "DataInput",
@@ -331,7 +331,7 @@
           "type": "AudioExtractor"
         },
         "dragging": false,
-        "id": "AudioExtractor-OocpO",
+        "id": "AudioExtractor-mzYZn",
         "measured": {
           "height": 274,
           "width": 320
@@ -345,7 +345,7 @@
       },
       {
         "data": {
-          "id": "SpeakerDiarization-z5MtQ",
+          "id": "SpeakerDiarization-fa52N",
           "node": {
             "base_classes": [
               "Data"
@@ -372,26 +372,10 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "说话片段",
-                "hidden": null,
+                "display_name": "说话人分离结果",
+                "hidden": false,
                 "method": "diarize",
-                "name": "segments_out",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Data",
-                "tool_mode": true,
-                "types": [
-                  "Data"
-                ],
-                "value": "__UNDEFINED__"
-              },
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Baseline Embedding",
-                "hidden": null,
-                "method": "diarize",
-                "name": "baseline_out",
+                "name": "result",
                 "options": null,
                 "required_inputs": null,
                 "selected": "Data",
@@ -443,7 +427,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\nimport numpy as np\r\nimport torch\r\n\r\n\r\nclass SpeakerDiarization(Component):\r\n    display_name = \"3️⃣ 说话人分离\"\r\n    description = \"HuggingFace pyannote\"\r\n    icon = \"users\"\r\n    name = \"SpeakerDiarization\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"audio_in\", display_name=\"音频路径\"),\r\n        StrInput(\r\n            name=\"hf_token\",\r\n            display_name=\"HF Token(私有模型用)\",\r\n            advanced=True,\r\n            value=\"\",\r\n        ),\r\n    ]\r\n    outputs = [\r\n        Output(name=\"segments_out\", display_name=\"说话片段\", method=\"diarize\"),\r\n        Output(name=\"baseline_out\", display_name=\"Baseline Embedding\", method=\"diarize\"),\r\n    ]\r\n\r\n    def diarize(self) -> Data:\r\n        from pyannote.audio import Pipeline\r\n        from pyannote.audio import Model, Inference\r\n        from pyannote.core import Segment\r\n        import torch\r\n    \r\n        # Device setup\r\n        device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\r\n    \r\n        # Load audio and models\r\n        audio_path = Path(self.audio_in.data[\"audio_path\"])\r\n        pipeline = Pipeline.from_pretrained(\r\n            \"pyannote/speaker-diarization-3.1\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        embedding_model = Model.from_pretrained(\r\n            \"pyannote/embedding\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        # Run diarization\r\n        diar = pipeline(str(audio_path))\r\n    \r\n        segs = []\r\n        embeddings = []\r\n        \r\n        # Initialize inference for embeddings\r\n        embedding_inference = Inference(embedding_model, window=\"whole\")  # Set window size\r\n    \r\n        # Extract embeddings for each segment\r\n        for turn, _, speaker in diar.itertracks(yield_label=True):\r\n            segment = Segment(start=turn.start, end=turn.end)\r\n            try:\r\n                embedding = embedding_inference.crop(str(audio_path), segment)\r\n                embeddings.append(embedding)\r\n            except Exception as e:\r\n                print(f\"Skipping segment {segment}: {str(e)}\")\r\n                continue\r\n            segs.append(\r\n                dict(\r\n                    speaker=speaker,\r\n                    start=round(turn.start, 3),\r\n                    end=round(turn.end, 3),\r\n                )\r\n            )\r\n        embeddings = np.vstack(embeddings)\r\n        baseline_embedding = np.mean(embeddings, axis=0)\r\n    \r\n        distances = [\r\n            {\r\n                \"speaker\": seg[\"speaker\"],\r\n                \"start\": seg[\"start\"],\r\n                \"end\": seg[\"end\"],\r\n                \"distance_from_baseline\": np.linalg.norm(embedding - baseline_embedding),\r\n            }\r\n            for seg, embedding in zip(segs, embeddings)\r\n        ]\r\n    \r\n        def merge_short_segments(segments, min_duration=1.0):\r\n            merged_segments = []\r\n            for i, segment in enumerate(segments):\r\n                if i > 0 and segment[\"start\"] - merged_segments[-1][\"end\"] < min_duration:\r\n                    merged_segments[-1][\"end\"] = segment[\"end\"]\r\n                else:\r\n                    merged_segments.append(segment)\r\n            return merged_segments\r\n    \r\n        merged_segs = merge_short_segments(segs, min_duration=2.0)\r\n    \r\n        self.status = f\"片段数: {len(segs)}, 合并后片段数: {len(merged_segs)}\"\r\n        return Data(\r\n            data={\r\n                \"segments_unmerged\": distances,\r\n                \"segments_merged\": merged_segs,\r\n                \"baseline_embedding\": baseline_embedding.tolist(),\r\n                \"audio_path\": str(audio_path),\r\n            }\r\n        )"
+                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\nimport numpy as np\r\nimport torch\r\n\r\n\r\nclass SpeakerDiarization(Component):\r\n    display_name = \"3️⃣ 说话人分离\"\r\n    description = \"HuggingFace pyannote\"\r\n    icon = \"users\"\r\n    name = \"SpeakerDiarization\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"audio_in\", display_name=\"音频路径\"),\r\n        StrInput(\r\n            name=\"hf_token\",\r\n            display_name=\"HF Token(私有模型用)\",\r\n            advanced=True,\r\n            value=\"\",\r\n        ),\r\n    ]\r\n    outputs = [\r\n        Output(name=\"result\", display_name=\"说话人分离结果\", method=\"diarize\"),\r\n    ]\r\n\r\n    def diarize(self) -> Data:\r\n        from pyannote.audio import Pipeline\r\n        from pyannote.audio import Model, Inference\r\n        from pyannote.core import Segment\r\n        import torch\r\n    \r\n        # Device setup\r\n        device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\r\n    \r\n        # Load audio and models\r\n        audio_path = Path(self.audio_in.data[\"audio_path\"])\r\n        pipeline = Pipeline.from_pretrained(\r\n            \"pyannote/speaker-diarization-3.1\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        embedding_model = Model.from_pretrained(\r\n            \"pyannote/embedding\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        # Run diarization\r\n        diar = pipeline(str(audio_path))\r\n    \r\n        segs = []\r\n        embeddings = []\r\n        \r\n        # Initialize inference for embeddings\r\n        embedding_inference = Inference(embedding_model, window=\"whole\")  # Set window size\r\n    \r\n        # Extract embeddings for each segment\r\n        for turn, _, speaker in diar.itertracks(yield_label=True):\r\n            segment = Segment(start=turn.start, end=turn.end)\r\n            try:\r\n                embedding = embedding_inference.crop(str(audio_path), segment)\r\n                embeddings.append(embedding.tolist())  # Save embedding as a list\r\n            except Exception as e:\r\n                print(f\"Skipping segment {segment}: {str(e)}\")\r\n                continue\r\n            segs.append(\r\n                dict(\r\n                    speaker=speaker,\r\n                    start=round(turn.start, 3),\r\n                    end=round(turn.end, 3),\r\n                )\r\n            )\r\n    \r\n        self.status = f\"片段数: {len(segs)}\"\r\n        return Data(\r\n            data={\r\n                \"segments\": segs,  # Only unmerged segments\r\n                \"embeddings\": embeddings,  # Save all embeddings\r\n                \"audio_path\": str(audio_path),\r\n            }\r\n        )"
               },
               "hf_token": {
                 "_input_type": "StrInput",
@@ -471,9 +455,9 @@
           "type": "SpeakerDiarization"
         },
         "dragging": false,
-        "id": "SpeakerDiarization-z5MtQ",
+        "id": "SpeakerDiarization-fa52N",
         "measured": {
-          "height": 240,
+          "height": 192,
           "width": 320
         },
         "position": {
@@ -485,7 +469,7 @@
       },
       {
         "data": {
-          "id": "SegmentASR-YElxR",
+          "id": "SegmentASR-lt4wQ",
           "node": {
             "base_classes": [
               "Data"
@@ -544,7 +528,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nimport torch\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema import Data\r\n\r\n# Import any utility functions like run_ffmpeg if needed\r\nfrom .utils import run_ffmpeg\r\n\r\n\r\nclass SegmentASR(Component):\r\n    display_name = \"4️⃣ 语音识别\"\r\n    description = \"Whisper (HF pipeline)\"\r\n    icon = \"type\"\r\n    name = \"SegmentASR\"\r\n\r\n    # Define inputs and outputs for the component\r\n    inputs = [DataInput(name=\"seg_in\", display_name=\"说话片段\")]\r\n    outputs = [Output(name=\"asr_out\", display_name=\"转写结果\", method=\"transcribe\")]\r\n\r\n    # Main transcription method\r\n    def transcribe(self) -> Data:\r\n        import whisper\r\n    \r\n        # Load the Whisper model\r\n        model = whisper.load_model(\"small\")\r\n    \r\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\r\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\r\n    \r\n        results = []\r\n        for seg in segs:\r\n            # Extract individual audio segments using FFmpeg\r\n            wav_seg = audio_path.with_name(\r\n                f\"{audio_path.stem}_{seg['start']:.2f}_{seg['end']:.2f}.wav\"\r\n            )\r\n            run_ffmpeg(\r\n                [\r\n                    \"ffmpeg\",\r\n                    \"-y\",\r\n                    \"-i\",\r\n                    str(audio_path),\r\n                    \"-ss\",\r\n                    str(seg[\"start\"]),\r\n                    \"-to\",\r\n                    str(seg[\"end\"]),\r\n                    str(wav_seg),\r\n                ]\r\n            )\r\n    \r\n            # Use Whisper for transcription and language detection\r\n            result = model.transcribe(str(wav_seg))\r\n            text = result[\"text\"].strip()\r\n            language = result.get(\"language\", \"unknown\")  # Retrieve detected language\r\n    \r\n            # Append result for this segment\r\n            results.append(\r\n                {**seg, \"text\": text, \"language\": language, \"wav\": str(wav_seg)}\r\n            )\r\n    \r\n        # Update the component's status and return results\r\n        self.status = f\"ASR 完成 {len(results)} 段\"\r\n        return Data(data={\"results\": results, \"audio_path\": str(audio_path)})"
+                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nimport torch\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema import Data\r\n\r\n# Import any utility functions like run_ffmpeg if needed\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\n\r\nclass SegmentASR(Component):\r\n    display_name = \"4️⃣ 语音识别\"\r\n    description = \"Whisper (HF pipeline)\"\r\n    icon = \"type\"\r\n    name = \"SegmentASR\"\r\n\r\n    # Define inputs and outputs for the component\r\n    inputs = [DataInput(name=\"seg_in\", display_name=\"说话片段\")]\r\n    outputs = [Output(name=\"asr_out\", display_name=\"转写结果\", method=\"transcribe\")]\r\n\r\n    # Main transcription method\r\n    def transcribe(self) -> Data:\r\n        import whisper\r\n    \r\n        # Load the Whisper model\r\n        model = whisper.load_model(\"small\")\r\n    \r\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\r\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\r\n    \r\n        results = []\r\n        for seg in segs:\r\n            # Extract individual audio segments using FFmpeg\r\n            wav_seg = audio_path.with_name(\r\n                f\"{audio_path.stem}_{seg['start']:.2f}_{seg['end']:.2f}.wav\"\r\n            )\r\n            run_ffmpeg(\r\n                [\r\n                    \"ffmpeg\",\r\n                    \"-y\",\r\n                    \"-i\",\r\n                    str(audio_path),\r\n                    \"-ss\",\r\n                    str(seg[\"start\"]),\r\n                    \"-to\",\r\n                    str(seg[\"end\"]),\r\n                    str(wav_seg),\r\n                ]\r\n            )\r\n    \r\n            # Use Whisper for transcription and language detection\r\n            result = model.transcribe(str(wav_seg))\r\n            text = result[\"text\"].strip()\r\n            language = result.get(\"language\", \"unknown\")  # Retrieve detected language\r\n    \r\n            # Append result for this segment\r\n            results.append(\r\n                {**seg, \"text\": text, \"language\": language, \"wav\": str(wav_seg)}\r\n            )\r\n    \r\n        # Update the component's status and return results\r\n        self.status = f\"ASR 完成 {len(results)} 段\"\r\n        return Data(data={\"results\": results, \"audio_path\": str(audio_path)})"
               },
               "seg_in": {
                 "_input_type": "DataInput",
@@ -575,42 +559,41 @@
           "type": "SegmentASR"
         },
         "dragging": false,
-        "id": "SegmentASR-YElxR",
+        "id": "SegmentASR-lt4wQ",
         "measured": {
           "height": 192,
           "width": 320
         },
         "position": {
-          "x": 1046.638519402691,
-          "y": 14.920228666824485
+          "x": 1065.1298471333498,
+          "y": 18.28228825421708
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "PoeTranslator-K0YVQ",
+          "id": "AnalyzeAndStore-NLqKg",
           "node": {
             "base_classes": [
-              "Data"
+              "Data",
+              "Text"
             ],
             "beta": false,
             "conditional_paths": [],
             "custom_fields": {},
-            "description": "使用 GPT-4 分析文本，过滤并存储到本地数据库",
+            "description": "使用 GPT-4 分析文本，过滤并存储到本地数据库，并提供音频和文字预览",
             "display_name": "5️⃣ 分析与存储",
             "documentation": "",
             "edited": true,
             "field_order": [
               "analysis_in",
               "poe_api_key",
-              "bot_name",
-              "db_path"
+              "bot_name"
             ],
             "frozen": false,
             "icon": "database",
             "legacy": false,
-            "lf_version": "1.4.3",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -634,16 +617,16 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "处理后的数据",
+                "display_name": "音频和文本预览",
                 "hidden": null,
-                "method": "process_and_store",
-                "name": "processed_data",
+                "method": "generate_preview",
+                "name": "preview_out",
                 "options": null,
                 "required_inputs": null,
-                "selected": "Data",
+                "selected": "Text",
                 "tool_mode": true,
                 "types": [
-                  "Data"
+                  "Text"
                 ],
                 "value": "__UNDEFINED__"
               }
@@ -708,30 +691,11 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "import sqlite3\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any, Optional\r\nimport json\r\n\r\nfrom .utils import run_ffmpeg\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output \r\nfrom langflow.schema import Data\r\n\r\nclass AnalyzeAndStore(Component):\r\n    display_name = \"5️⃣ 分析与存储\"\r\n    description = \"使用 GPT-4 分析文本，过滤并存储到本地数据库\"\r\n    icon = \"database\"\r\n    name = \"AnalyzeAndStore\"\r\n\r\n    # 定义组件的输入\r\n    inputs = [\r\n        DataInput(name=\"analysis_in\", display_name=\"ASR 转写结果\"),\r\n        StrInput(\r\n            name=\"poe_api_key\",\r\n            display_name=\"Poe API Key\",\r\n            value=\"YOUR_POE_API_KEY\" # 建议使用环境变量或更安全的方式管理密钥\r\n        ),\r\n        StrInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot Name\",\r\n            value=\"GPT-4\" # 或者其他您想使用的模型，如 Claude-3-Opus\r\n        ),\r\n        StrInput(\r\n            name=\"db_path\",\r\n            display_name=\"数据库文件路径\",\r\n            value=\"processed_audio.db\"\r\n        )\r\n    ]\r\n\r\n    # 定义组件的输出\r\n    outputs = [\r\n        Output(name=\"db_out\", display_name=\"数据库路径\", method=\"process_and_store\"),\r\n        Output(name=\"processed_data\", display_name=\"处理后的数据\", method=\"process_and_store\")\r\n    ]\r\n\r\n    def _call_gpt4(self, prompt: str, api_key: str, bot_name: str) -> str:\r\n        \"\"\"\r\n        一个封装了 fastapi_poe 同步调用的辅助函数。\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n        response_text = \"\"\r\n        try:\r\n            for partial_response in fp.get_bot_response_sync(\r\n                messages=[message], bot_name=bot_name, api_key=api_key\r\n            ):\r\n                response_text += partial_response.text\r\n        except Exception as e:\r\n            self.status = f\"调用 Poe API 时出错: {e}\"\r\n            return \"\" # 返回空字符串表示失败\r\n        return response_text\r\n\r\n    def _setup_database(self, db_path: str):\r\n        \"\"\"初始化 SQLite 数据库和表。\"\"\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n        # 创建表，如果它还不存在\r\n        cursor.execute('''\r\n            CREATE TABLE IF NOT EXISTS audio_segments (\r\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                audio_name TEXT NOT NULL,\r\n                speaker_id TEXT,\r\n                gender TEXT,\r\n                text TEXT NOT NULL,\r\n                wav_path TEXT NOT NULL,\r\n                original_start REAL,\r\n                original_end REAL,\r\n                duration REAL\r\n            )\r\n        ''')\r\n        conn.commit()\r\n        conn.close()\r\n\r\n    def process_and_store(self) -> Data:\r\n        \"\"\"\r\n        核心处理流程：分析、过滤、裁剪并存储。\r\n        \"\"\"\r\n        # 从输入获取数据\r\n        segments_data: List[Dict[str, Any]] = self.analysis_in.data[\"results\"]\r\n        api_key = self.poe_api_key\r\n        bot_name = self.bot_name\r\n        db_path = self.db_path\r\n\r\n        if not segments_data:\r\n            self.status = \"输入数据为空，无需处理。\"\r\n            return Data(data={\"db_path\": db_path, \"processed_count\": 0})\r\n        \r\n        # 初始化数据库\r\n        self._setup_database(db_path)\r\n\r\n        audio_path_str = self.analysis_in.data.get(\"audio_path\")\r\n        audio_path = Path(audio_path_str)\r\n\r\n        # --- 步骤 1: 语义分割 ---\r\n        self.status = \"步骤 1: 进行语义分割...\"\r\n        full_text_for_analysis = \"\\n\".join([f\"句子 {i}: \\\"{seg['text']}\\\"\" for i, seg in enumerate(segments_data)])\r\n\r\n        prompt1 = (\r\n            f\"你是一个文本分析专家。请仔细阅读以下按顺序编号的句子，这些句子来自一段对话转录。\\n\"\r\n            f\"你的任务是根据对话的语义和上下文，将它们分割成多个有意义的对话片段。每个片段应该围绕一个独立的主题或交流回合。\\n\"\r\n            f\"请以 JSON 格式返回结果，格式为一个列表，列表中的每个对象代表一个分割后的片段，并包含该片段所对应的原始句子编号。\\n\"\r\n            f\"例如: [{{'segment': 1, 'sentences': [0, 1, 2]}}, {{'segment': 2, 'sentences': [3, 4]}}]\\n\\n\"\r\n            f\"原始句子:\\n{full_text_for_analysis}\"\r\n        )\r\n\r\n        response1_str = self._call_gpt4(prompt1, api_key, bot_name)\r\n        try:\r\n            # GPT返回的可能是包含在markdown代码块里的json\r\n            self.log(\"resp\", f\"{response1_str}\")\r\n            if \"```json\" in response1_str:\r\n                response1_str = response1_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n            semantic_segments = json.loads(response1_str)\r\n        except (json.JSONDecodeError, TypeError, IndexError):\r\n            self.status = \"错误：语义分割失败，无法解析模型返回的 JSON。将所有句子视为一个片段处理。\"\r\n            semantic_segments = [{'segment': 1, 'sentences': list(range(len(segments_data)))}]\r\n\r\n        # --- 步骤 2: 场景相关性过滤 ---\r\n        self.status = \"步骤 2: 过滤无关句子...\"\r\n        processed_segments = segments_data[:] # 创建一个副本以进行修改\r\n        all_indices_to_keep = set()\r\n\r\n        for sem_seg in semantic_segments:\r\n            indices = sem_seg.get('sentences', [])\r\n            if not indices:\r\n                continue\r\n            \r\n            segment_text = \"\\n\".join([f\"句子 {i}: \\\"{segments_data[i]['text']}\\\"\" for i in indices])\r\n\r\n            prompt2 = (\r\n                f\"你是一个对话编辑专家。下面是一个对话片段，其中包含按顺序编号的句子。\\n\"\r\n                f\"你的任务是识别并移除所有与主要对话场景或核心议题无关的句子（例如，无关的闲聊、背景噪音的错误识别、口头禅等）。\\n\"\r\n                f\"请以 JSON 格式返回结果，提供一个需要被保留的原始句子编号列表。\\n\"\r\n                f\"例如: {{'kept_sentences':}}\\n\\n\"\r\n                f\"对话片段:\\n{segment_text}\"\r\n            )\r\n            \r\n            response2_str = self._call_gpt4(prompt2, api_key, bot_name)\r\n            try:\r\n                if \"```json\" in response2_str:\r\n                    response2_str = response2_str.split(\"```json\\n\")[1].split(\"```\")\r\n                kept_info = json.loads(response2_str)\r\n                kept_indices_for_segment = set(kept_info.get('kept_sentences', []))\r\n                all_indices_to_keep.update(kept_indices_for_segment)\r\n            except (json.JSONDecodeError, TypeError, IndexError):\r\n                self.status = f\"警告：场景过滤解析失败，将保留段落 {sem_seg.get('segment')} 中的所有句子。\"\r\n                all_indices_to_keep.update(indices)\r\n\r\n        # 根据所有需要保留的索引，构建下一步的输入\r\n        segments_for_step3 = [seg for i, seg in enumerate(segments_data) if i in all_indices_to_keep]\r\n\r\n        # --- 步骤 3: 时长过滤与裁剪 ---\r\n        self.status = \"步骤 3: 按时长过滤和裁剪...\"\r\n        final_results = []\r\n        \r\n        for seg in segments_for_step3:\r\n            duration = seg['end'] - seg['start']\r\n            \r\n            if duration < 5:\r\n                continue\r\n        \r\n            if duration > 10:\r\n                new_end = seg['start'] + 10.0\r\n                new_wav_path = audio_path.with_name(\r\n                    f\"{audio_path.stem}_{seg['start']:.2f}_{new_end:.2f}_trimmed.wav\"\r\n                ).resolve()\r\n        \r\n                # Ensure directory exists\r\n                new_wav_path.parent.mkdir(parents=True, exist_ok=True)\r\n        \r\n                try:\r\n                    run_ffmpeg(\r\n                        [\r\n                            \"ffmpeg\", \"-y\",\r\n                            \"-i\", str(seg['wav']),\r\n                            \"-ss\", str(seg['start']),\r\n                            \"-t\", \"10\",\r\n                            str(new_wav_path),\r\n                        ]\r\n                    )\r\n                    seg['wav'] = str(new_wav_path)\r\n                    seg['duration'] = 10.0\r\n                except Exception as e:\r\n                    self.status = f\"FFmpeg Error: {e}\"\r\n                    continue  # Skip this segment if FFmpeg fails\r\n            else:\r\n                seg['duration'] = duration\r\n        \r\n            final_results.append(seg)\r\n\r\n        # --- 步骤 4: 存储到数据库 ---\r\n        self.status = f\"步骤 4: 存储 {len(final_results)} 条结果到数据库...\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        for res in final_results:\r\n            cursor.execute(\r\n                \"\"\"\r\n                INSERT INTO audio_segments (audio_name, speaker_id, gender, text, wav_path, original_start, original_end, duration)\r\n                VALUES (?, ?, ?, ?, ?, ?, ?, ?)\r\n                \"\"\",\r\n                (\r\n                    audio_path.stem,\r\n                    res.get('speaker'),\r\n                    res.get('gender'),\r\n                    res['text'],\r\n                    res['wav'],\r\n                    res['start'],\r\n                    res['end'],\r\n                    res.get('duration', res['end'] - res['start'])\r\n                )\r\n            )\r\n        \r\n        conn.commit()\r\n        conn.close()\r\n\r\n        self.status = f\"处理完成！共存储 {len(final_results)} 条有效语音片段到 {db_path}\"\r\n        \r\n        return Data(data={\"db_path\": db_path, \"processed_count\": len(final_results), \"final_data\": final_results})"
-              },
-              "db_path": {
-                "_input_type": "StrInput",
-                "advanced": false,
-                "display_name": "数据库文件路径",
-                "dynamic": false,
-                "info": "",
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "db_path",
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "type": "str",
-                "value": "processed_audio.db"
+                "value": "import sqlite3\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any\r\nimport json\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\n\r\nclass AnalyzeAndStore(Component):\r\n    display_name = \"5️⃣ 分析与存储\"\r\n    description = \"使用 GPT-4 分析文本，过滤并存储到本地数据库，并提供音频和文字预览\"\r\n    icon = \"database\"\r\n    name = \"AnalyzeAndStore\"\r\n\r\n    # 定义组件的输入\r\n    inputs = [\r\n        DataInput(name=\"analysis_in\", display_name=\"ASR 转写结果\"),\r\n        StrInput(\r\n            name=\"poe_api_key\",\r\n            display_name=\"Poe API Key\",\r\n            value=\"YOUR_POE_API_KEY\"  # 建议使用更安全的方式管理密钥\r\n        ),\r\n        StrInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot Name\",\r\n            value=\"GPT-4\"\r\n        )\r\n    ]\r\n\r\n    # 定义组件的输出\r\n    outputs = [\r\n        Output(name=\"db_out\", display_name=\"数据库路径\", method=\"process_and_store\"),\r\n        Output(name=\"preview_out\", display_name=\"音频和文本预览\", method=\"generate_preview\")\r\n    ]\r\n\r\n    def _call_gpt4(self, prompt: str, api_key: str, bot_name: str) -> str:\r\n        \"\"\"\r\n        一个封装了 fastapi_poe 同步调用的辅助函数。\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n        response_text = \"\"\r\n        try:\r\n            for partial_response in fp.get_bot_response_sync(\r\n                messages=[message], bot_name=bot_name, api_key=api_key\r\n            ):\r\n                response_text += partial_response.text\r\n        except Exception as e:\r\n            self.status = f\"调用 Poe API 时出错: {e}\"\r\n            return \"\"\r\n        return response_text\r\n\r\n    def _setup_database(self, db_path: str):\r\n        \"\"\"初始化 SQLite 数据库和表。\"\"\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n        cursor.execute('''\r\n            CREATE TABLE IF NOT EXISTS audio_segments (\r\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                audio_name TEXT NOT NULL,\r\n                speaker_id TEXT,\r\n                gender TEXT,\r\n                text TEXT NOT NULL,\r\n                wav_path TEXT NOT NULL,\r\n                original_start REAL,\r\n                original_end REAL,\r\n                duration REAL\r\n            )\r\n        ''')\r\n        conn.commit()\r\n        conn.close()\r\n\r\n    def process_and_store(self) -> Data:\r\n        \"\"\"\r\n        核心处理流程：分析、过滤、裁剪并存储。\r\n        \"\"\"\r\n        # 从输入获取数据\r\n        segments_data: List[Dict[str, Any]] = self.analysis_in.data[\"results\"]\r\n        api_key = self.poe_api_key\r\n        bot_name = self.bot_name\r\n        db_path = \"processed_audio.db\"  # 固定数据库路径\r\n\r\n        if not segments_data:\r\n            self.status = \"输入数据为空，无需处理。\"\r\n            return Data(data={\"db_path\": db_path, \"processed_count\": 0})\r\n\r\n        # 初始化数据库\r\n        self._setup_database(db_path)\r\n\r\n        audio_path_str = self.analysis_in.data.get(\"audio_path\")\r\n        audio_path = Path(audio_path_str)\r\n\r\n        # --- 步骤 1: 语义分割 ---\r\n        self.status = \"步骤 1: 进行语义分割...\"\r\n        full_text_for_analysis = \"\\n\".join([f\"句子 {i}: \\\"{seg['text']}\\\"\" for i, seg in enumerate(segments_data)])\r\n\r\n        prompt1 = (\r\n            f\"你是一个文本分析专家。请仔细阅读以下按顺序编号的句子，这些句子来自一段对话转录。\\n\"\r\n            f\"你的任务是根据对话的语义和上下文，将它们分割成多个有意义的对话片段。每个片段应该围绕一个独立的主题或交流回合。\\n\"\r\n            f\"请以 JSON 格式返回结果，格式为一个列表，列表中的每个对象代表一个分割后的片段，并包含该片段所对应的原始句子编号。\\n\"\r\n            f\"例如: [{{'segment': 1, 'sentences': [0, 1, 2]}}, {{'segment': 2, 'sentences': [3, 4]}}]\\n\\n\"\r\n            f\"原始句子:\\n{full_text_for_analysis}\"\r\n        )\r\n\r\n        response1_str = self._call_gpt4(prompt1, api_key, bot_name)\r\n        try:\r\n            # GPT返回的可能是包含在markdown代码块里的json\r\n            if \"```json\" in response1_str:\r\n                response1_str = response1_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n            semantic_segments = json.loads(response1_str)\r\n        except (json.JSONDecodeError, TypeError, IndexError):\r\n            self.status = \"错误：语义分割失败，无法解析模型返回的 JSON。将所有句子视为一个片段处理。\"\r\n            semantic_segments = [{'segment': 1, 'sentences': list(range(len(segments_data)))}]\r\n\r\n        # --- 步骤 2: 场景相关性过滤 ---\r\n        self.status = \"步骤 2: 过滤无关句子...\"\r\n        all_indices_to_keep = set()\r\n\r\n        for sem_seg in semantic_segments:\r\n            indices = sem_seg.get('sentences', [])\r\n            if not indices:\r\n                continue\r\n\r\n            segment_text = \"\\n\".join([f\"句子 {i}: \\\"{segments_data[i]['text']}\\\"\" for i in indices])\r\n\r\n            prompt2 = (\r\n                f\"你是一个对话编辑专家。下面是一个对话片段，其中包含按顺序编号的句子。\\n\"\r\n                f\"任务是识别并移除所有无关的句子（例如闲聊或背景噪音）。\\n\"\r\n                f\"此外，移除文字时长不合理的句子。合并时间段重合、接近的句子\\n\"\r\n                f\"请以 JSON 格式返回需要保留的句子编号列表。\\n\"\r\n                f\"例如: {{'kept_sentences': [0, 1, 2]}}\\n\\n\"\r\n                f\"对话片段:\\n{segment_text}\"\r\n            )\r\n\r\n            response2_str = self._call_gpt4(prompt2, api_key, bot_name)\r\n            try:\r\n                if \"```json\" in response2_str:\r\n                    response2_str = response2_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n                kept_info = json.loads(response2_str)\r\n                kept_indices_for_segment = set(kept_info.get('kept_sentences', []))\r\n                all_indices_to_keep.update(kept_indices_for_segment)\r\n            except (json.JSONDecodeError, TypeError, IndexError):\r\n                self.status = f\"警告：解析失败，保留段落 {sem_seg.get('segment')} 中所有句子。\"\r\n                all_indices_to_keep.update(indices)\r\n\r\n        # 根据需要保留的索引，构建下一步的输入\r\n        segments_for_step3 = [seg for i, seg in enumerate(segments_data) if i in all_indices_to_keep]\r\n\r\n        # --- 步骤 3: 时长过滤与裁剪 ---\r\n        self.status = \"步骤 3: 按时长过滤和裁剪...\"\r\n        final_results = []\r\n\r\n        for seg in segments_for_step3:\r\n            duration = seg['end'] - seg['start']\r\n            text_length = len(seg['text'])\r\n            if duration < 1 or text_length == 0:  # 跳过时长小于1秒或文本为空的片段\r\n                continue\r\n\r\n            duration_per_char = duration / text_length\r\n            if not (0.05 <= duration_per_char <= 1.0):  # 跳过文字时长不合理的片段\r\n                continue\r\n\r\n            # 裁剪时长超过10秒的片段\r\n            if duration > 10:\r\n                new_end = seg['start'] + 10.0\r\n                new_wav_path = audio_path.with_name(\r\n                    f\"{audio_path.stem}_{seg['start']:.2f}_{new_end:.2f}_trimmed.wav\"\r\n                ).resolve()\r\n\r\n                new_wav_path.parent.mkdir(parents=True, exist_ok=True)\r\n\r\n                try:\r\n                    run_ffmpeg(\r\n                        [\r\n                            \"ffmpeg\", \"-y\",\r\n                            \"-i\", str(seg['wav']),\r\n                            \"-ss\", str(seg['start']),\r\n                            \"-t\", \"10\",\r\n                            str(new_wav_path),\r\n                        ]\r\n                    )\r\n                    seg['wav'] = str(new_wav_path)\r\n                    seg['duration'] = 10.0\r\n                except Exception as e:\r\n                    self.status = f\"FFmpeg Error: {e}\"\r\n                    continue  # 跳过处理失败的片段\r\n            else:\r\n                seg['duration'] = duration\r\n\r\n            final_results.append(seg)\r\n\r\n        # --- 步骤 4: 存储到数据库 ---\r\n        self.status = f\"步骤 4: 存储 {len(final_results)} 条结果到数据库...\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        for res in final_results:\r\n            cursor.execute(\r\n                \"\"\"\r\n                INSERT INTO audio_segments (audio_name, speaker_id, gender, text, wav_path, original_start, original_end, duration)\r\n                VALUES (?, ?, ?, ?, ?, ?, ?, ?)\r\n                \"\"\",\r\n                (\r\n                    audio_path.stem,\r\n                    res.get('speaker'),\r\n                    res.get('gender'),\r\n                    res['text'],\r\n                    res['wav'],\r\n                    res['start'],\r\n                    res['end'],\r\n                    res.get('duration', res['end'] - res['start'])\r\n                )\r\n            )\r\n\r\n        conn.commit()\r\n        conn.close()\r\n\r\n        self.status = f\"处理完成！共存储 {len(final_results)} 条有效语音片段到 {db_path}\"\r\n        return Data(data={\"db_path\": db_path, \"processed_count\": len(final_results)})\r\n\r\n    def generate_preview(self) -> str:\r\n        \"\"\"\r\n        生成音频和对应文字的预览。\r\n        \"\"\"\r\n        db_path = \"processed_audio.db\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        cursor.execute(\"SELECT text, wav_path FROM audio_segments\")\r\n        rows = cursor.fetchall()\r\n\r\n        conn.close()\r\n\r\n        # 构建 HTML 预览\r\n        html = \"<div><h3>音频和文字预览</h3>\"\r\n        for text, wav_path in rows:\r\n            html += f\"\"\"\r\n            <div style=\"margin-bottom: 20px;\">\r\n                <p><strong>文字:</strong> {text}</p>\r\n                <audio controls>\r\n                    <source src=\"{wav_path}\" type=\"audio/wav\">\r\n                    您的浏览器不支持音频播放。\r\n                </audio>\r\n            </div>\r\n            \"\"\"\r\n        html += \"</div>\"\r\n\r\n        return html"
               },
               "poe_api_key": {
                 "_input_type": "StrInput",
-                "advanced": false,
+                "advanced": true,
                 "display_name": "Poe API Key",
                 "dynamic": false,
                 "info": "",
@@ -755,28 +719,28 @@
           "type": "AnalyzeAndStore"
         },
         "dragging": false,
-        "id": "PoeTranslator-K0YVQ",
+        "id": "AnalyzeAndStore-NLqKg",
         "measured": {
-          "height": 487,
+          "height": 342,
           "width": 320
         },
         "position": {
-          "x": -137.5665798068112,
-          "y": 388.25546134706474
+          "x": -171.187175680737,
+          "y": 334.4625079487835
         },
         "selected": true,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 138.25008991477284,
-      "y": 55.91693740105603,
-      "zoom": 0.5249885289821136
+      "x": 144.66606175591602,
+      "y": 68.31517453173512,
+      "zoom": 0.5948734542064099
     }
   },
   "description": "audio extractor",
   "endpoint_name": null,
-  "id": "3fd05698-b83c-4938-a111-d39fa4484ff3",
+  "id": "362d8b42-bc01-4e88-ac29-b290f4d3b0bf",
   "is_component": false,
   "last_tested_version": "1.4.3",
   "name": "ae",
