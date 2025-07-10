@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "VideoInput",
-            "id": "VideoInput-nEBkr",
+            "id": "VideoInput-XLc73",
             "name": "video_out",
             "output_types": [
               "Data"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "video_in",
-            "id": "AudioExtractor-mzYZn",
+            "id": "AudioExtractor-fsyLC",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-VideoInput-nEBkr{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-nEBkrœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-mzYZn{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-mzYZnœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-VideoInput-XLc73{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-XLc73œ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-fsyLC{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-fsyLCœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "VideoInput-nEBkr",
-        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-nEBkrœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AudioExtractor-mzYZn",
-        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-mzYZnœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "VideoInput-XLc73",
+        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-XLc73œ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioExtractor-fsyLC",
+        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-fsyLCœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "AudioExtractor",
-            "id": "AudioExtractor-mzYZn",
+            "id": "AudioExtractor-fsyLC",
             "name": "audio_out",
             "output_types": [
               "Data"
@@ -43,47 +43,19 @@
           },
           "targetHandle": {
             "fieldName": "audio_in",
-            "id": "SpeakerDiarization-fa52N",
+            "id": "SpeakerDiarization-oOvGZ",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-AudioExtractor-mzYZn{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-mzYZnœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-fa52N{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-fa52Nœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-AudioExtractor-fsyLC{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-fsyLCœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-oOvGZ{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-oOvGZœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "AudioExtractor-mzYZn",
-        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-mzYZnœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SpeakerDiarization-fa52N",
-        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-fa52Nœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "SegmentASR",
-            "id": "SegmentASR-lt4wQ",
-            "name": "asr_out",
-            "output_types": [
-              "Data"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "analysis_in",
-            "id": "AnalyzeAndStore-NLqKg",
-            "inputTypes": [
-              "Data"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "reactflow__edge-SegmentASR-lt4wQ{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-lt4wQœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-AnalyzeAndStore-NLqKg{œfieldNameœ:œanalysis_inœ,œidœ:œAnalyzeAndStore-NLqKgœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "SegmentASR-lt4wQ",
-        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-lt4wQœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AnalyzeAndStore-NLqKg",
-        "targetHandle": "{œfieldNameœ:œanalysis_inœ,œidœ:œAnalyzeAndStore-NLqKgœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "AudioExtractor-fsyLC",
+        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-fsyLCœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SpeakerDiarization-oOvGZ",
+        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-oOvGZœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -91,7 +63,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SpeakerDiarization",
-            "id": "SpeakerDiarization-fa52N",
+            "id": "SpeakerDiarization-oOvGZ",
             "name": "result",
             "output_types": [
               "Data"
@@ -99,25 +71,52 @@
           },
           "targetHandle": {
             "fieldName": "seg_in",
-            "id": "SegmentASR-lt4wQ",
+            "id": "SegmentASR-dEjug",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__SpeakerDiarization-fa52N{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-fa52Nœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}-SegmentASR-lt4wQ{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-lt4wQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SpeakerDiarization-oOvGZ{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-oOvGZœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}-SegmentASR-dEjug{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-dEjugœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SpeakerDiarization-fa52N",
-        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-fa52Nœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SegmentASR-lt4wQ",
-        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-lt4wQœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SpeakerDiarization-oOvGZ",
+        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-oOvGZœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SegmentASR-dEjug",
+        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-dEjugœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "data": {
+          "sourceHandle": {
+            "dataType": "SegmentASR",
+            "id": "SegmentASR-dEjug",
+            "name": "asr_out",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "analysis_in",
+            "id": "AnalyzeAndStore-AjpMa",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SegmentASR-dEjug{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-dEjugœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-AnalyzeAndStore-AjpMa{œfieldNameœ:œanalysis_inœ,œidœ:œAnalyzeAndStore-AjpMaœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SegmentASR-dEjug",
+        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-dEjugœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AnalyzeAndStore-AjpMa",
+        "targetHandle": "{œfieldNameœ:œanalysis_inœ,œidœ:œAnalyzeAndStore-AjpMaœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "VideoInput-nEBkr",
+          "id": "VideoInput-XLc73",
           "node": {
             "base_classes": [
               "Data"
@@ -186,7 +185,7 @@
                   "mov",
                   "mkv"
                 ],
-                "file_path": "722d85dc-54bd-4943-9cfc-e83fd2d8103f/f3b04bad-81a3-48fc-9ca9-8dc3fe4f403a.mp4",
+                "file_path": "5b08f8d8-c3b7-4293-a053-fe5e3f757396/533faa22-852c-459f-a791-ed536109a268.mp4",
                 "info": "",
                 "list": false,
                 "list_add_label": "Add More",
@@ -207,9 +206,9 @@
           "type": "VideoInput"
         },
         "dragging": false,
-        "id": "VideoInput-nEBkr",
+        "id": "VideoInput-XLc73",
         "measured": {
-          "height": 236,
+          "height": 235,
           "width": 320
         },
         "position": {
@@ -221,7 +220,7 @@
       },
       {
         "data": {
-          "id": "AudioExtractor-mzYZn",
+          "id": "AudioExtractor-fsyLC",
           "node": {
             "base_classes": [
               "Data"
@@ -249,7 +248,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "音频路径",
-                "hidden": null,
+                "hidden": false,
                 "method": "extract",
                 "name": "audio_out",
                 "options": null,
@@ -331,9 +330,9 @@
           "type": "AudioExtractor"
         },
         "dragging": false,
-        "id": "AudioExtractor-mzYZn",
+        "id": "AudioExtractor-fsyLC",
         "measured": {
-          "height": 274,
+          "height": 273,
           "width": 320
         },
         "position": {
@@ -345,7 +344,7 @@
       },
       {
         "data": {
-          "id": "SpeakerDiarization-fa52N",
+          "id": "SpeakerDiarization-oOvGZ",
           "node": {
             "base_classes": [
               "Data"
@@ -455,21 +454,21 @@
           "type": "SpeakerDiarization"
         },
         "dragging": false,
-        "id": "SpeakerDiarization-fa52N",
+        "id": "SpeakerDiarization-oOvGZ",
         "measured": {
-          "height": 192,
+          "height": 191,
           "width": 320
         },
         "position": {
           "x": 647.1905690148157,
           "y": 11.937431939874614
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "SegmentASR-lt4wQ",
+          "id": "SegmentASR-dEjug",
           "node": {
             "base_classes": [
               "Data"
@@ -496,7 +495,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "转写结果",
-                "hidden": null,
+                "hidden": false,
                 "method": "transcribe",
                 "name": "asr_out",
                 "options": null,
@@ -559,9 +558,9 @@
           "type": "SegmentASR"
         },
         "dragging": false,
-        "id": "SegmentASR-lt4wQ",
+        "id": "SegmentASR-dEjug",
         "measured": {
-          "height": 192,
+          "height": 191,
           "width": 320
         },
         "position": {
@@ -573,17 +572,16 @@
       },
       {
         "data": {
-          "id": "AnalyzeAndStore-NLqKg",
+          "id": "AnalyzeAndStore-AjpMa",
           "node": {
             "base_classes": [
-              "Data",
               "Text"
             ],
             "beta": false,
             "conditional_paths": [],
             "custom_fields": {},
-            "description": "使用 GPT-4 分析文本，过滤并存储到本地数据库，并提供音频和文字预览",
-            "display_name": "5️⃣ 分析与存储",
+            "description": "Use as base for chat components.",
+            "display_name": "Chat Component",
             "documentation": "",
             "edited": true,
             "field_order": [
@@ -592,7 +590,6 @@
               "bot_name"
             ],
             "frozen": false,
-            "icon": "database",
             "legacy": false,
             "metadata": {},
             "minimized": false,
@@ -601,23 +598,7 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "数据库路径",
-                "hidden": null,
-                "method": "process_and_store",
-                "name": "db_out",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Data",
-                "tool_mode": true,
-                "types": [
-                  "Data"
-                ],
-                "value": "__UNDEFINED__"
-              },
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "音频和文本预览",
+                "display_name": "Audio and Text Preview",
                 "hidden": null,
                 "method": "generate_preview",
                 "name": "preview_out",
@@ -637,7 +618,7 @@
               "analysis_in": {
                 "_input_type": "DataInput",
                 "advanced": false,
-                "display_name": "ASR 转写结果",
+                "display_name": "ASR Transcription Results",
                 "dynamic": false,
                 "info": "",
                 "input_types": [
@@ -673,7 +654,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "GPT-4o"
+                "value": "GPT-4"
               },
               "code": {
                 "advanced": true,
@@ -691,11 +672,11 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "import sqlite3\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any\r\nimport json\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\n\r\nclass AnalyzeAndStore(Component):\r\n    display_name = \"5️⃣ 分析与存储\"\r\n    description = \"使用 GPT-4 分析文本，过滤并存储到本地数据库，并提供音频和文字预览\"\r\n    icon = \"database\"\r\n    name = \"AnalyzeAndStore\"\r\n\r\n    # 定义组件的输入\r\n    inputs = [\r\n        DataInput(name=\"analysis_in\", display_name=\"ASR 转写结果\"),\r\n        StrInput(\r\n            name=\"poe_api_key\",\r\n            display_name=\"Poe API Key\",\r\n            value=\"YOUR_POE_API_KEY\"  # 建议使用更安全的方式管理密钥\r\n        ),\r\n        StrInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot Name\",\r\n            value=\"GPT-4\"\r\n        )\r\n    ]\r\n\r\n    # 定义组件的输出\r\n    outputs = [\r\n        Output(name=\"db_out\", display_name=\"数据库路径\", method=\"process_and_store\"),\r\n        Output(name=\"preview_out\", display_name=\"音频和文本预览\", method=\"generate_preview\")\r\n    ]\r\n\r\n    def _call_gpt4(self, prompt: str, api_key: str, bot_name: str) -> str:\r\n        \"\"\"\r\n        一个封装了 fastapi_poe 同步调用的辅助函数。\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n        response_text = \"\"\r\n        try:\r\n            for partial_response in fp.get_bot_response_sync(\r\n                messages=[message], bot_name=bot_name, api_key=api_key\r\n            ):\r\n                response_text += partial_response.text\r\n        except Exception as e:\r\n            self.status = f\"调用 Poe API 时出错: {e}\"\r\n            return \"\"\r\n        return response_text\r\n\r\n    def _setup_database(self, db_path: str):\r\n        \"\"\"初始化 SQLite 数据库和表。\"\"\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n        cursor.execute('''\r\n            CREATE TABLE IF NOT EXISTS audio_segments (\r\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                audio_name TEXT NOT NULL,\r\n                speaker_id TEXT,\r\n                gender TEXT,\r\n                text TEXT NOT NULL,\r\n                wav_path TEXT NOT NULL,\r\n                original_start REAL,\r\n                original_end REAL,\r\n                duration REAL\r\n            )\r\n        ''')\r\n        conn.commit()\r\n        conn.close()\r\n\r\n    def process_and_store(self) -> Data:\r\n        \"\"\"\r\n        核心处理流程：分析、过滤、裁剪并存储。\r\n        \"\"\"\r\n        # 从输入获取数据\r\n        segments_data: List[Dict[str, Any]] = self.analysis_in.data[\"results\"]\r\n        api_key = self.poe_api_key\r\n        bot_name = self.bot_name\r\n        db_path = \"processed_audio.db\"  # 固定数据库路径\r\n\r\n        if not segments_data:\r\n            self.status = \"输入数据为空，无需处理。\"\r\n            return Data(data={\"db_path\": db_path, \"processed_count\": 0})\r\n\r\n        # 初始化数据库\r\n        self._setup_database(db_path)\r\n\r\n        audio_path_str = self.analysis_in.data.get(\"audio_path\")\r\n        audio_path = Path(audio_path_str)\r\n\r\n        # --- 步骤 1: 语义分割 ---\r\n        self.status = \"步骤 1: 进行语义分割...\"\r\n        full_text_for_analysis = \"\\n\".join([f\"句子 {i}: \\\"{seg['text']}\\\"\" for i, seg in enumerate(segments_data)])\r\n\r\n        prompt1 = (\r\n            f\"你是一个文本分析专家。请仔细阅读以下按顺序编号的句子，这些句子来自一段对话转录。\\n\"\r\n            f\"你的任务是根据对话的语义和上下文，将它们分割成多个有意义的对话片段。每个片段应该围绕一个独立的主题或交流回合。\\n\"\r\n            f\"请以 JSON 格式返回结果，格式为一个列表，列表中的每个对象代表一个分割后的片段，并包含该片段所对应的原始句子编号。\\n\"\r\n            f\"例如: [{{'segment': 1, 'sentences': [0, 1, 2]}}, {{'segment': 2, 'sentences': [3, 4]}}]\\n\\n\"\r\n            f\"原始句子:\\n{full_text_for_analysis}\"\r\n        )\r\n\r\n        response1_str = self._call_gpt4(prompt1, api_key, bot_name)\r\n        try:\r\n            # GPT返回的可能是包含在markdown代码块里的json\r\n            if \"```json\" in response1_str:\r\n                response1_str = response1_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n            semantic_segments = json.loads(response1_str)\r\n        except (json.JSONDecodeError, TypeError, IndexError):\r\n            self.status = \"错误：语义分割失败，无法解析模型返回的 JSON。将所有句子视为一个片段处理。\"\r\n            semantic_segments = [{'segment': 1, 'sentences': list(range(len(segments_data)))}]\r\n\r\n        # --- 步骤 2: 场景相关性过滤 ---\r\n        self.status = \"步骤 2: 过滤无关句子...\"\r\n        all_indices_to_keep = set()\r\n\r\n        for sem_seg in semantic_segments:\r\n            indices = sem_seg.get('sentences', [])\r\n            if not indices:\r\n                continue\r\n\r\n            segment_text = \"\\n\".join([f\"句子 {i}: \\\"{segments_data[i]['text']}\\\"\" for i in indices])\r\n\r\n            prompt2 = (\r\n                f\"你是一个对话编辑专家。下面是一个对话片段，其中包含按顺序编号的句子。\\n\"\r\n                f\"任务是识别并移除所有无关的句子（例如闲聊或背景噪音）。\\n\"\r\n                f\"此外，移除文字时长不合理的句子。合并时间段重合、接近的句子\\n\"\r\n                f\"请以 JSON 格式返回需要保留的句子编号列表。\\n\"\r\n                f\"例如: {{'kept_sentences': [0, 1, 2]}}\\n\\n\"\r\n                f\"对话片段:\\n{segment_text}\"\r\n            )\r\n\r\n            response2_str = self._call_gpt4(prompt2, api_key, bot_name)\r\n            try:\r\n                if \"```json\" in response2_str:\r\n                    response2_str = response2_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n                kept_info = json.loads(response2_str)\r\n                kept_indices_for_segment = set(kept_info.get('kept_sentences', []))\r\n                all_indices_to_keep.update(kept_indices_for_segment)\r\n            except (json.JSONDecodeError, TypeError, IndexError):\r\n                self.status = f\"警告：解析失败，保留段落 {sem_seg.get('segment')} 中所有句子。\"\r\n                all_indices_to_keep.update(indices)\r\n\r\n        # 根据需要保留的索引，构建下一步的输入\r\n        segments_for_step3 = [seg for i, seg in enumerate(segments_data) if i in all_indices_to_keep]\r\n\r\n        # --- 步骤 3: 时长过滤与裁剪 ---\r\n        self.status = \"步骤 3: 按时长过滤和裁剪...\"\r\n        final_results = []\r\n\r\n        for seg in segments_for_step3:\r\n            duration = seg['end'] - seg['start']\r\n            text_length = len(seg['text'])\r\n            if duration < 1 or text_length == 0:  # 跳过时长小于1秒或文本为空的片段\r\n                continue\r\n\r\n            duration_per_char = duration / text_length\r\n            if not (0.05 <= duration_per_char <= 1.0):  # 跳过文字时长不合理的片段\r\n                continue\r\n\r\n            # 裁剪时长超过10秒的片段\r\n            if duration > 10:\r\n                new_end = seg['start'] + 10.0\r\n                new_wav_path = audio_path.with_name(\r\n                    f\"{audio_path.stem}_{seg['start']:.2f}_{new_end:.2f}_trimmed.wav\"\r\n                ).resolve()\r\n\r\n                new_wav_path.parent.mkdir(parents=True, exist_ok=True)\r\n\r\n                try:\r\n                    run_ffmpeg(\r\n                        [\r\n                            \"ffmpeg\", \"-y\",\r\n                            \"-i\", str(seg['wav']),\r\n                            \"-ss\", str(seg['start']),\r\n                            \"-t\", \"10\",\r\n                            str(new_wav_path),\r\n                        ]\r\n                    )\r\n                    seg['wav'] = str(new_wav_path)\r\n                    seg['duration'] = 10.0\r\n                except Exception as e:\r\n                    self.status = f\"FFmpeg Error: {e}\"\r\n                    continue  # 跳过处理失败的片段\r\n            else:\r\n                seg['duration'] = duration\r\n\r\n            final_results.append(seg)\r\n\r\n        # --- 步骤 4: 存储到数据库 ---\r\n        self.status = f\"步骤 4: 存储 {len(final_results)} 条结果到数据库...\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        for res in final_results:\r\n            cursor.execute(\r\n                \"\"\"\r\n                INSERT INTO audio_segments (audio_name, speaker_id, gender, text, wav_path, original_start, original_end, duration)\r\n                VALUES (?, ?, ?, ?, ?, ?, ?, ?)\r\n                \"\"\",\r\n                (\r\n                    audio_path.stem,\r\n                    res.get('speaker'),\r\n                    res.get('gender'),\r\n                    res['text'],\r\n                    res['wav'],\r\n                    res['start'],\r\n                    res['end'],\r\n                    res.get('duration', res['end'] - res['start'])\r\n                )\r\n            )\r\n\r\n        conn.commit()\r\n        conn.close()\r\n\r\n        self.status = f\"处理完成！共存储 {len(final_results)} 条有效语音片段到 {db_path}\"\r\n        return Data(data={\"db_path\": db_path, \"processed_count\": len(final_results)})\r\n\r\n    def generate_preview(self) -> str:\r\n        \"\"\"\r\n        生成音频和对应文字的预览。\r\n        \"\"\"\r\n        db_path = \"processed_audio.db\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        cursor.execute(\"SELECT text, wav_path FROM audio_segments\")\r\n        rows = cursor.fetchall()\r\n\r\n        conn.close()\r\n\r\n        # 构建 HTML 预览\r\n        html = \"<div><h3>音频和文字预览</h3>\"\r\n        for text, wav_path in rows:\r\n            html += f\"\"\"\r\n            <div style=\"margin-bottom: 20px;\">\r\n                <p><strong>文字:</strong> {text}</p>\r\n                <audio controls>\r\n                    <source src=\"{wav_path}\" type=\"audio/wav\">\r\n                    您的浏览器不支持音频播放。\r\n                </audio>\r\n            </div>\r\n            \"\"\"\r\n        html += \"</div>\"\r\n\r\n        return html"
+                "value": "import sqlite3\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any\r\nimport json\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom langflow.base.io.chat import ChatComponent\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\n\r\n\r\n\r\nclass AudioProcessor(ChatComponent):\r\n    # Define component inputs\r\n    inputs = [\r\n        DataInput(name=\"analysis_in\", display_name=\"ASR Transcription Results\"),\r\n        StrInput(\r\n            name=\"poe_api_key\",\r\n            display_name=\"Poe API Key\",\r\n            value=\"YOUR_POE_API_KEY\"  # It's recommended to use a secure way to manage secrets\r\n        ),\r\n        StrInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot Name\",\r\n            value=\"GPT-4\"\r\n        )\r\n    ]\r\n    \r\n    # Define component outputs\r\n    outputs = [\r\n        Output(name=\"preview_out\", display_name=\"Audio and Text Preview\", method=\"generate_preview\")\r\n    ]\r\n    \r\n    def _call_gpt4(self, prompt: str, api_key: str, bot_name: str) -> str:\r\n        \"\"\"\r\n        A helper function that wraps the synchronous call to fastapi_poe.\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n        response_text = \"\"\r\n        try:\r\n            for partial_response in fp.get_bot_response_sync(\r\n                messages=[message], bot_name=bot_name, api_key=api_key\r\n            ):\r\n                response_text += partial_response.text\r\n        except Exception as e:\r\n            self.status = f\"Error calling Poe API: {e}\"\r\n            return \"\"\r\n        return response_text\r\n\r\n    def _setup_database(self, db_path: str):\r\n        \"\"\"Initialize SQLite database and tables.\"\"\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n        cursor.execute('''\r\n            CREATE TABLE IF NOT EXISTS audio_segments (\r\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                audio_name TEXT NOT NULL,\r\n                speaker_id TEXT NOT NULL,\r\n                text TEXT NOT NULL,\r\n                audio_binary BLOB NOT NULL,\r\n                duration REAL\r\n            )\r\n        ''')\r\n        conn.commit()\r\n        conn.close()\r\n\r\n    def _concat_and_split_audio(self, segments: List[Dict[str, Any]], audio_path: Path) -> List[Dict[str, Any]]:\r\n        \"\"\"\r\n        Concatenates audio files by speaker ID, splits them into 30-second segments, \r\n        and stores the binary audio data for each segment.\r\n        \"\"\"\r\n        from pydub import AudioSegment\r\n        from io import BytesIO\r\n\r\n        speaker_audio_map = {}\r\n        for segment in segments:\r\n            speaker_id = segment.get('speaker', 'unknown')\r\n            start_time = segment['start']\r\n            end_time = segment['end']\r\n            audio_file = segment['wav']\r\n\r\n            # Load the audio file and concatenate by speaker\r\n            if speaker_id not in speaker_audio_map:\r\n                speaker_audio_map[speaker_id] = AudioSegment.empty()\r\n            try:\r\n                audio_segment = AudioSegment.from_file(audio_file)\r\n                speaker_audio_map[speaker_id] += audio_segment[start_time * 1000:end_time * 1000]\r\n            except Exception as e:\r\n                self.status = f\"Error processing audio segment: {e}\"\r\n\r\n        # Split audio into 30-second segments and store binary data\r\n        split_segments = []\r\n        for speaker_id, concatenated_audio in speaker_audio_map.items():\r\n            duration_in_seconds = len(concatenated_audio) / 1000\r\n            for i in range(0, int(duration_in_seconds), 30):\r\n                split_audio = concatenated_audio[i * 1000:(i + 30) * 1000]\r\n                audio_binary = BytesIO()\r\n                split_audio.export(audio_binary, format=\"wav\")\r\n                split_segments.append({\r\n                    \"speaker_id\": speaker_id,\r\n                    \"audio_binary\": audio_binary.getvalue(),\r\n                    \"duration\": min(30, duration_in_seconds - i),\r\n                    \"text\": f\"Speaker {speaker_id}'s audio segment {i // 30 + 1}\"\r\n                })\r\n\r\n        return split_segments\r\n\r\n    def process_and_store(self) -> Data:\r\n        \"\"\"\r\n        Core processing logic: Analyze, filter, concatenate, split, and store.\r\n        \"\"\"\r\n        # Retrieve data from input\r\n        segments_data: List[Dict[str, Any]] = self.analysis_in.data[\"results\"]\r\n        api_key = self.poe_api_key\r\n        bot_name = self.bot_name\r\n        db_path = \"processed_audio.db\"  # Fixed database path\r\n\r\n        if not segments_data:\r\n            self.status = \"Input data is empty, nothing to process.\"\r\n            return Data(data={\"processed_count\": 0})\r\n\r\n        # Initialize database\r\n        self._setup_database(db_path)\r\n\r\n        audio_path_str = self.analysis_in.data.get(\"audio_path\")\r\n        audio_path = Path(audio_path_str)\r\n\r\n        # --- Step 1: Semantic Segmentation ---\r\n        self.status = \"Step 1: Performing semantic segmentation...\"\r\n        full_text_for_analysis = \"\\n\".join([f\"Sentence {i}: \\\"{seg['text']}\\\"\" for i, seg in enumerate(segments_data)])\r\n\r\n        prompt1 = (\r\n            f\"You are a text analysis expert. Please carefully read the following numbered sentences, \"\r\n            f\"which are transcriptions from a conversation.\\n\"\r\n            f\"Your task is to segment them into meaningful conversation segments based on semantics and context. \"\r\n            f\"Each segment should focus on an independent topic or exchange.\\n\"\r\n            f\"Return the result in JSON format, where each object represents a segment and includes the original sentence indices.\\n\"\r\n            f\"Example: [{{'segment': 1, 'sentences': [0, 1, 2]}}, {{'segment': 2, 'sentences': [3, 4]}}]\\n\\n\"\r\n            f\"Original sentences:\\n{full_text_for_analysis}\"\r\n        )\r\n\r\n        response1_str = self._call_gpt4(prompt1, api_key, bot_name)\r\n        try:\r\n            # GPT response may contain JSON within markdown code blocks\r\n            if \"```json\" in response1_str:\r\n                response1_str = response1_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n            semantic_segments = json.loads(response1_str)\r\n        except (json.JSONDecodeError, TypeError, IndexError):\r\n            self.status = \"Error: Semantic segmentation failed, unable to parse JSON from the model. Treating all sentences as one segment.\"\r\n            semantic_segments = [{'segment': 1, 'sentences': list(range(len(segments_data)))}]\r\n\r\n        # --- Step 2: Scene Relevance Filtering ---\r\n        self.status = \"Step 2: Filtering irrelevant sentences...\"\r\n        all_indices_to_keep = set()\r\n\r\n        for sem_seg in semantic_segments:\r\n            indices = sem_seg.get('sentences', [])\r\n            if not indices:\r\n                continue\r\n\r\n            segment_text = \"\\n\".join([f\"Sentence {i}: \\\"{segments_data[i]['text']}\\\"\" for i in indices])\r\n\r\n            prompt2 = (\r\n                f\"You are a conversation editing expert. Below is a conversation segment with numbered sentences.\\n\"\r\n                f\"Your task is to identify and remove all irrelevant sentences (e.g., small talk or background noise).\\n\"\r\n                f\"Return the indices of sentences to keep in JSON format.\\n\"\r\n                f\"Example: {{'kept_sentences': [0, 1, 2]}}\\n\\n\"\r\n                f\"Conversation segment:\\n{segment_text}\"\r\n            )\r\n\r\n            response2_str = self._call_gpt4(prompt2, api_key, bot_name)\r\n            try:\r\n                if \"```json\" in response2_str:\r\n                    response2_str = response2_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n                kept_info = json.loads(response2_str)\r\n                kept_indices_for_segment = set(kept_info.get('kept_sentences', []))\r\n                all_indices_to_keep.update(kept_indices_for_segment)\r\n            except (json.JSONDecodeError, TypeError, IndexError):\r\n                self.status = f\"Warning: Parsing failed, keeping all sentences in segment {sem_seg.get('segment')}.\"\r\n                all_indices_to_keep.update(indices)\r\n\r\n        # Filter segments for next step\r\n        segments_for_step3 = [seg for i, seg in enumerate(segments_data) if i in all_indices_to_keep]\r\n\r\n        # --- Step 3: Concatenate and Split Audio ---\r\n        self.status = \"Step 3: Concatenating and splitting audio...\"\r\n        split_audio_segments = self._concat_and_split_audio(segments_for_step3, audio_path)\r\n\r\n        # --- Step 4: Store in Database ---\r\n        self.status = f\"Step 4: Storing {len(split_audio_segments)} results in the database...\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        for res in split_audio_segments:\r\n            cursor.execute(\r\n                \"\"\"\r\n                INSERT INTO audio_segments (audio_name, speaker_id, text, audio_binary, duration)\r\n                VALUES (?, ?, ?, ?, ?)\r\n                \"\"\",\r\n                (\r\n                    audio_path.stem,\r\n                    res['speaker_id'],\r\n                    res['text'],\r\n                    res['audio_binary'],\r\n                    res['duration']\r\n                )\r\n            )\r\n\r\n        conn.commit()\r\n        conn.close()\r\n\r\n        self.status = f\"Processing complete! Stored {len(split_audio_segments)} audio segments in the database.\"\r\n        return Data(data={\"processed_count\": len(split_audio_segments)})\r\n\r\n    def generate_preview(self) -> str:\r\n        \"\"\"\r\n        Generate an audio and text preview.\r\n        \"\"\"\r\n        db_path = \"processed_audio.db\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        cursor.execute(\"SELECT text, audio_binary FROM audio_segments\")\r\n        rows = cursor.fetchall()\r\n\r\n        conn.close()\r\n\r\n        # Build HTML preview\r\n        html = \"<div><h3>Audio and Text Preview</h3>\"\r\n        for text, audio_binary in rows:\r\n            audio_src = f\"data:audio/wav;base64,{base64.b64encode(audio_binary).decode()}\"\r\n            html += f\"\"\"\r\n            <div style=\"margin-bottom: 20px;\">\r\n                <p><strong>Text:</strong> {text}</p>\r\n                <audio controls>\r\n                    <source src=\"{audio_src}\" type=\"audio/ogg\">\r\n                    Your browser does not support audio playback.\r\n                </audio>\r\n            </div>\r\n            \"\"\"\r\n        html += \"</div>\"\r\n\r\n        return html"
               },
               "poe_api_key": {
                 "_input_type": "StrInput",
-                "advanced": true,
+                "advanced": false,
                 "display_name": "Poe API Key",
                 "dynamic": false,
                 "info": "",
@@ -710,37 +691,37 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": ""
+                "value": "YOUR_POE_API_KEY"
               }
             },
             "tool_mode": false
           },
           "showNode": true,
-          "type": "AnalyzeAndStore"
+          "type": "AudioProcessor"
         },
         "dragging": false,
-        "id": "AnalyzeAndStore-NLqKg",
+        "id": "AnalyzeAndStore-AjpMa",
         "measured": {
-          "height": 342,
+          "height": 355,
           "width": 320
         },
         "position": {
-          "x": -171.187175680737,
-          "y": 334.4625079487835
+          "x": -167.0147439841845,
+          "y": 329.24696832809286
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 144.66606175591602,
-      "y": 68.31517453173512,
-      "zoom": 0.5948734542064099
+      "x": 344.86262125362646,
+      "y": 165.5245852041383,
+      "zoom": 0.9586735723690853
     }
   },
   "description": "audio extractor",
   "endpoint_name": null,
-  "id": "362d8b42-bc01-4e88-ac29-b290f4d3b0bf",
+  "id": "0b12587b-4a59-4611-b47d-bf02f1fd30b3",
   "is_component": false,
   "last_tested_version": "1.4.3",
   "name": "ae",

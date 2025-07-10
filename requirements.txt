@@ -4,3 +4,4 @@ coqui-tts
 pydub
 pyannote-audio
 fastapi_poe
+openai-whisper
