@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "VideoInput",
-            "id": "VideoInput-XLc73",
+            "id": "VideoInput-cQ19D",
             "name": "video_out",
             "output_types": [
               "Data"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "video_in",
-            "id": "AudioExtractor-fsyLC",
+            "id": "AudioExtractor-YZQ2I",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-VideoInput-XLc73{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-XLc73œ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-fsyLC{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-fsyLCœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-VideoInput-cQ19D{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-cQ19Dœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-YZQ2I{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-YZQ2Iœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "VideoInput-XLc73",
-        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-XLc73œ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AudioExtractor-fsyLC",
-        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-fsyLCœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "VideoInput-cQ19D",
+        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-cQ19Dœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioExtractor-YZQ2I",
+        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-YZQ2Iœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "AudioExtractor",
-            "id": "AudioExtractor-fsyLC",
+            "id": "AudioExtractor-YZQ2I",
             "name": "audio_out",
             "output_types": [
               "Data"
@@ -43,19 +43,19 @@
           },
           "targetHandle": {
             "fieldName": "audio_in",
-            "id": "SpeakerDiarization-oOvGZ",
+            "id": "SpeakerDiarization-rHseN",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-AudioExtractor-fsyLC{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-fsyLCœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-oOvGZ{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-oOvGZœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-AudioExtractor-YZQ2I{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-YZQ2Iœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-rHseN{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-rHseNœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "AudioExtractor-fsyLC",
-        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-fsyLCœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SpeakerDiarization-oOvGZ",
-        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-oOvGZœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "AudioExtractor-YZQ2I",
+        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-YZQ2Iœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SpeakerDiarization-rHseN",
+        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-rHseNœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -63,7 +63,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SpeakerDiarization",
-            "id": "SpeakerDiarization-oOvGZ",
+            "id": "SpeakerDiarization-rHseN",
             "name": "result",
             "output_types": [
               "Data"
@@ -71,26 +71,27 @@
           },
           "targetHandle": {
             "fieldName": "seg_in",
-            "id": "SegmentASR-dEjug",
+            "id": "SegmentASR-dbaot",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-SpeakerDiarization-oOvGZ{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-oOvGZœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}-SegmentASR-dEjug{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-dEjugœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SpeakerDiarization-rHseN{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-rHseNœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}-SegmentASR-dbaot{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-dbaotœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SpeakerDiarization-oOvGZ",
-        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-oOvGZœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SegmentASR-dEjug",
-        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-dEjugœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SpeakerDiarization-rHseN",
+        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-rHseNœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SegmentASR-dbaot",
+        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-dbaotœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
+        "className": "",
         "data": {
           "sourceHandle": {
             "dataType": "SegmentASR",
-            "id": "SegmentASR-dEjug",
+            "id": "SegmentASR-dbaot",
             "name": "asr_out",
             "output_types": [
               "Data"
@@ -98,25 +99,25 @@
           },
           "targetHandle": {
             "fieldName": "analysis_in",
-            "id": "AnalyzeAndStore-AjpMa",
+            "id": "AudioProcessor-NBeVm",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__SegmentASR-dEjug{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-dEjugœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-AnalyzeAndStore-AjpMa{œfieldNameœ:œanalysis_inœ,œidœ:œAnalyzeAndStore-AjpMaœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SegmentASR-dbaot{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-dbaotœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-AudioProcessor-NBeVm{œfieldNameœ:œanalysis_inœ,œidœ:œAudioProcessor-NBeVmœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SegmentASR-dEjug",
-        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-dEjugœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AnalyzeAndStore-AjpMa",
-        "targetHandle": "{œfieldNameœ:œanalysis_inœ,œidœ:œAnalyzeAndStore-AjpMaœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SegmentASR-dbaot",
+        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-dbaotœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioProcessor-NBeVm",
+        "targetHandle": "{œfieldNameœ:œanalysis_inœ,œidœ:œAudioProcessor-NBeVmœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "VideoInput-XLc73",
+          "id": "VideoInput-cQ19D",
           "node": {
             "base_classes": [
               "Data"
@@ -124,10 +125,10 @@
             "beta": false,
             "conditional_paths": [],
             "custom_fields": {},
-            "description": "选择本地视频文件",
-            "display_name": "1️⃣ 视频输入",
+            "description": "Select a local video file",
+            "display_name": "1️⃣ Video Input",
             "documentation": "",
-            "edited": false,
+            "edited": true,
             "field_order": [
               "video_path"
             ],
@@ -142,10 +143,12 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "视频路径",
-                "hidden": false,
+                "display_name": "Video Path",
+                "hidden": null,
                 "method": "send",
                 "name": "video_out",
+                "options": null,
+                "required_inputs": null,
                 "selected": "Data",
                 "tool_mode": true,
                 "types": [
@@ -173,22 +176,23 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "# media_pipeline/1_video_input.py\nfrom pathlib import Path\n\nfrom langflow.custom import Component\nfrom langflow.io import FileInput, Output\nfrom langflow.schema import Data\n\n\nclass VideoInput(Component):\n    display_name = \"1️⃣ 视频输入\"\n    description = \"选择本地视频文件\"\n    icon = \"upload\"\n    name = \"VideoInput\"\n\n    inputs = [\n        FileInput(name=\"video_path\", display_name=\"视频文件\", file_types=[\"mp4\", \"mov\", \"mkv\"], required=True),\n    ]\n    outputs = [\n        Output(name=\"video_out\", display_name=\"视频路径\", method=\"send\"),\n    ]\n\n    def send(self) -> Data:\n        path = Path(self.video_path)\n        if not path.exists():\n            raise FileNotFoundError(path)\n        self.status = f\"已加载 {path.name}\"\n        return Data(data={\"video_path\": str(path)})"
+                "value": "from pathlib import Path\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import FileInput, Output\r\nfrom langflow.schema import Data\r\n\r\n\r\nclass VideoInput(Component):\r\n    display_name = \"1️⃣ Video Input\"\r\n    description = \"Select a local video file\"\r\n    icon = \"upload\"\r\n    name = \"VideoInput\"\r\n\r\n    inputs = [\r\n        FileInput(name=\"video_path\", display_name=\"Video File\", file_types=[\"mp4\", \"mov\", \"mkv\"], required=True),\r\n    ]\r\n    outputs = [\r\n        Output(name=\"video_out\", display_name=\"Video Path\", method=\"send\"),\r\n    ]\r\n\r\n    def send(self) -> Data:\r\n        path = Path(self.video_path)\r\n        if not path.exists():\r\n            raise FileNotFoundError(path)\r\n        self.status = f\"Loaded {path.name}\"\r\n        return Data(data={\"video_path\": str(path)})"
               },
               "video_path": {
                 "_input_type": "FileInput",
                 "advanced": false,
-                "display_name": "视频文件",
+                "display_name": "Video File",
                 "dynamic": false,
                 "fileTypes": [
                   "mp4",
                   "mov",
                   "mkv"
                 ],
-                "file_path": "5b08f8d8-c3b7-4293-a053-fe5e3f757396/533faa22-852c-459f-a791-ed536109a268.mp4",
+                "file_path": "ba2ffcd7-d1a4-482c-b743-9abbf374755d/2be33f4e-cb53-4138-a08d-2498b8d77f0e.mp4",
                 "info": "",
                 "list": false,
                 "list_add_label": "Add More",
+                "load_from_db": false,
                 "name": "video_path",
                 "placeholder": "",
                 "required": true,
@@ -206,9 +210,9 @@
           "type": "VideoInput"
         },
         "dragging": false,
-        "id": "VideoInput-XLc73",
+        "id": "VideoInput-cQ19D",
         "measured": {
-          "height": 235,
+          "height": 236,
           "width": 320
         },
         "position": {
@@ -220,7 +224,7 @@
       },
       {
         "data": {
-          "id": "AudioExtractor-fsyLC",
+          "id": "AudioExtractor-YZQ2I",
           "node": {
             "base_classes": [
               "Data"
@@ -228,8 +232,8 @@
             "beta": false,
             "conditional_paths": [],
             "custom_fields": {},
-            "description": "用 FFmpeg 分离音轨",
-            "display_name": "2️⃣ 音频提取",
+            "description": "Separate audio track using FFmpeg",
+            "display_name": "2️⃣ Audio Extractor",
             "documentation": "",
             "edited": true,
             "field_order": [
@@ -247,8 +251,8 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "音频路径",
-                "hidden": false,
+                "display_name": "Audio Path",
+                "hidden": null,
                 "method": "extract",
                 "name": "audio_out",
                 "options": null,
@@ -280,14 +284,14 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "# media_pipeline/2_audio_extractor.py\r\nfrom pathlib import Path\r\n\r\nfrom langflow.custom import Component\r\n# 导入 FloatInput 以接收浮点数作为输入\r\nfrom langflow.io import DataInput, FloatInput, Output\r\nfrom langflow.schema import Data\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\n\r\nclass AudioExtractor(Component):\r\n    display_name = \"2️⃣ 音频提取\"\r\n    description = \"用 FFmpeg 分离音轨\"\r\n    icon = \"music\"\r\n    name = \"AudioExtractor\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"video_in\", display_name=\"视频路径\"),\r\n        # 新增一个浮点数输入项来控制音频截取时长\r\n        StrInput(\r\n            name=\"duration\",\r\n            display_name=\"截取时长 (秒)\",\r\n            info=\"设置提取音频的时长，单位为秒。如果设置为0或负数，则提取完整音频。\",\r\n            value=10,  # 默认值为0，表示提取完整音频\r\n        ),\r\n    ]\r\n    outputs = [Output(name=\"audio_out\", display_name=\"音频路径\", method=\"extract\")]\r\n\r\n    def extract(self) -> Data:\r\n        \"\"\"\r\n        从视频文件中提取音轨，并根据用户设定的时长进行截取。\r\n        \"\"\"\r\n        video = Path(self.video_in.data[\"video_path\"])\r\n        audio = video.with_suffix(\".wav\")\r\n\r\n        # 基础 FFmpeg 命令\r\n        cmd = [\r\n            \"ffmpeg\",\r\n            \"-y\",          # 无需确认，直接覆盖输出文件\r\n            \"-i\", str(video), # 输入文件\r\n            \"-vn\",         # 去除视频流\r\n            \"-ac\", \"1\",      # 设置音频通道为单声道\r\n            \"-ar\", \"16000\",  # 设置采样率为 16000 Hz\r\n        ]\r\n\r\n        cmd.extend([\"-t\", str(self.duration)])\r\n\r\n        # 将输出文件路径添加到命令末尾\r\n        cmd.append(str(audio))\r\n\r\n        # 执行 FFmpeg 命令\r\n        run_ffmpeg(cmd)\r\n\r\n        self.status = f\"音频 → {audio.name}\"\r\n        return Data(data={\"audio_path\": str(audio)})"
+                "value": "from pathlib import Path\r\n\r\nfrom langflow.custom import Component\r\n# Import FloatInput to receive floating-point numbers as input\r\nfrom langflow.io import DataInput, FloatInput, Output\r\nfrom langflow.schema import Data\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\n\r\nclass AudioExtractor(Component):\r\n    display_name = \"2️⃣ Audio Extractor\"\r\n    description = \"Separate audio track using FFmpeg\"\r\n    icon = \"music\"\r\n    name = \"AudioExtractor\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"video_in\", display_name=\"Video Path\"),\r\n        # Add a floating-point input to control the audio extraction duration\r\n        StrInput(\r\n            name=\"duration\",\r\n            display_name=\"Extraction Duration (seconds)\",\r\n            info=\"Set the duration for extracting audio in seconds. If set to 0 or a negative value, the full audio will be extracted.\",\r\n            value=10,  # Default value is 0, which means extracting the full audio\r\n        ),\r\n    ]\r\n    outputs = [Output(name=\"audio_out\", display_name=\"Audio Path\", method=\"extract\")]\r\n\r\n    def extract(self) -> Data:\r\n        \"\"\"\r\n        Extract the audio track from a video file and trim it based on the user-defined duration.\r\n        \"\"\"\r\n        video = Path(self.video_in.data[\"video_path\"])\r\n        audio = video.with_suffix(\".wav\")\r\n\r\n        # Basic FFmpeg command\r\n        cmd = [\r\n            \"ffmpeg\",\r\n            \"-y\",          # Overwrite output file without asking\r\n            \"-i\", str(video), # Input file\r\n            \"-vn\",         # Remove video stream\r\n            \"-ac\", \"1\",      # Set audio channels to mono\r\n            \"-ar\", \"16000\",  # Set sampling rate to 16000 Hz\r\n        ]\r\n\r\n        cmd.extend([\"-t\", str(self.duration)])\r\n\r\n        # Add the output file path to the end of the command\r\n        cmd.append(str(audio))\r\n\r\n        # Execute the FFmpeg command\r\n        run_ffmpeg(cmd)\r\n\r\n        self.status = f\"Audio → {audio.name}\"\r\n        return Data(data={\"audio_path\": str(audio)})"
               },
               "duration": {
                 "_input_type": "StrInput",
                 "advanced": false,
-                "display_name": "截取时长 (秒)",
+                "display_name": "Extraction Duration (seconds)",
                 "dynamic": false,
-                "info": "设置提取音频的时长，单位为秒。如果设置为0或负数，则提取完整音频。",
+                "info": "Set the duration for extracting audio in seconds. If set to 0 or a negative value, the full audio will be extracted.",
                 "list": false,
                 "list_add_label": "Add More",
                 "load_from_db": false,
@@ -304,7 +308,7 @@
               "video_in": {
                 "_input_type": "DataInput",
                 "advanced": false,
-                "display_name": "视频路径",
+                "display_name": "Video Path",
                 "dynamic": false,
                 "info": "",
                 "input_types": [
@@ -330,9 +334,9 @@
           "type": "AudioExtractor"
         },
         "dragging": false,
-        "id": "AudioExtractor-fsyLC",
+        "id": "AudioExtractor-YZQ2I",
         "measured": {
-          "height": 273,
+          "height": 274,
           "width": 320
         },
         "position": {
@@ -344,7 +348,7 @@
       },
       {
         "data": {
-          "id": "SpeakerDiarization-oOvGZ",
+          "id": "SpeakerDiarization-rHseN",
           "node": {
             "base_classes": [
               "Data"
@@ -353,7 +357,7 @@
             "conditional_paths": [],
             "custom_fields": {},
             "description": "HuggingFace pyannote",
-            "display_name": "3️⃣ 说话人分离",
+            "display_name": "3️⃣ Speaker Diarization",
             "documentation": "",
             "edited": true,
             "field_order": [
@@ -371,8 +375,8 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "说话人分离结果",
-                "hidden": false,
+                "display_name": "Speaker Diarization Result",
+                "hidden": null,
                 "method": "diarize",
                 "name": "result",
                 "options": null,
@@ -391,7 +395,7 @@
               "audio_in": {
                 "_input_type": "DataInput",
                 "advanced": false,
-                "display_name": "音频路径",
+                "display_name": "Audio Path",
                 "dynamic": false,
                 "info": "",
                 "input_types": [
@@ -426,12 +430,12 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\nimport numpy as np\r\nimport torch\r\n\r\n\r\nclass SpeakerDiarization(Component):\r\n    display_name = \"3️⃣ 说话人分离\"\r\n    description = \"HuggingFace pyannote\"\r\n    icon = \"users\"\r\n    name = \"SpeakerDiarization\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"audio_in\", display_name=\"音频路径\"),\r\n        StrInput(\r\n            name=\"hf_token\",\r\n            display_name=\"HF Token(私有模型用)\",\r\n            advanced=True,\r\n            value=\"\",\r\n        ),\r\n    ]\r\n    outputs = [\r\n        Output(name=\"result\", display_name=\"说话人分离结果\", method=\"diarize\"),\r\n    ]\r\n\r\n    def diarize(self) -> Data:\r\n        from pyannote.audio import Pipeline\r\n        from pyannote.audio import Model, Inference\r\n        from pyannote.core import Segment\r\n        import torch\r\n    \r\n        # Device setup\r\n        device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\r\n    \r\n        # Load audio and models\r\n        audio_path = Path(self.audio_in.data[\"audio_path\"])\r\n        pipeline = Pipeline.from_pretrained(\r\n            \"pyannote/speaker-diarization-3.1\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        embedding_model = Model.from_pretrained(\r\n            \"pyannote/embedding\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        # Run diarization\r\n        diar = pipeline(str(audio_path))\r\n    \r\n        segs = []\r\n        embeddings = []\r\n        \r\n        # Initialize inference for embeddings\r\n        embedding_inference = Inference(embedding_model, window=\"whole\")  # Set window size\r\n    \r\n        # Extract embeddings for each segment\r\n        for turn, _, speaker in diar.itertracks(yield_label=True):\r\n            segment = Segment(start=turn.start, end=turn.end)\r\n            try:\r\n                embedding = embedding_inference.crop(str(audio_path), segment)\r\n                embeddings.append(embedding.tolist())  # Save embedding as a list\r\n            except Exception as e:\r\n                print(f\"Skipping segment {segment}: {str(e)}\")\r\n                continue\r\n            segs.append(\r\n                dict(\r\n                    speaker=speaker,\r\n                    start=round(turn.start, 3),\r\n                    end=round(turn.end, 3),\r\n                )\r\n            )\r\n    \r\n        self.status = f\"片段数: {len(segs)}\"\r\n        return Data(\r\n            data={\r\n                \"segments\": segs,  # Only unmerged segments\r\n                \"embeddings\": embeddings,  # Save all embeddings\r\n                \"audio_path\": str(audio_path),\r\n            }\r\n        )"
+                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\nimport numpy as np\r\nimport torch\r\n\r\n\r\nclass SpeakerDiarization(Component):\r\n    display_name = \"3️⃣ Speaker Diarization\"\r\n    description = \"HuggingFace pyannote\"\r\n    icon = \"users\"\r\n    name = \"SpeakerDiarization\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"audio_in\", display_name=\"Audio Path\"),\r\n        StrInput(\r\n            name=\"hf_token\",\r\n            display_name=\"HF Token (for private models)\",\r\n            advanced=True,\r\n            value=\"\",\r\n        ),\r\n    ]\r\n    outputs = [\r\n        Output(name=\"result\", display_name=\"Speaker Diarization Result\", method=\"diarize\"),\r\n    ]\r\n\r\n    def diarize(self) -> Data:\r\n        from pyannote.audio import Pipeline\r\n        from pyannote.audio import Model, Inference\r\n        from pyannote.core import Segment\r\n        import torch\r\n    \r\n        # Device setup\r\n        device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\r\n    \r\n        # Load audio and models\r\n        audio_path = Path(self.audio_in.data[\"audio_path\"])\r\n        pipeline = Pipeline.from_pretrained(\r\n            \"pyannote/speaker-diarization-3.1\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        embedding_model = Model.from_pretrained(\r\n            \"pyannote/embedding\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        # Run diarization\r\n        diar = pipeline(str(audio_path))\r\n    \r\n        segs = []\r\n        embeddings = []\r\n        \r\n        # Initialize inference for embeddings\r\n        embedding_inference = Inference(embedding_model, window=\"whole\")  # Set window size\r\n    \r\n        # Extract embeddings for each segment\r\n        for turn, _, speaker in diar.itertracks(yield_label=True):\r\n            segment = Segment(start=turn.start, end=turn.end)\r\n            try:\r\n                embedding = embedding_inference.crop(str(audio_path), segment)\r\n                embeddings.append(embedding.tolist())  # Save embedding as a list\r\n            except Exception as e:\r\n                print(f\"Skipping segment {segment}: {str(e)}\")\r\n                continue\r\n            segs.append(\r\n                dict(\r\n                    speaker=speaker,\r\n                    start=round(turn.start, 3),\r\n                    end=round(turn.end, 3),\r\n                )\r\n            )\r\n    \r\n        self.status = f\"Number of segments: {len(segs)}\"\r\n        return Data(\r\n            data={\r\n                \"segments\": segs,  # Only unmerged segments\r\n                \"embeddings\": embeddings,  # Save all embeddings\r\n                \"audio_path\": str(audio_path),\r\n            }\r\n        )"
               },
               "hf_token": {
                 "_input_type": "StrInput",
                 "advanced": true,
-                "display_name": "HF Token(私有模型用)",
+                "display_name": "HF Token (for private models)",
                 "dynamic": false,
                 "info": "",
                 "list": false,
@@ -454,21 +458,21 @@
           "type": "SpeakerDiarization"
         },
         "dragging": false,
-        "id": "SpeakerDiarization-oOvGZ",
+        "id": "SpeakerDiarization-rHseN",
         "measured": {
-          "height": 191,
+          "height": 192,
           "width": 320
         },
         "position": {
           "x": 647.1905690148157,
           "y": 11.937431939874614
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "SegmentASR-dEjug",
+          "id": "SegmentASR-dbaot",
           "node": {
             "base_classes": [
               "Data"
@@ -477,7 +481,7 @@
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Whisper (HF pipeline)",
-            "display_name": "4️⃣ 语音识别",
+            "display_name": "4️⃣ Speech Recognition",
             "documentation": "",
             "edited": true,
             "field_order": [
@@ -494,8 +498,8 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "转写结果",
-                "hidden": false,
+                "display_name": "Transcription Result",
+                "hidden": null,
                 "method": "transcribe",
                 "name": "asr_out",
                 "options": null,
@@ -527,12 +531,12 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nimport torch\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema import Data\r\n\r\n# Import any utility functions like run_ffmpeg if needed\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\n\r\nclass SegmentASR(Component):\r\n    display_name = \"4️⃣ 语音识别\"\r\n    description = \"Whisper (HF pipeline)\"\r\n    icon = \"type\"\r\n    name = \"SegmentASR\"\r\n\r\n    # Define inputs and outputs for the component\r\n    inputs = [DataInput(name=\"seg_in\", display_name=\"说话片段\")]\r\n    outputs = [Output(name=\"asr_out\", display_name=\"转写结果\", method=\"transcribe\")]\r\n\r\n    # Main transcription method\r\n    def transcribe(self) -> Data:\r\n        import whisper\r\n    \r\n        # Load the Whisper model\r\n        model = whisper.load_model(\"small\")\r\n    \r\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\r\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\r\n    \r\n        results = []\r\n        for seg in segs:\r\n            # Extract individual audio segments using FFmpeg\r\n            wav_seg = audio_path.with_name(\r\n                f\"{audio_path.stem}_{seg['start']:.2f}_{seg['end']:.2f}.wav\"\r\n            )\r\n            run_ffmpeg(\r\n                [\r\n                    \"ffmpeg\",\r\n                    \"-y\",\r\n                    \"-i\",\r\n                    str(audio_path),\r\n                    \"-ss\",\r\n                    str(seg[\"start\"]),\r\n                    \"-to\",\r\n                    str(seg[\"end\"]),\r\n                    str(wav_seg),\r\n                ]\r\n            )\r\n    \r\n            # Use Whisper for transcription and language detection\r\n            result = model.transcribe(str(wav_seg))\r\n            text = result[\"text\"].strip()\r\n            language = result.get(\"language\", \"unknown\")  # Retrieve detected language\r\n    \r\n            # Append result for this segment\r\n            results.append(\r\n                {**seg, \"text\": text, \"language\": language, \"wav\": str(wav_seg)}\r\n            )\r\n    \r\n        # Update the component's status and return results\r\n        self.status = f\"ASR 完成 {len(results)} 段\"\r\n        return Data(data={\"results\": results, \"audio_path\": str(audio_path)})"
+                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nimport torch\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema import Data\r\n\r\n# Import any utility functions like run_ffmpeg if needed\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\n\r\nclass SegmentASR(Component):\r\n    display_name = \"4️⃣ Speech Recognition\"\r\n    description = \"Whisper (HF pipeline)\"\r\n    icon = \"type\"\r\n    name = \"SegmentASR\"\r\n\r\n    # Define inputs and outputs for the component\r\n    inputs = [DataInput(name=\"seg_in\", display_name=\"Speaker Segments\")]\r\n    outputs = [Output(name=\"asr_out\", display_name=\"Transcription Result\", method=\"transcribe\")]\r\n\r\n    # Main transcription method\r\n    def transcribe(self) -> Data:\r\n        import whisper\r\n    \r\n        # Load the Whisper model\r\n        model = whisper.load_model(\"small\")\r\n    \r\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\r\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\r\n    \r\n        results = []\r\n        for seg in segs:\r\n            # Extract individual audio segments using FFmpeg\r\n            wav_seg = audio_path.with_name(\r\n                f\"{audio_path.stem}_{seg['start']:.2f}_{seg['end']:.2f}.wav\"\r\n            )\r\n            run_ffmpeg(\r\n                [\r\n                    \"ffmpeg\",\r\n                    \"-y\",\r\n                    \"-i\",\r\n                    str(audio_path),\r\n                    \"-ss\",\r\n                    str(seg[\"start\"]),\r\n                    \"-to\",\r\n                    str(seg[\"end\"]),\r\n                    str(wav_seg),\r\n                ]\r\n            )\r\n    \r\n            # Use Whisper for transcription and language detection\r\n            result = model.transcribe(str(wav_seg))\r\n            text = result[\"text\"].strip()\r\n            language = result.get(\"language\", \"unknown\")  # Retrieve detected language\r\n    \r\n            # Append result for this segment\r\n            results.append(\r\n                {**seg, \"text\": text, \"language\": language, \"wav\": str(wav_seg)}\r\n            )\r\n    \r\n        # Update the component's status and return results\r\n        self.status = f\"ASR completed for {len(results)} segments\"\r\n        return Data(data={\"results\": results, \"audio_path\": str(audio_path)})"
               },
               "seg_in": {
                 "_input_type": "DataInput",
                 "advanced": false,
-                "display_name": "说话片段",
+                "display_name": "Speaker Segments",
                 "dynamic": false,
                 "info": "",
                 "input_types": [
@@ -558,21 +562,21 @@
           "type": "SegmentASR"
         },
         "dragging": false,
-        "id": "SegmentASR-dEjug",
+        "id": "SegmentASR-dbaot",
         "measured": {
-          "height": 191,
+          "height": 192,
           "width": 320
         },
         "position": {
-          "x": 1065.1298471333498,
-          "y": 18.28228825421708
+          "x": 1068.5411539270146,
+          "y": 14.870981460552173
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "AnalyzeAndStore-AjpMa",
+          "id": "AudioProcessor-NBeVm",
           "node": {
             "base_classes": [
               "Text"
@@ -591,6 +595,7 @@
             ],
             "frozen": false,
             "legacy": false,
+            "lf_version": "1.4.3",
             "metadata": {},
             "minimized": false,
             "output_types": [],
@@ -672,7 +677,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "import sqlite3\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any\r\nimport json\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom langflow.base.io.chat import ChatComponent\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\n\r\n\r\n\r\nclass AudioProcessor(ChatComponent):\r\n    # Define component inputs\r\n    inputs = [\r\n        DataInput(name=\"analysis_in\", display_name=\"ASR Transcription Results\"),\r\n        StrInput(\r\n            name=\"poe_api_key\",\r\n            display_name=\"Poe API Key\",\r\n            value=\"YOUR_POE_API_KEY\"  # It's recommended to use a secure way to manage secrets\r\n        ),\r\n        StrInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot Name\",\r\n            value=\"GPT-4\"\r\n        )\r\n    ]\r\n    \r\n    # Define component outputs\r\n    outputs = [\r\n        Output(name=\"preview_out\", display_name=\"Audio and Text Preview\", method=\"generate_preview\")\r\n    ]\r\n    \r\n    def _call_gpt4(self, prompt: str, api_key: str, bot_name: str) -> str:\r\n        \"\"\"\r\n        A helper function that wraps the synchronous call to fastapi_poe.\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n        response_text = \"\"\r\n        try:\r\n            for partial_response in fp.get_bot_response_sync(\r\n                messages=[message], bot_name=bot_name, api_key=api_key\r\n            ):\r\n                response_text += partial_response.text\r\n        except Exception as e:\r\n            self.status = f\"Error calling Poe API: {e}\"\r\n            return \"\"\r\n        return response_text\r\n\r\n    def _setup_database(self, db_path: str):\r\n        \"\"\"Initialize SQLite database and tables.\"\"\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n        cursor.execute('''\r\n            CREATE TABLE IF NOT EXISTS audio_segments (\r\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                audio_name TEXT NOT NULL,\r\n                speaker_id TEXT NOT NULL,\r\n                text TEXT NOT NULL,\r\n                audio_binary BLOB NOT NULL,\r\n                duration REAL\r\n            )\r\n        ''')\r\n        conn.commit()\r\n        conn.close()\r\n\r\n    def _concat_and_split_audio(self, segments: List[Dict[str, Any]], audio_path: Path) -> List[Dict[str, Any]]:\r\n        \"\"\"\r\n        Concatenates audio files by speaker ID, splits them into 30-second segments, \r\n        and stores the binary audio data for each segment.\r\n        \"\"\"\r\n        from pydub import AudioSegment\r\n        from io import BytesIO\r\n\r\n        speaker_audio_map = {}\r\n        for segment in segments:\r\n            speaker_id = segment.get('speaker', 'unknown')\r\n            start_time = segment['start']\r\n            end_time = segment['end']\r\n            audio_file = segment['wav']\r\n\r\n            # Load the audio file and concatenate by speaker\r\n            if speaker_id not in speaker_audio_map:\r\n                speaker_audio_map[speaker_id] = AudioSegment.empty()\r\n            try:\r\n                audio_segment = AudioSegment.from_file(audio_file)\r\n                speaker_audio_map[speaker_id] += audio_segment[start_time * 1000:end_time * 1000]\r\n            except Exception as e:\r\n                self.status = f\"Error processing audio segment: {e}\"\r\n\r\n        # Split audio into 30-second segments and store binary data\r\n        split_segments = []\r\n        for speaker_id, concatenated_audio in speaker_audio_map.items():\r\n            duration_in_seconds = len(concatenated_audio) / 1000\r\n            for i in range(0, int(duration_in_seconds), 30):\r\n                split_audio = concatenated_audio[i * 1000:(i + 30) * 1000]\r\n                audio_binary = BytesIO()\r\n                split_audio.export(audio_binary, format=\"wav\")\r\n                split_segments.append({\r\n                    \"speaker_id\": speaker_id,\r\n                    \"audio_binary\": audio_binary.getvalue(),\r\n                    \"duration\": min(30, duration_in_seconds - i),\r\n                    \"text\": f\"Speaker {speaker_id}'s audio segment {i // 30 + 1}\"\r\n                })\r\n\r\n        return split_segments\r\n\r\n    def process_and_store(self) -> Data:\r\n        \"\"\"\r\n        Core processing logic: Analyze, filter, concatenate, split, and store.\r\n        \"\"\"\r\n        # Retrieve data from input\r\n        segments_data: List[Dict[str, Any]] = self.analysis_in.data[\"results\"]\r\n        api_key = self.poe_api_key\r\n        bot_name = self.bot_name\r\n        db_path = \"processed_audio.db\"  # Fixed database path\r\n\r\n        if not segments_data:\r\n            self.status = \"Input data is empty, nothing to process.\"\r\n            return Data(data={\"processed_count\": 0})\r\n\r\n        # Initialize database\r\n        self._setup_database(db_path)\r\n\r\n        audio_path_str = self.analysis_in.data.get(\"audio_path\")\r\n        audio_path = Path(audio_path_str)\r\n\r\n        # --- Step 1: Semantic Segmentation ---\r\n        self.status = \"Step 1: Performing semantic segmentation...\"\r\n        full_text_for_analysis = \"\\n\".join([f\"Sentence {i}: \\\"{seg['text']}\\\"\" for i, seg in enumerate(segments_data)])\r\n\r\n        prompt1 = (\r\n            f\"You are a text analysis expert. Please carefully read the following numbered sentences, \"\r\n            f\"which are transcriptions from a conversation.\\n\"\r\n            f\"Your task is to segment them into meaningful conversation segments based on semantics and context. \"\r\n            f\"Each segment should focus on an independent topic or exchange.\\n\"\r\n            f\"Return the result in JSON format, where each object represents a segment and includes the original sentence indices.\\n\"\r\n            f\"Example: [{{'segment': 1, 'sentences': [0, 1, 2]}}, {{'segment': 2, 'sentences': [3, 4]}}]\\n\\n\"\r\n            f\"Original sentences:\\n{full_text_for_analysis}\"\r\n        )\r\n\r\n        response1_str = self._call_gpt4(prompt1, api_key, bot_name)\r\n        try:\r\n            # GPT response may contain JSON within markdown code blocks\r\n            if \"```json\" in response1_str:\r\n                response1_str = response1_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n            semantic_segments = json.loads(response1_str)\r\n        except (json.JSONDecodeError, TypeError, IndexError):\r\n            self.status = \"Error: Semantic segmentation failed, unable to parse JSON from the model. Treating all sentences as one segment.\"\r\n            semantic_segments = [{'segment': 1, 'sentences': list(range(len(segments_data)))}]\r\n\r\n        # --- Step 2: Scene Relevance Filtering ---\r\n        self.status = \"Step 2: Filtering irrelevant sentences...\"\r\n        all_indices_to_keep = set()\r\n\r\n        for sem_seg in semantic_segments:\r\n            indices = sem_seg.get('sentences', [])\r\n            if not indices:\r\n                continue\r\n\r\n            segment_text = \"\\n\".join([f\"Sentence {i}: \\\"{segments_data[i]['text']}\\\"\" for i in indices])\r\n\r\n            prompt2 = (\r\n                f\"You are a conversation editing expert. Below is a conversation segment with numbered sentences.\\n\"\r\n                f\"Your task is to identify and remove all irrelevant sentences (e.g., small talk or background noise).\\n\"\r\n                f\"Return the indices of sentences to keep in JSON format.\\n\"\r\n                f\"Example: {{'kept_sentences': [0, 1, 2]}}\\n\\n\"\r\n                f\"Conversation segment:\\n{segment_text}\"\r\n            )\r\n\r\n            response2_str = self._call_gpt4(prompt2, api_key, bot_name)\r\n            try:\r\n                if \"```json\" in response2_str:\r\n                    response2_str = response2_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n                kept_info = json.loads(response2_str)\r\n                kept_indices_for_segment = set(kept_info.get('kept_sentences', []))\r\n                all_indices_to_keep.update(kept_indices_for_segment)\r\n            except (json.JSONDecodeError, TypeError, IndexError):\r\n                self.status = f\"Warning: Parsing failed, keeping all sentences in segment {sem_seg.get('segment')}.\"\r\n                all_indices_to_keep.update(indices)\r\n\r\n        # Filter segments for next step\r\n        segments_for_step3 = [seg for i, seg in enumerate(segments_data) if i in all_indices_to_keep]\r\n\r\n        # --- Step 3: Concatenate and Split Audio ---\r\n        self.status = \"Step 3: Concatenating and splitting audio...\"\r\n        split_audio_segments = self._concat_and_split_audio(segments_for_step3, audio_path)\r\n\r\n        # --- Step 4: Store in Database ---\r\n        self.status = f\"Step 4: Storing {len(split_audio_segments)} results in the database...\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        for res in split_audio_segments:\r\n            cursor.execute(\r\n                \"\"\"\r\n                INSERT INTO audio_segments (audio_name, speaker_id, text, audio_binary, duration)\r\n                VALUES (?, ?, ?, ?, ?)\r\n                \"\"\",\r\n                (\r\n                    audio_path.stem,\r\n                    res['speaker_id'],\r\n                    res['text'],\r\n                    res['audio_binary'],\r\n                    res['duration']\r\n                )\r\n            )\r\n\r\n        conn.commit()\r\n        conn.close()\r\n\r\n        self.status = f\"Processing complete! Stored {len(split_audio_segments)} audio segments in the database.\"\r\n        return Data(data={\"processed_count\": len(split_audio_segments)})\r\n\r\n    def generate_preview(self) -> str:\r\n        \"\"\"\r\n        Generate an audio and text preview.\r\n        \"\"\"\r\n        db_path = \"processed_audio.db\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        cursor.execute(\"SELECT text, audio_binary FROM audio_segments\")\r\n        rows = cursor.fetchall()\r\n\r\n        conn.close()\r\n\r\n        # Build HTML preview\r\n        html = \"<div><h3>Audio and Text Preview</h3>\"\r\n        for text, audio_binary in rows:\r\n            audio_src = f\"data:audio/wav;base64,{base64.b64encode(audio_binary).decode()}\"\r\n            html += f\"\"\"\r\n            <div style=\"margin-bottom: 20px;\">\r\n                <p><strong>Text:</strong> {text}</p>\r\n                <audio controls>\r\n                    <source src=\"{audio_src}\" type=\"audio/ogg\">\r\n                    Your browser does not support audio playback.\r\n                </audio>\r\n            </div>\r\n            \"\"\"\r\n        html += \"</div>\"\r\n\r\n        return html"
+                "value": "import sqlite3\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any\r\nimport json\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom langflow.base.io.chat import ChatComponent\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\n\r\n\r\n\r\nclass AudioProcessor(ChatComponent):\r\n    # Define component inputs\r\n    inputs = [\r\n        DataInput(name=\"analysis_in\", display_name=\"ASR Transcription Results\"),\r\n        StrInput(\r\n            name=\"poe_api_key\",\r\n            display_name=\"Poe API Key\",\r\n            value=\"YOUR_POE_API_KEY\"  # It's recommended to use a secure way to manage secrets\r\n        ),\r\n        StrInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot Name\",\r\n            value=\"GPT-4\"\r\n        )\r\n    ]\r\n    \r\n    # Define component outputs\r\n    outputs = [\r\n        Output(name=\"preview_out\", display_name=\"Audio and Text Preview\", method=\"generate_preview\")\r\n    ]\r\n    \r\n    def _call_gpt4(self, prompt: str, api_key: str, bot_name: str) -> str:\r\n        \"\"\"\r\n        A helper function that wraps the synchronous call to fastapi_poe.\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n        response_text = \"\"\r\n        try:\r\n            for partial_response in fp.get_bot_response_sync(\r\n                messages=[message], bot_name=bot_name, api_key=api_key\r\n            ):\r\n                response_text += partial_response.text\r\n        except Exception as e:\r\n            self.status = f\"Error calling Poe API: {e}\"\r\n            return \"\"\r\n        return response_text\r\n\r\n    def _setup_database(self, db_path: str):\r\n        \"\"\"Initialize SQLite database and tables.\"\"\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n        cursor.execute('''\r\n            CREATE TABLE IF NOT EXISTS audio_segments (\r\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                audio_name TEXT NOT NULL,\r\n                speaker_id TEXT NOT NULL,\r\n                text TEXT NOT NULL,\r\n                audio_binary BLOB NOT NULL,\r\n                duration REAL\r\n            )\r\n        ''')\r\n        conn.commit()\r\n        conn.close()\r\n\r\n    def _concat_and_split_audio(self, segments: List[Dict[str, Any]], audio_path: Path) -> List[Dict[str, Any]]:\r\n        \"\"\"\r\n        Concatenates audio files by speaker ID, splits them into 30-second segments, \r\n        and stores the binary audio data for each segment.\r\n        \"\"\"\r\n        from pydub import AudioSegment\r\n        from io import BytesIO\r\n\r\n        speaker_audio_map = {}\r\n        for segment in segments:\r\n            speaker_id = segment.get('speaker', 'unknown')\r\n            start_time = segment['start']\r\n            end_time = segment['end']\r\n            audio_file = segment['wav']\r\n\r\n            # Load the audio file and concatenate by speaker\r\n            if speaker_id not in speaker_audio_map:\r\n                speaker_audio_map[speaker_id] = AudioSegment.empty()\r\n            try:\r\n                audio_segment = AudioSegment.from_file(audio_file)\r\n                speaker_audio_map[speaker_id] += audio_segment[start_time * 1000:end_time * 1000]\r\n            except Exception as e:\r\n                self.status = f\"Error processing audio segment: {e}\"\r\n\r\n        # Split audio into 30-second segments and store binary data\r\n        split_segments = []\r\n        for speaker_id, concatenated_audio in speaker_audio_map.items():\r\n            duration_in_seconds = len(concatenated_audio) / 1000\r\n            for i in range(0, int(duration_in_seconds), 30):\r\n                split_audio = concatenated_audio[i * 1000:(i + 30) * 1000]\r\n                audio_binary = BytesIO()\r\n                split_audio.export(audio_binary, format=\"wav\")\r\n                split_segments.append({\r\n                    \"speaker_id\": speaker_id,\r\n                    \"audio_binary\": audio_binary.getvalue(),\r\n                    \"duration\": min(30, duration_in_seconds - i),\r\n                    \"text\": f\"Speaker {speaker_id}'s audio segment {i // 30 + 1}\"\r\n                })\r\n\r\n        return split_segments\r\n\r\n    def process_and_store(self) -> Data:\r\n        \"\"\"\r\n        Core processing logic: Analyze, filter, concatenate, split, and store.\r\n        \"\"\"\r\n        # Retrieve data from input\r\n        segments_data: List[Dict[str, Any]] = self.analysis_in.data[\"results\"]\r\n        api_key = self.poe_api_key\r\n        bot_name = self.bot_name\r\n        db_path = \"processed_audio.db\"  # Fixed database path\r\n\r\n        if not segments_data:\r\n            self.status = \"Input data is empty, nothing to process.\"\r\n            return Data(data={\"processed_count\": 0})\r\n\r\n        # Initialize database\r\n        self._setup_database(db_path)\r\n\r\n        audio_path_str = self.analysis_in.data.get(\"audio_path\")\r\n        audio_path = Path(audio_path_str)\r\n\r\n        # --- Step 1: Semantic Segmentation ---\r\n        self.status = \"Step 1: Performing semantic segmentation...\"\r\n        full_text_for_analysis = \"\\n\".join([f\"Sentence {i}: \\\"{seg['text']}\\\"\" for i, seg in enumerate(segments_data)])\r\n\r\n        prompt1 = (\r\n            f\"You are a text analysis expert. Please carefully read the following numbered sentences, \"\r\n            f\"which are transcriptions from a conversation.\\n\"\r\n            f\"Your task is to segment them into meaningful conversation segments based on semantics and context. \"\r\n            f\"Each segment should focus on an independent topic or exchange.\\n\"\r\n            f\"Return the result in JSON format, where each object represents a segment and includes the original sentence indices.\\n\"\r\n            f\"Example: [{{'segment': 1, 'sentences': [0, 1, 2]}}, {{'segment': 2, 'sentences': [3, 4]}}]\\n\\n\"\r\n            f\"Original sentences:\\n{full_text_for_analysis}\"\r\n        )\r\n\r\n        response1_str = self._call_gpt4(prompt1, api_key, bot_name)\r\n        try:\r\n            # GPT response may contain JSON within markdown code blocks\r\n            if \"```json\" in response1_str:\r\n                response1_str = response1_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n            semantic_segments = json.loads(response1_str)\r\n        except (json.JSONDecodeError, TypeError, IndexError):\r\n            self.status = \"Error: Semantic segmentation failed, unable to parse JSON from the model. Treating all sentences as one segment.\"\r\n            semantic_segments = [{'segment': 1, 'sentences': list(range(len(segments_data)))}]\r\n\r\n        # --- Step 2: Scene Relevance Filtering ---\r\n        self.status = \"Step 2: Filtering irrelevant sentences...\"\r\n        all_indices_to_keep = set()\r\n\r\n        for sem_seg in semantic_segments:\r\n            indices = sem_seg.get('sentences', [])\r\n            if not indices:\r\n                continue\r\n\r\n            segment_text = \"\\n\".join([f\"Sentence {i}: \\\"{segments_data[i]['text']}\\\"\" for i in indices])\r\n\r\n            prompt2 = (\r\n                f\"You are a conversation editing expert. Below is a conversation segment with numbered sentences.\\n\"\r\n                f\"Your task is to identify and remove all irrelevant sentences (e.g., small talk or background noise).\\n\"\r\n                f\"Return the indices of sentences to keep in JSON format.\\n\"\r\n                f\"Example: {{'kept_sentences': [0, 1, 2]}}\\n\\n\"\r\n                f\"Conversation segment:\\n{segment_text}\"\r\n            )\r\n\r\n            response2_str = self._call_gpt4(prompt2, api_key, bot_name)\r\n            try:\r\n                if \"```json\" in response2_str:\r\n                    response2_str = response2_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n                kept_info = json.loads(response2_str)\r\n                kept_indices_for_segment = set(kept_info.get('kept_sentences', []))\r\n                all_indices_to_keep.update(kept_indices_for_segment)\r\n            except (json.JSONDecodeError, TypeError, IndexError):\r\n                self.status = f\"Warning: Parsing failed, keeping all sentences in segment {sem_seg.get('segment')}.\"\r\n                all_indices_to_keep.update(indices)\r\n\r\n        # Filter segments for next step\r\n        segments_for_step3 = [seg for i, seg in enumerate(segments_data) if i in all_indices_to_keep]\r\n\r\n        # --- Step 3: Concatenate and Split Audio ---\r\n        self.status = \"Step 3: Concatenating and splitting audio...\"\r\n        split_audio_segments = self._concat_and_split_audio(segments_for_step3, audio_path)\r\n\r\n        # --- Step 4: Store in Database ---\r\n        self.status = f\"Step 4: Storing {len(split_audio_segments)} results in the database...\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        for res in split_audio_segments:\r\n            cursor.execute(\r\n                \"\"\"\r\n                INSERT INTO audio_segments (audio_name, speaker_id, text, audio_binary, duration)\r\n                VALUES (?, ?, ?, ?, ?)\r\n                \"\"\",\r\n                (\r\n                    audio_path.stem,\r\n                    res['speaker_id'],\r\n                    res['text'],\r\n                    res['audio_binary'],\r\n                    res['duration']\r\n                )\r\n            )\r\n\r\n        conn.commit()\r\n        conn.close()\r\n\r\n        self.status = f\"Processing complete! Stored {len(split_audio_segments)} audio segments in the database.\"\r\n        return Data(data={\"processed_count\": len(split_audio_segments)})\r\n\r\n    def generate_preview(self) -> str:\r\n        \"\"\"\r\n        Generate an audio and text preview.\r\n        \"\"\"\r\n        db_path = \"processed_audio.db\"\r\n        \r\n        # Ensure database and table exist\r\n        self._setup_database(db_path)\r\n        \r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n\r\n        cursor.execute(\"SELECT text, audio_binary FROM audio_segments\")\r\n        rows = cursor.fetchall()\r\n\r\n        conn.close()\r\n\r\n        # Build HTML preview\r\n        html = \"<div><h3>Audio and Text Preview</h3>\"\r\n        for text, audio_binary in rows:\r\n            audio_src = f\"data:audio/wav;base64,{base64.b64encode(audio_binary).decode()}\"\r\n            html += f\"\"\"\r\n            <div style=\"margin-bottom: 20px;\">\r\n                <p><strong>Text:</strong> {text}</p>\r\n                <audio controls>\r\n                    <source src=\"{audio_src}\" type=\"audio/ogg\">\r\n                    Your browser does not support audio playback.\r\n                </audio>\r\n            </div>\r\n            \"\"\"\r\n        html += \"</div>\"\r\n\r\n        return html"
               },
               "poe_api_key": {
                 "_input_type": "StrInput",
@@ -691,7 +696,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "YOUR_POE_API_KEY"
+                "value": ""
               }
             },
             "tool_mode": false
@@ -700,9 +705,9 @@
           "type": "AudioProcessor"
         },
         "dragging": false,
-        "id": "AnalyzeAndStore-AjpMa",
+        "id": "AudioProcessor-NBeVm",
         "measured": {
-          "height": 355,
+          "height": 357,
           "width": 320
         },
         "position": {
@@ -711,17 +716,323 @@
         },
         "selected": false,
         "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-URW56",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "data_template",
+              "background_color",
+              "chat_icon",
+              "text_color",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "metadata": {},
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean the data",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs import BoolInput\nfrom langflow.inputs.inputs import HandleInput\nfrom langflow.io import DropdownInput, MessageTextInput, Output\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            info=\"Whether to clean the data\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n        background_color = self.background_color\n        text_color = self.text_color\n        if self.chat_icon:\n            icon = self.chat_icon\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n        message.properties.icon = icon\n        message.properties.background_color = background_color\n        message.properties.text_color = text_color\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def _safe_convert(self, data: Any) -> str:\n        \"\"\"Safely convert input data to string.\"\"\"\n        try:\n            if isinstance(data, str):\n                return data\n            if isinstance(data, Message):\n                return data.get_text()\n            if isinstance(data, Data):\n                if data.get_text() is None:\n                    msg = \"Empty Data object\"\n                    raise ValueError(msg)\n                return data.get_text()\n            if isinstance(data, DataFrame):\n                if self.clean_data:\n                    # Remove empty rows\n                    data = data.dropna(how=\"all\")\n                    # Remove empty lines in each cell\n                    data = data.replace(r\"^\\s*$\", \"\", regex=True)\n                    # Replace multiple newlines with a single newline\n                    data = data.replace(r\"\\n+\", \"\\n\", regex=True)\n\n                # Replace pipe characters to avoid markdown table issues\n                processed_data = data.replace(r\"\\|\", r\"\\\\|\", regex=True)\n\n                processed_data = processed_data.map(\n                    lambda x: str(x).replace(\"\\n\", \"<br/>\") if isinstance(x, str) else x\n                )\n\n                return processed_data.to_markdown(index=False)\n            return str(data)\n        except (ValueError, TypeError, AttributeError) as e:\n            msg = f\"Error converting data: {e!s}\"\n            raise ValueError(msg) from e\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            return \"\\n\".join([self._safe_convert(item) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return self._safe_convert(self.input_value)\n"
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "id": "ChatOutput-URW56",
+        "measured": {
+          "height": 66,
+          "width": 192
+        },
+        "position": {
+          "x": 554.4766428759441,
+          "y": 587.7365023889437
+        },
+        "selected": true,
+        "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 344.86262125362646,
-      "y": 165.5245852041383,
-      "zoom": 0.9586735723690853
+      "x": 143.91833692258064,
+      "y": 87.41856072258241,
+      "zoom": 0.5862855852525993
     }
   },
   "description": "audio extractor",
   "endpoint_name": null,
-  "id": "0b12587b-4a59-4611-b47d-bf02f1fd30b3",
+  "id": "02464284-f0e7-49ac-994a-480bf88dc188",
   "is_component": false,
   "last_tested_version": "1.4.3",
   "name": "ae",
