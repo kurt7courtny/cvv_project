@@ -7,6 +7,7 @@ git clone https://github.com/kurt7courtny/cvv_project.git
 
 # install requirements
 cd cvv_project
+git checkout audio_extractor_flow
 uv pip install -r requirements.txt
 
 # export env
