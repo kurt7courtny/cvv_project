@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "VideoInput",
-            "id": "VideoInput-1wocj",
+            "id": "VideoInput-RaWMw",
             "name": "video_out",
             "output_types": [
               "Data"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "video_in",
-            "id": "AudioExtractor-3cAoA",
+            "id": "AudioExtractor-4X4Ib",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-VideoInput-1wocj{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-1wocjœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-3cAoA{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-3cAoAœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-VideoInput-RaWMw{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-RaWMwœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}-AudioExtractor-4X4Ib{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-4X4Ibœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "VideoInput-1wocj",
-        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-1wocjœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AudioExtractor-3cAoA",
-        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-3cAoAœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "VideoInput-RaWMw",
+        "sourceHandle": "{œdataTypeœ:œVideoInputœ,œidœ:œVideoInput-RaWMwœ,œnameœ:œvideo_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioExtractor-4X4Ib",
+        "targetHandle": "{œfieldNameœ:œvideo_inœ,œidœ:œAudioExtractor-4X4Ibœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "AudioExtractor",
-            "id": "AudioExtractor-3cAoA",
+            "id": "AudioExtractor-4X4Ib",
             "name": "audio_out",
             "output_types": [
               "Data"
@@ -43,19 +43,19 @@
           },
           "targetHandle": {
             "fieldName": "audio_in",
-            "id": "SpeakerDiarization-VpiDP",
+            "id": "SpeakerDiarization-kMlVe",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-AudioExtractor-3cAoA{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-3cAoAœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-VpiDP{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-VpiDPœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-AudioExtractor-4X4Ib{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-4X4Ibœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}-SpeakerDiarization-kMlVe{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-kMlVeœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "AudioExtractor-3cAoA",
-        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-3cAoAœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SpeakerDiarization-VpiDP",
-        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-VpiDPœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "AudioExtractor-4X4Ib",
+        "sourceHandle": "{œdataTypeœ:œAudioExtractorœ,œidœ:œAudioExtractor-4X4Ibœ,œnameœ:œaudio_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SpeakerDiarization-kMlVe",
+        "targetHandle": "{œfieldNameœ:œaudio_inœ,œidœ:œSpeakerDiarization-kMlVeœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -63,7 +63,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SpeakerDiarization",
-            "id": "SpeakerDiarization-VpiDP",
+            "id": "SpeakerDiarization-kMlVe",
             "name": "result",
             "output_types": [
               "Data"
@@ -71,19 +71,19 @@
           },
           "targetHandle": {
             "fieldName": "seg_in",
-            "id": "SegmentASR-CrGHA",
+            "id": "SegmentASR-Aq7Xy",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-SpeakerDiarization-VpiDP{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-VpiDPœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}-SegmentASR-CrGHA{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-CrGHAœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SpeakerDiarization-kMlVe{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-kMlVeœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}-SegmentASR-Aq7Xy{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-Aq7Xyœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SpeakerDiarization-VpiDP",
-        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-VpiDPœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}",
-        "target": "SegmentASR-CrGHA",
-        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-CrGHAœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SpeakerDiarization-kMlVe",
+        "sourceHandle": "{œdataTypeœ:œSpeakerDiarizationœ,œidœ:œSpeakerDiarization-kMlVeœ,œnameœ:œresultœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SegmentASR-Aq7Xy",
+        "targetHandle": "{œfieldNameœ:œseg_inœ,œidœ:œSegmentASR-Aq7Xyœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -91,7 +91,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "SegmentASR",
-            "id": "SegmentASR-CrGHA",
+            "id": "SegmentASR-Aq7Xy",
             "name": "asr_out",
             "output_types": [
               "Data"
@@ -99,25 +99,25 @@
           },
           "targetHandle": {
             "fieldName": "analysis_in",
-            "id": "AudioProcessor-Za80j",
+            "id": "AudioProcessor-zonUo",
             "inputTypes": [
               "Data"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-SegmentASR-CrGHA{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-CrGHAœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-AudioProcessor-Za80j{œfieldNameœ:œanalysis_inœ,œidœ:œAudioProcessor-Za80jœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-SegmentASR-Aq7Xy{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-Aq7Xyœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}-AudioProcessor-zonUo{œfieldNameœ:œanalysis_inœ,œidœ:œAudioProcessor-zonUoœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "SegmentASR-CrGHA",
-        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-CrGHAœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
-        "target": "AudioProcessor-Za80j",
-        "targetHandle": "{œfieldNameœ:œanalysis_inœ,œidœ:œAudioProcessor-Za80jœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+        "source": "SegmentASR-Aq7Xy",
+        "sourceHandle": "{œdataTypeœ:œSegmentASRœ,œidœ:œSegmentASR-Aq7Xyœ,œnameœ:œasr_outœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AudioProcessor-zonUo",
+        "targetHandle": "{œfieldNameœ:œanalysis_inœ,œidœ:œAudioProcessor-zonUoœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "VideoInput-1wocj",
+          "id": "VideoInput-RaWMw",
           "node": {
             "base_classes": [
               "Data"
@@ -188,7 +188,7 @@
                   "mov",
                   "mkv"
                 ],
-                "file_path": "f94fed70-f6d0-40d9-9dc4-24ec872c861e/f0d5b973-1b83-4c82-9843-ceb8e60ce421.mp4",
+                "file_path": "46f63173-2f1d-45fb-b7db-cc51b951e98f/c2e2fdb2-48f4-4515-9d19-7bcb0e30a3bf.mp4",
                 "info": "",
                 "list": false,
                 "list_add_label": "Add More",
@@ -210,7 +210,7 @@
           "type": "VideoInput"
         },
         "dragging": false,
-        "id": "VideoInput-1wocj",
+        "id": "VideoInput-RaWMw",
         "measured": {
           "height": 236,
           "width": 320
@@ -224,7 +224,7 @@
       },
       {
         "data": {
-          "id": "AudioExtractor-3cAoA",
+          "id": "AudioExtractor-4X4Ib",
           "node": {
             "base_classes": [
               "Data"
@@ -252,7 +252,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Audio Path",
-                "hidden": null,
+                "hidden": false,
                 "method": "extract",
                 "name": "audio_out",
                 "options": null,
@@ -334,7 +334,7 @@
           "type": "AudioExtractor"
         },
         "dragging": false,
-        "id": "AudioExtractor-3cAoA",
+        "id": "AudioExtractor-4X4Ib",
         "measured": {
           "height": 274,
           "width": 320
@@ -348,7 +348,7 @@
       },
       {
         "data": {
-          "id": "SpeakerDiarization-VpiDP",
+          "id": "SpeakerDiarization-kMlVe",
           "node": {
             "base_classes": [
               "Data"
@@ -356,7 +356,7 @@
             "beta": false,
             "conditional_paths": [],
             "custom_fields": {},
-            "description": "HuggingFace pyannote",
+            "description": "HuggingFace pyannote with SpeechBrain preprocessing",
             "display_name": "3️⃣ Speaker Diarization",
             "documentation": "",
             "edited": true,
@@ -376,7 +376,7 @@
                 "allows_loop": false,
                 "cache": true,
                 "display_name": "Speaker Diarization Result",
-                "hidden": false,
+                "hidden": null,
                 "method": "diarize",
                 "name": "result",
                 "options": null,
@@ -430,7 +430,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\nimport numpy as np\r\nimport torch\r\n\r\n\r\nclass SpeakerDiarization(Component):\r\n    display_name = \"3️⃣ Speaker Diarization\"\r\n    description = \"HuggingFace pyannote\"\r\n    icon = \"users\"\r\n    name = \"SpeakerDiarization\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"audio_in\", display_name=\"Audio Path\"),\r\n        StrInput(\r\n            name=\"hf_token\",\r\n            display_name=\"HF Token (for private models)\",\r\n            advanced=True,\r\n            value=\"\",\r\n        ),\r\n    ]\r\n    outputs = [\r\n        Output(name=\"result\", display_name=\"Speaker Diarization Result\", method=\"diarize\"),\r\n    ]\r\n\r\n    def diarize(self) -> Data:\r\n        from pyannote.audio import Pipeline\r\n        from pyannote.audio import Model, Inference\r\n        from pyannote.core import Segment\r\n        import torch\r\n    \r\n        # Device setup\r\n        device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\r\n    \r\n        # Load audio and models\r\n        audio_path = Path(self.audio_in.data[\"audio_path\"])\r\n        pipeline = Pipeline.from_pretrained(\r\n            \"pyannote/speaker-diarization-3.1\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        embedding_model = Model.from_pretrained(\r\n            \"pyannote/embedding\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        # Run diarization\r\n        diar = pipeline(str(audio_path))\r\n    \r\n        segs = []\r\n        \r\n        # Initialize inference for embeddings\r\n        embedding_inference = Inference(embedding_model, window=\"sliding\", duration=5.0, step=5.0)  # Set window size\r\n    \r\n        # Extract embeddings for each segment\r\n        for turn, _, speaker in diar.itertracks(yield_label=True):\r\n            segment = Segment(start=turn.start, end=turn.end)\r\n            self.log(f\"found {speaker}: speak from {turn.start} - {turn.end}\")\r\n        \r\n            try:\r\n                embeddings = embedding_inference.crop(str(audio_path), segment).data\r\n                # Average over time windows if necessary\r\n                if np.isnan(embeddings).any():\r\n                    self.log(f\"NaN values detected in embedding for segment: {segment}. Skipping...\")\r\n                    continue\r\n                if embeddings.ndim > 1:\r\n                    embedding = embeddings.mean(axis=0)\r\n                else:\r\n                    embedding = embeddings\r\n            except Exception as e:\r\n                self.log(f\"Skipping segment {segment}: {str(e)}\")\r\n                continue\r\n        \r\n            segs.append(\r\n                dict(\r\n                    speaker=speaker,\r\n                    start=round(turn.start, 3),\r\n                    end=round(turn.end, 3),\r\n                    embedding=embedding\r\n                )\r\n            )\r\n    \r\n        self.status = f\"Number of segments: {len(segs)}\"\r\n        return Data(\r\n            data={\r\n                \"segments\": segs,  # Only unmerged segments\r\n                \"audio_path\": str(audio_path),\r\n            }\r\n        )"
+                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\nimport numpy as np\r\nimport torch\r\n\r\n\r\nclass SpeakerDiarization(Component):\r\n    display_name = \"3️⃣ Speaker Diarization\"\r\n    description = \"HuggingFace pyannote with SpeechBrain preprocessing\"\r\n    icon = \"users\"\r\n    name = \"SpeakerDiarization\"\r\n\r\n    inputs = [\r\n    DataInput(name=\"audio_in\", display_name=\"Audio Path\"),\r\n    StrInput(\r\n        name=\"hf_token\",\r\n        display_name=\"HF Token (for private models)\",\r\n        advanced=True,\r\n        value=\"\",\r\n    ),\r\n    ]\r\n    outputs = [\r\n        Output(name=\"result\", display_name=\"Speaker Diarization Result\", method=\"diarize\"),\r\n    ]\r\n    \r\n    def diarize(self) -> Data:\r\n        from pyannote.audio import Pipeline\r\n        from pyannote.audio import Model, Inference\r\n        from pyannote.core import Segment\r\n        import torch\r\n    \r\n        # Device setup\r\n        device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\r\n    \r\n        # Load audio and models\r\n        audio_path = Path(self.audio_in.data[\"audio_path\"])\r\n        pipeline = Pipeline.from_pretrained(\r\n            \"pyannote/speaker-diarization-3.1\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        embedding_model = Model.from_pretrained(\r\n            \"pyannote/embedding\",\r\n            use_auth_token=self.hf_token or None,\r\n        ).to(device)\r\n    \r\n        # Run diarization\r\n        diar = pipeline(str(audio_path))\r\n    \r\n        segs = []\r\n        \r\n        # Initialize inference for embeddings\r\n        embedding_inference = Inference(embedding_model, window=\"sliding\", duration=5.0, step=5.0)  # Set window size\r\n    \r\n        # Extract embeddings for each segment\r\n        for turn, _, speaker in diar.itertracks(yield_label=True):\r\n            segment = Segment(start=turn.start, end=turn.end)\r\n            self.log(f\"found {speaker}: speak from {turn.start} - {turn.end}\")\r\n        \r\n            try:\r\n                embeddings = embedding_inference.crop(str(audio_path), segment).data\r\n                # Average over time windows if necessary\r\n                if np.isnan(embeddings).any():\r\n                    self.log(f\"NaN values detected in embedding for segment: {segment}. Skipping...\")\r\n                    continue\r\n                if embeddings.ndim > 1:\r\n                    embedding = embeddings.mean(axis=0)\r\n                else:\r\n                    embedding = embeddings\r\n            except Exception as e:\r\n                self.log(f\"Skipping segment {segment}: {str(e)}\")\r\n                continue\r\n        \r\n            segs.append(\r\n                dict(\r\n                    speaker=speaker,\r\n                    start=round(turn.start, 3),\r\n                    end=round(turn.end, 3),\r\n                    embedding=embedding\r\n                )\r\n            )\r\n    \r\n        self.status = f\"Number of segments: {len(segs)}\"\r\n        return Data(\r\n            data={\r\n                \"segments\": segs,  # Only unmerged segments\r\n                \"audio_path\": str(audio_path),\r\n            }\r\n        )"
               },
               "hf_token": {
                 "_input_type": "StrInput",
@@ -458,9 +458,9 @@
           "type": "SpeakerDiarization"
         },
         "dragging": false,
-        "id": "SpeakerDiarization-VpiDP",
+        "id": "SpeakerDiarization-kMlVe",
         "measured": {
-          "height": 192,
+          "height": 212,
           "width": 320
         },
         "position": {
@@ -472,7 +472,7 @@
       },
       {
         "data": {
-          "id": "SegmentASR-CrGHA",
+          "id": "SegmentASR-Aq7Xy",
           "node": {
             "base_classes": [
               "Data"
@@ -486,7 +486,7 @@
             "edited": true,
             "field_order": [
               "seg_in",
-              "num_speakers",
+              "numbs_speaker",
               "whisper_model"
             ],
             "frozen": false,
@@ -533,18 +533,18 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nimport torch\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\n\r\n# Import any utility functions like run_ffmpeg if needed\r\n# Assuming 'run_ffmpeg' is a utility function you have defined elsewhere,\r\n# for example, in 'utils/cvv_utils.py'.\r\n# It likely wraps subprocess.run to execute ffmpeg commands.\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom itertools import groupby\r\nfrom operator import itemgetter\r\nimport whisper\r\n\r\nfrom sklearn.cluster import AgglomerativeClustering\r\nimport numpy as np\r\n\r\n\r\nclass SegmentASR(Component):\r\n    display_name = \"4️⃣ Speech Recognition\"\r\n    description = \"Performs speech recognition on audio segments using Whisper.\"\r\n    icon = \"type\"\r\n    name = \"SegmentASR\"\r\n\r\n    inputs = [\r\n        DataInput(\r\n            name=\"seg_in\",\r\n            display_name=\"Speaker Segments\",\r\n            info=\"Input data containing audio path and segment information with embeddings.\"\r\n        ),\r\n        StrInput(\r\n            name=\"num_speakers\",\r\n            display_name=\"Number of Speakers\",\r\n            value=\"2\",\r\n            info=\"The exact number of speakers to be identified in the audio.\"\r\n        ),\r\n        StrInput(\r\n            name=\"whisper_model\",\r\n            display_name=\"Whisper Model\",\r\n            value=\"medium\",\r\n            info=\"Name of the Whisper model to use (e.g., tiny, base, small, medium, large).\"\r\n        )\r\n    ]\r\n    outputs = [Output(name=\"asr_out\", display_name=\"Transcription Result\", method=\"transcribe\")]\r\n\r\n    def transcribe(self) -> Data:\r\n        \"\"\"\r\n        Processes audio segments: transcribes speech using Whisper, returning the text for each segment.\r\n        \"\"\"\r\n        # Load the specified Whisper model. Note: \"turbo\" is not a standard Whisper model name.\r\n        # Valid options are \"tiny\", \"base\", \"small\", \"medium\", \"large\", \"large-v2\", \"large-v3\".\r\n        # Using the input value, defaulting to \"base\".\r\n        model = whisper.load_model(self.whisper_model)\r\n        \r\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\r\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\r\n        num_speakers = int(self.num_speakers)\r\n    \r\n        # Cluster and merge segments based on speaker voice embeddings.\r\n        merged_segments = self.merge_segments_by_speaker(segs, num_speakers)\r\n    \r\n        MIN_SEGMENT_DURATION = 2.0  # seconds\r\n        results = []\r\n    \r\n        for seg in merged_segments:\r\n            seg_start = seg[\"start\"]\r\n            seg_end = seg[\"end\"]\r\n            actual_duration = seg_end - seg_start\r\n    \r\n            # Create a unique filename for the temporary audio segment\r\n            wav_seg = audio_path.with_name(\r\n                f\"{audio_path.stem}_{seg['speaker']}_{seg_start:.2f}_{seg_end:.2f}.wav\"\r\n            )\r\n    \r\n            # Segments shorter than MIN_SEGMENT_DURATION are padded to improve transcription accuracy.\r\n            if actual_duration < MIN_SEGMENT_DURATION:\r\n                pad_dur = MIN_SEGMENT_DURATION - actual_duration\r\n                # Use ffmpeg to extract the segment and pad it to the minimum duration\r\n                run_ffmpeg([\r\n                    \"ffmpeg\", \"-y\",\r\n                    \"-i\", str(audio_path),\r\n                    \"-ss\", str(seg_start),\r\n                    \"-to\", str(seg_end),\r\n                    \"-af\", f\"apad\",  # 'apad' filter pads the audio stream with silence\r\n                    \"-t\", str(MIN_SEGMENT_DURATION),\r\n                    str(wav_seg),\r\n                ])\r\n                # The segment end time is effectively extended by the padding for transcription purposes\r\n                seg_end = seg_start + MIN_SEGMENT_DURATION\r\n            else:\r\n                # Extract the segment without padding if it's long enough\r\n                run_ffmpeg([\r\n                    \"ffmpeg\", \"-y\",\r\n                    \"-i\", str(audio_path),\r\n                    \"-ss\", str(seg_start),\r\n                    \"-to\", str(seg_end),\r\n                    str(wav_seg),\r\n                ])\r\n                \r\n            # Perform speech recognition on the extracted .wav file\r\n            result = model.transcribe(str(wav_seg))\r\n            text = result[\"text\"].strip()\r\n            language = result.get(\"language\", \"unknown\")\r\n\r\n            results.append({\r\n                **seg,\r\n                \"start\": seg_start, # Original start time\r\n                \"end\": seg_end,     # Original end time\r\n                \"text\": text,\r\n                \"language\": language,\r\n                \"wav_path\": str(wav_seg), # Path to the temporary audio file\r\n            })\r\n    \r\n        self.status = f\"ASR completed for {len(results)} segments\"\r\n        return Data(data={\"results\": results, \"audio_path\": str(audio_path)})\r\n\r\n    def merge_segments_by_speaker(\r\n        self, segments: List[Dict[str, Any]], num_speakers: int\r\n    ) -> List[Dict[str, Any]]:\r\n        \"\"\"\r\n        Merges overlapping or adjacent segments for the same speaker. It first clusters\r\n        segments into the specified number of speakers using the cosine distance of their embeddings.\r\n        \"\"\"\r\n        if not segments:\r\n            return []\r\n\r\n        # Extract embeddings and corresponding segment data\r\n        embeddings = []\r\n        segment_data = []\r\n        for seg in segments:\r\n            # Assumes each segment has a precomputed \"embedding\" field\r\n            embedding = np.array(seg.get(\"embedding\", []))\r\n            if embedding.size > 0:\r\n                embeddings.append(embedding)\r\n                segment_data.append(seg)\r\n\r\n        if not embeddings:\r\n            # If no embeddings are found, we cannot perform speaker clustering.\r\n            # You might want to handle this case, e.g., by treating all segments as one speaker.\r\n            raise ValueError(\"No embeddings found in the segment data. Cannot perform speaker diarization.\")\r\n\r\n        # Perform clustering on the embeddings to identify speakers\r\n        embeddings = np.array(embeddings)\r\n        if len(embeddings) < num_speakers:\r\n            raise ValueError(f\"Number of segments with embeddings ({len(embeddings)}) is less than num_speakers ({num_speakers}).\")\r\n            \r\n        clustering = AgglomerativeClustering(\r\n            n_clusters=num_speakers, metric=\"cosine\", linkage=\"average\"\r\n        )\r\n        labels = clustering.fit_predict(embeddings)\r\n\r\n        # Assign a unique speaker label to each segment based on clustering results\r\n        for idx, seg in enumerate(segment_data):\r\n            seg[\"speaker\"] = f\"Speaker_{labels[idx]}\"\r\n\r\n        # Group segments by the assigned speaker label\r\n        segments_by_speaker = {}\r\n        for seg in segment_data:\r\n            speaker = seg[\"speaker\"]\r\n            if speaker not in segments_by_speaker:\r\n                segments_by_speaker[speaker] = []\r\n            segments_by_speaker[speaker].append(seg)\r\n\r\n        # Merge adjacent or overlapping segments for each speaker\r\n        merged_segments = []\r\n        for speaker, segs in segments_by_speaker.items():\r\n            # Sort segments by start time to allow for linear merging\r\n            segs = sorted(segs, key=lambda x: x[\"start\"])\r\n\r\n            current_start = segs[0][\"start\"]\r\n            current_end = segs[0][\"end\"]\r\n            for seg in segs[1:]:\r\n                # If the next segment starts before or at the end of the current one, merge them\r\n                if seg[\"start\"] <= current_end:\r\n                    current_end = max(current_end, seg[\"end\"])  # Extend the end time\r\n                else:\r\n                    # A gap exists, so finalize the previous merged segment\r\n                    merged_segments.append(\r\n                        {\"start\": current_start, \"end\": current_end, \"speaker\": speaker}\r\n                    )\r\n                    # Start a new segment\r\n                    current_start = seg[\"start\"]\r\n                    current_end = seg[\"end\"]\r\n\r\n            # Add the final merged segment for the current speaker\r\n            merged_segments.append(\r\n                {\"start\": current_start, \"end\": current_end, \"speaker\": speaker}\r\n            )\r\n\r\n        # The comma and \"ERROR\" at the end of this line were a syntax error and have been removed.\r\n        return sorted(merged_segments, key=lambda x: x[\"start\"])"
+                "value": "from pathlib import Path\r\nfrom typing import List, Dict, Any\r\n\r\nimport torch\r\nfrom langflow.custom import Component\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema import Data\r\n\r\n# Import any utility functions like run_ffmpeg if needed\r\n# Assuming 'run_ffmpeg' is a utility function you have defined elsewhere,\r\n# for example, in 'utils/cvv_utils.py'.\r\n# It likely wraps subprocess.run to execute ffmpeg commands.\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom itertools import groupby\r\nfrom operator import itemgetter\r\nimport whisper\r\n\r\nfrom sklearn.cluster import AgglomerativeClustering\r\nimport numpy as np\r\n\r\n\r\nclass SegmentASR(Component):\r\n    display_name = \"4️⃣ Speech Recognition\"\r\n    description = \"Performs speech recognition on audio segments using Whisper.\"\r\n    icon = \"type\"\r\n    name = \"SegmentASR\"\r\n\r\n    inputs = [\r\n        DataInput(\r\n            name=\"seg_in\",\r\n            display_name=\"Speaker Segments\",\r\n            info=\"Input data containing audio path and segment information with embeddings.\"\r\n        ),\r\n        StrInput(\r\n            name=\"numbs_speaker\",\r\n            display_name=\"numbs speaker\",\r\n            value=\"10\",\r\n        ),\r\n        StrInput(\r\n            name=\"whisper_model\",\r\n            display_name=\"Whisper Model\",\r\n            value=\"medium\",\r\n            info=\"Name of the Whisper model to use (e.g., tiny, base, small, medium, large, turbo).\"\r\n        )\r\n    ]\r\n    outputs = [Output(name=\"asr_out\", display_name=\"Transcription Result\", method=\"transcribe\")]\r\n\r\n    def transcribe(self) -> Data:\r\n        \"\"\"\r\n        Processes audio segments: transcribes speech using Whisper, returning the text for each segment.\r\n        \"\"\"\r\n        # Load the specified Whisper model. Note: \"turbo\" is not a standard Whisper model name.\r\n        # Valid options are \"tiny\", \"base\", \"small\", \"medium\", \"large\", \"large-v2\", \"large-v3\".\r\n        # Using the input value, defaulting to \"base\".\r\n        model = whisper.load_model(self.whisper_model)\r\n        \r\n        segs: List[Dict[str, Any]] = self.seg_in.data[\"segments\"]\r\n        audio_path = Path(self.seg_in.data[\"audio_path\"])\r\n    \r\n        # Cluster and merge segments based on speaker voice embeddings.\r\n        merged_segments = self.merge_segments_by_speaker(segs)\r\n    \r\n        MIN_SEGMENT_DURATION = 2.0  # seconds\r\n        results = []\r\n    \r\n        for seg in merged_segments:\r\n            seg_start = seg[\"start\"]\r\n            seg_end = seg[\"end\"]\r\n            actual_duration = seg_end - seg_start\r\n    \r\n            # Create a unique filename for the temporary audio segment\r\n            wav_seg = audio_path.with_name(\r\n                f\"{audio_path.stem}_{seg['speaker']}_{seg_start:.2f}_{seg_end:.2f}.wav\"\r\n            )\r\n    \r\n            # Segments shorter than MIN_SEGMENT_DURATION are padded to improve transcription accuracy.\r\n            if actual_duration < MIN_SEGMENT_DURATION:\r\n                pad_dur = MIN_SEGMENT_DURATION - actual_duration\r\n                # Use ffmpeg to extract the segment and pad it to the minimum duration\r\n                run_ffmpeg([\r\n                    \"ffmpeg\", \"-y\",\r\n                    \"-i\", str(audio_path),\r\n                    \"-ss\", str(seg_start),\r\n                    \"-to\", str(seg_end),\r\n                    \"-af\", f\"apad\",  # 'apad' filter pads the audio stream with silence\r\n                    \"-t\", str(MIN_SEGMENT_DURATION),\r\n                    str(wav_seg),\r\n                ])\r\n                # The segment end time is effectively extended by the padding for transcription purposes\r\n                seg_end = seg_start + MIN_SEGMENT_DURATION\r\n            else:\r\n                # Extract the segment without padding if it's long enough\r\n                run_ffmpeg([\r\n                    \"ffmpeg\", \"-y\",\r\n                    \"-i\", str(audio_path),\r\n                    \"-ss\", str(seg_start),\r\n                    \"-to\", str(seg_end),\r\n                    str(wav_seg),\r\n                ])\r\n                \r\n            # Perform speech recognition on the extracted .wav file\r\n            result = model.transcribe(str(wav_seg))\r\n            text = result[\"text\"].strip()\r\n            language = result.get(\"language\", \"unknown\")\r\n\r\n            results.append({\r\n                **seg,\r\n                \"start\": seg_start, # Original start time\r\n                \"end\": seg_end,     # Original end time\r\n                \"text\": text,\r\n                \"language\": language,\r\n                \"wav_path\": str(wav_seg), # Path to the temporary audio file\r\n            })\r\n    \r\n        self.status = f\"ASR completed for {len(results)} segments\"\r\n        return Data(data={\"results\": results, \"audio_path\": str(audio_path)})\r\n\r\n    def merge_segments_by_speaker(\r\n        self, segments: List[Dict[str, Any]]\r\n    ) -> List[Dict[str, Any]]:\r\n        \"\"\"\r\n        Merges overlapping or adjacent segments for the same speaker. It first clusters\r\n        segments into the specified number of speakers using the cosine distance of their embeddings.\r\n        \"\"\"\r\n        if not segments:\r\n            return []\r\n\r\n        # Extract embeddings and corresponding segment data\r\n        embeddings = []\r\n        segment_data = []\r\n        for seg in segments:\r\n            # Assumes each segment has a precomputed \"embedding\" field\r\n            embedding = np.array(seg.get(\"embedding\", []))\r\n            if embedding.size > 0:\r\n                embeddings.append(embedding)\r\n                segment_data.append(seg)\r\n        if not embeddings:\r\n            # If no embeddings are found, we cannot perform speaker clustering.\r\n            # You might want to handle this case, e.g., by treating all segments as one speaker.\r\n            raise ValueError(\"No embeddings found in the segment data. Cannot perform speaker diarization.\")\r\n\r\n        # get num_speakers\r\n        num_speakers = int(self.numbs_speaker)\r\n        # Perform clustering on the embeddings to identify speakers\r\n        embeddings = np.array(embeddings)\r\n        if len(embeddings) < num_speakers:\r\n            raise ValueError(f\"Number of segments with embeddings ({len(embeddings)}) is less than num_speakers ({num_speakers}).\")\r\n            \r\n        clustering = AgglomerativeClustering(\r\n            n_clusters=num_speakers, metric=\"cosine\", linkage=\"average\"\r\n        )\r\n        labels = clustering.fit_predict(embeddings)\r\n\r\n        # Assign a unique speaker label to each segment based on clustering results\r\n        for idx, seg in enumerate(segment_data):\r\n            seg[\"speaker\"] = f\"Speaker_{labels[idx]}\"\r\n\r\n        # Group segments by the assigned speaker label\r\n        segments_by_speaker = {}\r\n        for seg in segment_data:\r\n            speaker = seg[\"speaker\"]\r\n            if speaker not in segments_by_speaker:\r\n                segments_by_speaker[speaker] = []\r\n            segments_by_speaker[speaker].append(seg)\r\n\r\n        # Merge adjacent or overlapping segments for each speaker\r\n        merged_segments = []\r\n        for speaker, segs in segments_by_speaker.items():\r\n            # Sort segments by start time to allow for linear merging\r\n            segs = sorted(segs, key=lambda x: x[\"start\"])\r\n\r\n            current_start = segs[0][\"start\"]\r\n            current_end = segs[0][\"end\"]\r\n            for seg in segs[1:]:\r\n                # If the next segment starts before or at the end of the current one, merge them\r\n                if seg[\"start\"] <= current_end:\r\n                    current_end = max(current_end, seg[\"end\"])  # Extend the end time\r\n                else:\r\n                    # A gap exists, so finalize the previous merged segment\r\n                    merged_segments.append(\r\n                        {\"start\": current_start, \"end\": current_end, \"speaker\": speaker}\r\n                    )\r\n                    # Start a new segment\r\n                    current_start = seg[\"start\"]\r\n                    current_end = seg[\"end\"]\r\n\r\n            # Add the final merged segment for the current speaker\r\n            merged_segments.append(\r\n                {\"start\": current_start, \"end\": current_end, \"speaker\": speaker}\r\n            )\r\n\r\n        # The comma and \"ERROR\" at the end of this line were a syntax error and have been removed.\r\n        return sorted(merged_segments, key=lambda x: x[\"start\"])"
               },
-              "num_speakers": {
+              "numbs_speaker": {
                 "_input_type": "StrInput",
                 "advanced": false,
-                "display_name": "Number of Speakers",
+                "display_name": "numbs speaker",
                 "dynamic": false,
-                "info": "The exact number of speakers to be identified in the audio.",
+                "info": "",
                 "list": false,
                 "list_add_label": "Add More",
                 "load_from_db": false,
-                "name": "num_speakers",
+                "name": "numbs_speaker",
                 "placeholder": "",
                 "required": false,
                 "show": true,
@@ -552,7 +552,7 @@
                 "tool_mode": false,
                 "trace_as_metadata": true,
                 "type": "str",
-                "value": "2"
+                "value": "10"
               },
               "seg_in": {
                 "_input_type": "DataInput",
@@ -581,7 +581,7 @@
                 "advanced": false,
                 "display_name": "Whisper Model",
                 "dynamic": false,
-                "info": "Name of the Whisper model to use (e.g., tiny, base, small, medium, large).",
+                "info": "Name of the Whisper model to use (e.g., tiny, base, small, medium, large, turbo).",
                 "list": false,
                 "list_add_label": "Add More",
                 "load_from_db": false,
@@ -602,7 +602,7 @@
           "type": "SegmentASR"
         },
         "dragging": false,
-        "id": "SegmentASR-CrGHA",
+        "id": "SegmentASR-Aq7Xy",
         "measured": {
           "height": 377,
           "width": 320
@@ -616,7 +616,7 @@
       },
       {
         "data": {
-          "id": "AudioProcessor-Za80j",
+          "id": "AudioProcessor-zonUo",
           "node": {
             "base_classes": [
               "Message"
@@ -718,7 +718,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "code",
-                "value": "import sqlite3\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any\r\nimport json, base64\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom langflow.base.io.chat import ChatComponent\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema.properties import Source\r\nfrom langflow.schema.message import Message\r\n\r\n\r\nclass AudioProcessor(ChatComponent):\r\n    # Define component inputs\r\n    inputs = [\r\n        DataInput(name=\"analysis_in\", display_name=\"ASR Transcription Results\"),\r\n        StrInput(\r\n            name=\"poe_api_key\",\r\n            display_name=\"Poe API Key\",\r\n            advanced=True,\r\n            value=\"\"  # It's recommended to use a secure way to manage secrets\r\n        ),\r\n        StrInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot Name\",\r\n            value=\"GPT-4\"\r\n        ),\r\n        StrInput(\r\n            name=\"min_samplevoice_length\",\r\n            display_name=\"Min Sample Voice Length(s) For Clone\",\r\n            value=\"10\",\r\n        ),\r\n    ]\r\n    \r\n    # Define component outputs\r\n    outputs = [\r\n        Output(name=\"preview_out\", display_name=\"Audio and Text Preview\", method=\"generate_preview\")\r\n    ]\r\n    \r\n    async def _call_gpt4(self, prompt: str, api_key: str, bot_name: str) -> str:\r\n        \"\"\"\r\n        A helper function that wraps the synchronous call to fastapi_poe.\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n        response_text = \"\"\r\n        try:\r\n            async for partial_response in fp.get_bot_response(\r\n                messages=[message], bot_name=bot_name, api_key=api_key\r\n            ):\r\n                response_text += partial_response.text\r\n        except Exception as e:\r\n            self.log(f\"Error calling Poe API: {e}\")\r\n            return \"\"\r\n        return response_text\r\n\r\n    def _setup_database(self, db_path: str):\r\n        \"\"\"Initialize SQLite database and tables.\"\"\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n        cursor.execute('''\r\n            CREATE TABLE IF NOT EXISTS audio_segments (\r\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                audio_name TEXT NOT NULL,\r\n                speaker_id TEXT NOT NULL,\r\n                text TEXT NOT NULL,\r\n                audio_binary BLOB NOT NULL,\r\n                duration REAL\r\n            )\r\n        ''')\r\n        conn.commit()\r\n        conn.close()\r\n\r\n    def _concat_and_split_audio(\r\n    self,\r\n    segments: List[Dict[str, Any]],\r\n) -> List[Dict[str, Any]]:\r\n        \"\"\"\r\n        Concatenate audio by speaker_id, then split into 10-second chunks.\r\n        \"\"\"\r\n        from pydub import AudioSegment\r\n        from io import BytesIO\r\n        import collections\r\n    \r\n        # 1. Group by speaker_id\r\n        group_map = collections.defaultdict(list)  # speaker_id: [segment_objs]\r\n        for seg in segments:\r\n            speaker_id = seg.get('speaker', 'unknown')\r\n            group_map[speaker_id].append(seg)\r\n    \r\n        split_segments = []\r\n    \r\n        # 2. Process each group\r\n        for speaker_id, seg_list in group_map.items():\r\n            concatenated_audio = AudioSegment.empty()\r\n            all_texts = []\r\n            duration_in_seconds = 0\r\n            # Sort segments by their start times\r\n            seg_list.sort(key=lambda x: x.get('start', 0))\r\n    \r\n            for seg in seg_list:\r\n                start_time = seg.get('start', 0)\r\n                end_time = seg.get('end', 0)\r\n                audio_file = seg.get('wav')\r\n    \r\n                try:\r\n                    # Extract and concatenate audio\r\n                    audio_segment = AudioSegment.from_file(audio_file)\r\n                    audio_portion = audio_segment[start_time * 1000:end_time * 1000]\r\n                    concatenated_audio += audio_portion\r\n                    duration_in_seconds += end_time - start_time\r\n                    all_texts.append(seg.get('text', ''))\r\n                except Exception as e:\r\n                    self.log(f\"Error processing audio segment: {e}\")\r\n    \r\n            # Split concatenated audio into 10-second chunks\r\n            self.log(f\"speaker segments length: {speaker_id}: {duration_in_seconds}\")\r\n            min_samplevoice_length = int(self.min_samplevoice_length)\r\n            for i in range(0, int(duration_in_seconds), min_samplevoice_length):\r\n                if i == min_samplevoice_length:\r\n                    split_audio = concatenated_audio[i * 1000:(i + min_samplevoice_length) * 1000]\r\n                    audio_binary = BytesIO()\r\n                    split_audio.export(audio_binary, format=\"wav\")\r\n        \r\n                    # Build metadata for this chunk\r\n                    text_summary = (\r\n                        f\"Speaker {speaker_id}, Part {i // min_samplevoice_length + 1}: \"\r\n                        + \" \".join(all_texts)\r\n                    )\r\n        \r\n                    split_segments.append({\r\n                        \"speaker_id\": speaker_id,\r\n                        \"audio_binary\": audio_binary.getvalue(),\r\n                        \"duration\": min(min_samplevoice_length, duration_in_seconds - i),\r\n                        \"text\": text_summary\r\n                    })\r\n    \r\n        return split_segments\r\n\r\n    async def process_and_store(self, db_path) -> Data:\r\n        \"\"\"\r\n        Core processing logic: Analyze, filter, concatenate, split, and store.\r\n        \"\"\"\r\n        # Retrieve data from input\r\n        segments_data: List[Dict[str, Any]] = self.analysis_in.data[\"results\"]\r\n    \r\n        if not segments_data:\r\n            self.log(f\"Input data is empty, nothing to process.\")\r\n            return Data(data={\"processed_count\": 0})\r\n    \r\n        # Initialize database\r\n        self._setup_database(db_path)\r\n    \r\n        audio_path_str = self.analysis_in.data.get(\"audio_path\")\r\n        audio_path = Path(audio_path_str)\r\n    \r\n        # --- Skip Step 1: Semantic Segmentation ---\r\n        # Directly use all sentences in the input data.\r\n    \r\n        # --- Step 2: Scene Relevance Filtering ---\r\n        self.log(f\"Step 2: Filtering irrelevant sentences...{segments_data}\")\r\n        all_indices_to_keep = set()\r\n    \r\n        # Treat all sentences as part of a single segment\r\n        segment_text = \"\\n\".join(\r\n            [f\"Sentence {i}: \\\"{seg['text']}\\\"\" for i, seg in enumerate(segments_data)]\r\n        )\r\n    \r\n        prompt2 = (\r\n            f\"You are a conversation editing expert. Below is a conversation segment with numbered sentences.\\n\"\r\n            f\"Your task is to identify and remove all irrelevant sentences (e.g., small talk or background noise).\\n\"\r\n            f\"Return the indices of sentences to keep in JSON format.\\n\"\r\n            f\"Example: {{'kept_sentences': [0, 1, 2]}}\\n\\n\"\r\n            f\"Conversation segment:\\n{segment_text}\"\r\n        )\r\n    \r\n        response2_str = await self._call_gpt4(prompt2, self.poe_api_key, self.bot_name)\r\n    \r\n        try:\r\n            if \"```json\" in response2_str:\r\n                response2_str = response2_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n            kept_info = json.loads(response2_str)\r\n            all_indices_to_keep.update(kept_info.get('kept_sentences', []))\r\n        except (json.JSONDecodeError, TypeError, IndexError):\r\n            self.log(f\"Warning: Parsing failed, keeping all sentences.\")\r\n            all_indices_to_keep.update(range(len(segments_data)))\r\n    \r\n        # Filter segments for next step\r\n        segments_for_step3 = [seg for i, seg in enumerate(segments_data) if i in all_indices_to_keep]\r\n    \r\n        # --- Step 3: Concatenate and Split Audio ---\r\n        self.log(f\"Step 3: Concatenating and splitting audio...{segments_for_step3}\")\r\n        split_audio_segments = self._concat_and_split_audio(segments_for_step3)\r\n    \r\n        # --- Step 4: Store in Database ---\r\n        self.log(f\"Step 4: Storing {len(split_audio_segments)} results in the database...\")\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n    \r\n        for res in split_audio_segments:\r\n            cursor.execute(\r\n                \"\"\"\r\n                INSERT INTO audio_segments (audio_name, speaker_id, text, audio_binary, duration)\r\n                VALUES (?, ?, ?, ?, ?)\r\n                \"\"\",\r\n                (\r\n                    audio_path.stem,\r\n                    res['speaker_id'],\r\n                    res['text'],\r\n                    res['audio_binary'],\r\n                    res['duration']\r\n                )\r\n            )\r\n    \r\n        conn.commit()\r\n        conn.close()\r\n    \r\n        self.log(f\"Processing complete! Stored {len(split_audio_segments)} audio segments in the database.\")\r\n\r\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\r\n        source_dict = {}\r\n        if id_:\r\n            source_dict[\"id\"] = id_\r\n        if display_name:\r\n            source_dict[\"display_name\"] = display_name\r\n        if source:\r\n            # Handle case where source is a ChatOpenAI object\r\n            if hasattr(source, \"model_name\"):\r\n                source_dict[\"source\"] = source.model_name\r\n            elif hasattr(source, \"model\"):\r\n                source_dict[\"source\"] = str(source.model)\r\n            else:\r\n                source_dict[\"source\"] = str(source)\r\n        return Source(**source_dict)\r\n        \r\n    async def generate_preview(self) -> Message:\r\n        \"\"\"\r\n        Generate an audio and text preview.\r\n        \"\"\"\r\n    \r\n        db_path = \"processed_audio.db\"\r\n    \r\n        # Ensure the database and table exist\r\n        self._setup_database(db_path)\r\n    \r\n        # Connect to the database and retrieve data\r\n        try:\r\n            conn = sqlite3.connect(db_path)\r\n            cursor = conn.cursor()\r\n    \r\n            # Process and store audio segments\r\n            await self.process_and_store(db_path)\r\n    \r\n            # Fetch text and audio binary from the database\r\n            cursor.execute(\"SELECT text, audio_binary FROM audio_segments\")\r\n            rows = cursor.fetchall()\r\n        except sqlite3.Error as e:\r\n            raise RuntimeError(f\"Database error: {e}\")\r\n        finally:\r\n            conn.close()\r\n    \r\n        # Build HTML preview\r\n        html = \"<div><h3>Audio and Text Preview</h3>\"\r\n        for text, audio_binary in rows:\r\n            audio_src = f\"data:audio/wav;base64,{base64.b64encode(audio_binary).decode()}\"\r\n            html += f\"\"\"\r\n            <div style=\"margin-bottom: 20px;\">\r\n                <p><strong>Text:</strong> {text}</p>\r\n                <audio controls>\r\n                    <source src=\"{audio_src}\" type=\"audio/wav\">\r\n                    Your browser does not support audio playback.\r\n                </audio>\r\n            </div>\r\n            \"\"\"\r\n        html += \"</div>\"\r\n    \r\n        # Get source properties\r\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\r\n        \r\n        # Fallback for missing attributes\r\n        background_color = getattr(self, \"background_color\", \"#FFFFFF\")  # Default white\r\n        text_color = getattr(self, \"text_color\", \"#000000\")  # Default black\r\n        if hasattr(self, \"chat_icon\"):\r\n            icon = self.chat_icon\r\n    \r\n        # Create a new Message\r\n        message = Message(text=html)\r\n    \r\n        # Set message properties\r\n        self.session_id = \"\"\r\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\r\n        message.properties.source = self._build_source(source_id, display_name, source)\r\n        message.properties.icon = icon\r\n        message.properties.background_color = background_color\r\n        message.properties.text_color = text_color\r\n    \r\n        # Store message if required\r\n        if self.session_id and self.should_store_message:\r\n            try:\r\n                stored_message = await self.send_message(message)\r\n                self.message.value = stored_message\r\n                message = stored_message\r\n            except Exception as e:\r\n                raise RuntimeError(f\"Failed to store message: {e}\")\r\n    \r\n        # Update status and return the message\r\n        self.status = message\r\n        return message"
+                "value": "import sqlite3\r\nfrom pathlib import Path\r\nfrom typing import List, Dict, Any\r\nimport json, base64\r\n\r\nfrom utils.cvv_utils import run_ffmpeg\r\n\r\nfrom langflow.base.io.chat import ChatComponent\r\nfrom langflow.io import DataInput, StrInput, Output\r\nfrom langflow.schema.properties import Source\r\nfrom langflow.schema.message import Message\r\n\r\n\r\nclass AudioProcessor(ChatComponent):\r\n    # Define component inputs\r\n    inputs = [\r\n        DataInput(name=\"analysis_in\", display_name=\"ASR Transcription Results\"),\r\n        StrInput(\r\n            name=\"poe_api_key\",\r\n            display_name=\"Poe API Key\",\r\n            advanced=True,\r\n            value=\"\"  # It's recommended to use a secure way to manage secrets\r\n        ),\r\n        StrInput(\r\n            name=\"bot_name\",\r\n            display_name=\"Poe Bot Name\",\r\n            value=\"GPT-4\"\r\n        ),\r\n        StrInput(\r\n            name=\"min_samplevoice_length\",\r\n            display_name=\"Min Sample Voice Length(s) For Clone\",\r\n            value=\"10\",\r\n        ),\r\n    ]\r\n    \r\n    # Define component outputs\r\n    outputs = [\r\n        Output(name=\"preview_out\", display_name=\"Audio and Text Preview\", method=\"generate_preview\")\r\n    ]\r\n    \r\n    async def _call_gpt4(self, prompt: str, api_key: str, bot_name: str) -> str:\r\n        \"\"\"\r\n        A helper function that wraps the synchronous call to fastapi_poe.\r\n        \"\"\"\r\n        import fastapi_poe as fp\r\n        message = fp.ProtocolMessage(role=\"user\", content=prompt)\r\n        response_text = \"\"\r\n        try:\r\n            async for partial_response in fp.get_bot_response(\r\n                messages=[message], bot_name=bot_name, api_key=api_key\r\n            ):\r\n                response_text += partial_response.text\r\n        except Exception as e:\r\n            self.log(f\"Error calling Poe API: {e}\")\r\n            return \"\"\r\n        return response_text\r\n\r\n    def _setup_database(self, db_path: str):\r\n        \"\"\"Initialize SQLite database and tables.\"\"\"\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n        cursor.execute('''\r\n            CREATE TABLE IF NOT EXISTS audio_segments (\r\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n                audio_name TEXT NOT NULL,\r\n                speaker_id TEXT NOT NULL,\r\n                text TEXT NOT NULL,\r\n                audio_binary BLOB NOT NULL,\r\n                duration REAL\r\n            )\r\n        ''')\r\n        conn.commit()\r\n        conn.close()\r\n\r\n    def _concat_and_split_audio(self, segments: List[Dict[str, Any]]) -> List[Dict[str, Any]]:\r\n        from pydub import AudioSegment\r\n        from io import BytesIO\r\n        import collections\r\n    \r\n        group_map = collections.defaultdict(list)  # speaker_id: [segment_objs]\r\n        for seg in segments:\r\n            speaker_id = seg.get('speaker', 'unknown')\r\n            group_map[speaker_id].append(seg)\r\n    \r\n        split_segments = []\r\n    \r\n        for speaker_id, seg_list in group_map.items():\r\n            concatenated_audio = AudioSegment.empty()\r\n            all_texts = []\r\n            seg_list.sort(key=lambda x: x.get('start', 0))\r\n            part = 0\r\n            for seg in seg_list:\r\n                audio_file = seg.get('wav_path')\r\n                if not audio_file or not Path(audio_file).exists():\r\n                    self.log(f\"Skipping invalid audio file for segment: {seg}\")\r\n                    continue\r\n    \r\n                try:\r\n                    concatenated_audio += AudioSegment.from_file(audio_file)\r\n                    all_texts.append(seg.get('text', ''))\r\n                except Exception as e:\r\n                    self.log(f\"Error processing audio segment: {e}\")\r\n                    continue\r\n                duration_in_seconds = len(concatenated_audio) / 1000\r\n                min_samplevoice_length = int(self.min_samplevoice_length)\r\n                \r\n                # split audio with min_samplevoice_length\r\n                if duration_in_seconds > min_samplevoice_length:\r\n                    self.log(f\"{speaker_id}: {duration_in_seconds}s - {all_texts}\")\r\n                    audio_binary = BytesIO()\r\n                    concatenated_audio.export(audio_binary, format=\"wav\")\r\n        \r\n                    text_summary = (\r\n                        f\"Speaker {speaker_id}, Part {part}: \"\r\n                        + \" \".join(all_texts)\r\n                    )\r\n                    \r\n                    split_segments.append({\r\n                        \"speaker_id\": speaker_id,\r\n                        \"audio_binary\": audio_binary.getvalue(),\r\n                        \"duration\": duration_in_seconds,\r\n                        \"text\": text_summary\r\n                    })\r\n                    concatenated_audio = AudioSegment.empty()\r\n                    all_texts = []\r\n                    part += 1\r\n    \r\n        return split_segments\r\n\r\n    async def process_and_store(self, db_path) -> Data:\r\n        \"\"\"\r\n        Core processing logic: Analyze, filter, concatenate, split, and store.\r\n        \"\"\"\r\n        # Retrieve data from input\r\n        segments_data: List[Dict[str, Any]] = self.analysis_in.data[\"results\"]\r\n    \r\n        if not segments_data:\r\n            self.log(f\"Input data is empty, nothing to process.\")\r\n            return Data(data={\"processed_count\": 0})\r\n    \r\n        # Initialize database\r\n        self._setup_database(db_path)\r\n    \r\n        audio_path_str = self.analysis_in.data.get(\"audio_path\")\r\n        audio_path = Path(audio_path_str)\r\n    \r\n        # --- Skip Step 1: Semantic Segmentation ---\r\n        # Directly use all sentences in the input data.\r\n    \r\n        # --- Step 2: Scene Relevance Filtering ---\r\n        self.log(f\"Step 2: Filtering irrelevant sentences...{segments_data}\")\r\n        all_indices_to_keep = set()\r\n    \r\n        # Treat all sentences as part of a single segment\r\n        segment_text = \"\\n\".join(\r\n            [f\"Sentence {i}: \\\"{seg['text']}\\\"\" for i, seg in enumerate(segments_data)]\r\n        )\r\n    \r\n        prompt2 = (\r\n            f\"You are a conversation editing expert. Below are several conversation segments with numbered sentences.\\n\"\r\n            f\"Your task is to split into several conversations, then \\n\"\r\n            f\"identify and remove all irrelevant sentences (e.g., small talk or background noise).\\n\"\r\n            f\"Return the indices of sentences to keep in JSON format.\\n\"\r\n            f\"Example: {{'kept_sentences': [0, 1, 2]}}\\n\\n\"\r\n            f\"Conversation segment:\\n{segment_text}\"\r\n        )\r\n    \r\n        response2_str = await self._call_gpt4(prompt2, self.poe_api_key, self.bot_name)\r\n    \r\n        try:\r\n            if \"```json\" in response2_str:\r\n                response2_str = response2_str.split(\"```json\\n\")[1].split(\"```\")[0]\r\n            kept_info = json.loads(response2_str)\r\n            all_indices_to_keep.update(kept_info.get('kept_sentences', []))\r\n            self.log(f\"llm keep json: {all_indices_to_keep}\")\r\n        except (json.JSONDecodeError, TypeError, IndexError):\r\n            self.log(f\"Warning: Parsing failed, keeping all sentences.\")\r\n            all_indices_to_keep.update(range(len(segments_data)))\r\n    \r\n        # Filter segments for next step\r\n        segments_for_step3 = [seg for i, seg in enumerate(segments_data) if i in all_indices_to_keep]\r\n    \r\n        # --- Step 3: Concatenate and Split Audio ---\r\n        self.log(f\"Step 3: Concatenating and splitting audio...{segments_for_step3}\")\r\n        split_audio_segments = self._concat_and_split_audio(segments_for_step3)\r\n    \r\n        # --- Step 4: Store in Database ---\r\n        self.log(f\"Step 4: Storing {len(split_audio_segments)} results in the database...\")\r\n        conn = sqlite3.connect(db_path)\r\n        cursor = conn.cursor()\r\n    \r\n        for res in split_audio_segments:\r\n            cursor.execute(\r\n                \"\"\"\r\n                INSERT INTO audio_segments (audio_name, speaker_id, text, audio_binary, duration)\r\n                VALUES (?, ?, ?, ?, ?)\r\n                \"\"\",\r\n                (\r\n                    audio_path.stem,\r\n                    res['speaker_id'],\r\n                    res['text'],\r\n                    res['audio_binary'],\r\n                    res['duration']\r\n                )\r\n            )\r\n    \r\n        conn.commit()\r\n        conn.close()\r\n    \r\n        self.log(f\"Processing complete! Stored {len(split_audio_segments)} audio segments in the database.\")\r\n\r\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\r\n        source_dict = {}\r\n        if id_:\r\n            source_dict[\"id\"] = id_\r\n        if display_name:\r\n            source_dict[\"display_name\"] = display_name\r\n        if source:\r\n            # Handle case where source is a ChatOpenAI object\r\n            if hasattr(source, \"model_name\"):\r\n                source_dict[\"source\"] = source.model_name\r\n            elif hasattr(source, \"model\"):\r\n                source_dict[\"source\"] = str(source.model)\r\n            else:\r\n                source_dict[\"source\"] = str(source)\r\n        return Source(**source_dict)\r\n        \r\n    async def generate_preview(self) -> Message:\r\n        \"\"\"\r\n        Generate an audio and text preview.\r\n        \"\"\"\r\n    \r\n        db_path = \"processed_audio.db\"\r\n    \r\n        # Ensure the database and table exist\r\n        self._setup_database(db_path)\r\n    \r\n        # Connect to the database and retrieve data\r\n        try:\r\n            conn = sqlite3.connect(db_path)\r\n            cursor = conn.cursor()\r\n    \r\n            # Process and store audio segments\r\n            await self.process_and_store(db_path)\r\n    \r\n            # Fetch text and audio binary from the database\r\n            cursor.execute(\"SELECT text, audio_binary FROM audio_segments\")\r\n            rows = cursor.fetchall()\r\n        except sqlite3.Error as e:\r\n            raise RuntimeError(f\"Database error: {e}\")\r\n        finally:\r\n            conn.close()\r\n    \r\n        # Build HTML preview\r\n        html = \"<div><h3>Audio and Text Preview</h3>\"\r\n        for text, audio_binary in rows:\r\n            audio_src = f\"data:audio/wav;base64,{base64.b64encode(audio_binary).decode()}\"\r\n            html += f\"\"\"\r\n            <div style=\"margin-bottom: 20px;\">\r\n                <p><strong>Text:</strong> {text}</p>\r\n                <audio controls>\r\n                    <source src=\"{audio_src}\" type=\"audio/wav\">\r\n                    Your browser does not support audio playback.\r\n                </audio>\r\n            </div>\r\n            \"\"\"\r\n        html += \"</div>\"\r\n    \r\n        # Get source properties\r\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\r\n        \r\n        # Fallback for missing attributes\r\n        background_color = getattr(self, \"background_color\", \"#FFFFFF\")  # Default white\r\n        text_color = getattr(self, \"text_color\", \"#000000\")  # Default black\r\n        if hasattr(self, \"chat_icon\"):\r\n            icon = self.chat_icon\r\n    \r\n        # Create a new Message\r\n        message = Message(text=html)\r\n    \r\n        # Set message properties\r\n        self.session_id = \"\"\r\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\r\n        message.properties.source = self._build_source(source_id, display_name, source)\r\n        message.properties.icon = icon\r\n        message.properties.background_color = background_color\r\n        message.properties.text_color = text_color\r\n    \r\n        # Store message if required\r\n        if self.session_id and self.should_store_message:\r\n            try:\r\n                stored_message = await self.send_message(message)\r\n                self.message.value = stored_message\r\n                message = stored_message\r\n            except Exception as e:\r\n                raise RuntimeError(f\"Failed to store message: {e}\")\r\n    \r\n        # Update status and return the message\r\n        self.status = message\r\n        return message"
               },
               "min_samplevoice_length": {
                 "_input_type": "StrInput",
@@ -765,7 +765,7 @@
           "type": "AudioProcessor"
         },
         "dragging": false,
-        "id": "AudioProcessor-Za80j",
+        "id": "AudioProcessor-zonUo",
         "measured": {
           "height": 357,
           "width": 320
@@ -780,13 +780,13 @@
     ],
     "viewport": {
       "x": 141.8619035695575,
-      "y": 88.7031210283246,
+      "y": 106.70312102832463,
       "zoom": 0.5799080808191842
     }
   },
   "description": "audio extractor",
   "endpoint_name": null,
-  "id": "6f27784c-356d-45b3-8697-d35ab24f03e8",
+  "id": "56c63cbc-f213-4f2f-a0cb-262cad01898b",
   "is_component": false,
   "last_tested_version": "1.4.3",
   "name": "ae",
